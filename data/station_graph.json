@@ -9617,42 +9617,42 @@
     {
       "from": "병점역",
       "to": "서동탄역",
-      "line": "경부선",
+      "line": "1호선",
       "distance_km": 2.063,
       "time_min": 3.75
     },
     {
       "from": "서동탄역",
       "to": "병점역",
-      "line": "경부선",
+      "line": "1호선",
       "distance_km": 2.063,
       "time_min": 3.75
     },
     {
       "from": "금천구청역",
       "to": "광명역",
-      "line": "경부선",
+      "line": "1호선",
       "distance_km": 4.506,
       "time_min": 8.19
     },
     {
       "from": "광명역",
       "to": "금천구청역",
-      "line": "경부선",
+      "line": "1호선",
       "distance_km": 4.506,
       "time_min": 8.19
     },
     {
       "from": "구로역",
       "to": "구일역",
-      "line": "경인선",
+      "line": "1호선",
       "distance_km": 1.387,
       "time_min": 2.52
     },
     {
       "from": "구일역",
       "to": "구로역",
-      "line": "경인선",
+      "line": "1호선",
       "distance_km": 1.387,
       "time_min": 2.52
     },
