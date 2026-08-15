@@ -69,6 +69,13 @@ SHEET_NAME = "표준데이터 역사"
 # 소요산 이후 경원선 제외 대상 (지하철 서비스 구간 밖)
 GYEONGWON_EXCLUDE_AFTER_SOYOSAN = {"청산역", "전곡역", "연천역"}
 
+# 원본 데이터는 청량리~용산 사이 강변 우회 구간(왕십리-응봉-옥수-한남-서빙고-이촌)도
+# '경원선'으로 태그하지만, 이 구간은 실제로는 1호선이 아니라 경의중앙선이 운행하는
+# 구간이다. 1호선은 청량리에서 도심 코어(제기동 방향)로 바로 이어지고, 용산부터는
+# 경부선/경인선이 이어진다. 경의중앙선은 이번 MVP 범위(1~9호선+신분당선) 밖이라
+# 이 역들은 제외한다. (담당1 수동 검증, 2026-08-15)
+GYEONGWON_EXCLUDE_JUNGANG_LOOP = {"왕십리역", "응봉역", "옥수역", "한남역", "서빙고역", "이촌역"}
+
 # 1호선을 구성하는 원본 노선명들
 LINE1_SOURCE_LINES = ["1호선", "경원선", "경부선", "경인선"]
 
@@ -220,6 +227,10 @@ def normalize(src: Path) -> list[dict]:
 
         # 경원선의 소요산 이후 구간 제외
         if line_name == "경원선" and station_name in GYEONGWON_EXCLUDE_AFTER_SOYOSAN:
+            continue
+
+        # 청량리~용산 강변 우회 구간 제외 (실제로는 경의중앙선, MVP 범위 밖)
+        if line_name == "경원선" and station_name in GYEONGWON_EXCLUDE_JUNGANG_LOOP:
             continue
 
         station_id = r[col["역번호"]]

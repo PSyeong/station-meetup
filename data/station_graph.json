@@ -3,8 +3,8 @@
     "source": "seoul_lines_normalized.json",
     "avg_speed_kmh": 33,
     "transfer_penalty_min": 4.5,
-    "station_count": 368,
-    "edge_count": 828
+    "station_count": 363,
+    "edge_count": 814
   },
   "nodes": [
     {
@@ -280,73 +280,6 @@
       "name_en": "Cheongnyangni",
       "lat": 37.580543,
       "lng": 127.048077,
-      "lines": [
-        "1호선"
-      ],
-      "is_transfer": true
-    },
-    {
-      "id": "왕십리역",
-      "name": "왕십리역",
-      "name_en": "Wangsimni",
-      "lat": 37.561728,
-      "lng": 127.038405,
-      "lines": [
-        "1호선"
-      ],
-      "is_transfer": true
-    },
-    {
-      "id": "응봉역",
-      "name": "응봉역",
-      "name_en": "Eungbong",
-      "lat": 37.550433,
-      "lng": 127.034824,
-      "lines": [
-        "1호선"
-      ],
-      "is_transfer": false
-    },
-    {
-      "id": "옥수",
-      "name": "옥수",
-      "name_en": "Oksu",
-      "lat": 37.540514,
-      "lng": 127.018698,
-      "lines": [
-        "1호선",
-        "3호선"
-      ],
-      "is_transfer": true
-    },
-    {
-      "id": "한남역",
-      "name": "한남역",
-      "name_en": "Hannam",
-      "lat": 37.529361,
-      "lng": 127.008984,
-      "lines": [
-        "1호선"
-      ],
-      "is_transfer": false
-    },
-    {
-      "id": "서빙고역",
-      "name": "서빙고역",
-      "name_en": "Seobinggo",
-      "lat": 37.51961,
-      "lng": 126.988358,
-      "lines": [
-        "1호선"
-      ],
-      "is_transfer": false
-    },
-    {
-      "id": "이촌역",
-      "name": "이촌역",
-      "name_en": "Ichon",
-      "lat": 37.522476,
-      "lng": 126.973816,
       "lines": [
         "1호선"
       ],
@@ -1790,6 +1723,17 @@
         "3호선"
       ],
       "is_transfer": false
+    },
+    {
+      "id": "옥수",
+      "name": "옥수",
+      "name_en": "Oksu",
+      "lat": 37.541653,
+      "lng": 127.017303,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": true
     },
     {
       "id": "압구정",
@@ -4450,90 +4394,6 @@
     },
     {
       "from": "청량리역",
-      "to": "왕십리역",
-      "line": "1호선",
-      "distance_km": 2.259,
-      "time_min": 8.61
-    },
-    {
-      "from": "왕십리역",
-      "to": "청량리역",
-      "line": "1호선",
-      "distance_km": 2.259,
-      "time_min": 8.61
-    },
-    {
-      "from": "왕십리역",
-      "to": "응봉역",
-      "line": "1호선",
-      "distance_km": 1.295,
-      "time_min": 6.85
-    },
-    {
-      "from": "응봉역",
-      "to": "왕십리역",
-      "line": "1호선",
-      "distance_km": 1.295,
-      "time_min": 6.85
-    },
-    {
-      "from": "응봉역",
-      "to": "옥수",
-      "line": "1호선",
-      "distance_km": 1.799,
-      "time_min": 7.77
-    },
-    {
-      "from": "옥수",
-      "to": "응봉역",
-      "line": "1호선",
-      "distance_km": 1.799,
-      "time_min": 7.77
-    },
-    {
-      "from": "옥수",
-      "to": "한남역",
-      "line": "1호선",
-      "distance_km": 1.507,
-      "time_min": 7.24
-    },
-    {
-      "from": "한남역",
-      "to": "옥수",
-      "line": "1호선",
-      "distance_km": 1.507,
-      "time_min": 7.24
-    },
-    {
-      "from": "한남역",
-      "to": "서빙고역",
-      "line": "1호선",
-      "distance_km": 2.118,
-      "time_min": 3.85
-    },
-    {
-      "from": "서빙고역",
-      "to": "한남역",
-      "line": "1호선",
-      "distance_km": 2.118,
-      "time_min": 3.85
-    },
-    {
-      "from": "서빙고역",
-      "to": "이촌역",
-      "line": "1호선",
-      "distance_km": 1.321,
-      "time_min": 6.9
-    },
-    {
-      "from": "이촌역",
-      "to": "서빙고역",
-      "line": "1호선",
-      "distance_km": 1.321,
-      "time_min": 6.9
-    },
-    {
-      "from": "청량리역",
       "to": "제기동",
       "line": "1호선",
       "distance_km": 1.192,
@@ -6230,29 +6090,29 @@
       "from": "금호",
       "to": "옥수",
       "line": "3호선",
-      "distance_km": 0.9,
-      "time_min": 6.14
+      "distance_km": 0.748,
+      "time_min": 5.86
     },
     {
       "from": "옥수",
       "to": "금호",
       "line": "3호선",
-      "distance_km": 0.9,
-      "time_min": 6.14
+      "distance_km": 0.748,
+      "time_min": 5.86
     },
     {
       "from": "옥수",
       "to": "압구정",
       "line": "3호선",
-      "distance_km": 1.814,
-      "time_min": 7.8
+      "distance_km": 1.985,
+      "time_min": 8.11
     },
     {
       "from": "압구정",
       "to": "옥수",
       "line": "3호선",
-      "distance_km": 1.814,
-      "time_min": 7.8
+      "distance_km": 1.985,
+      "time_min": 8.11
     },
     {
       "from": "압구정",
@@ -9893,20 +9753,6 @@
       "line": "2호선",
       "distance_km": 1.204,
       "time_min": 6.69
-    },
-    {
-      "from": "이촌역",
-      "to": "용산역",
-      "line": "경원선",
-      "distance_km": 1.147,
-      "time_min": 6.59
-    },
-    {
-      "from": "용산역",
-      "to": "이촌역",
-      "line": "경원선",
-      "distance_km": 1.147,
-      "time_min": 6.59
     }
   ]
 }
