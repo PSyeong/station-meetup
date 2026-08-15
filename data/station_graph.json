@@ -1,0 +1,9758 @@
+{
+  "meta": {
+    "source": "seoul_lines_normalized.json",
+    "avg_speed_kmh": 33,
+    "transfer_penalty_min": 4.5,
+    "station_count": 363,
+    "edge_count": 814
+  },
+  "nodes": [
+    {
+      "id": "소요산역",
+      "name": "소요산역",
+      "name_en": "Soyosan",
+      "lat": 37.948608,
+      "lng": 127.061007,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "동두천역",
+      "name": "동두천역",
+      "name_en": "Dongducheon",
+      "lat": 37.927569,
+      "lng": 127.054825,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "보산역",
+      "name": "보산역",
+      "name_en": "Bosan",
+      "lat": 37.914268,
+      "lng": 127.057134,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "동두천중앙역",
+      "name": "동두천중앙역",
+      "name_en": "Dongducheon jungang",
+      "lat": 37.901818,
+      "lng": 127.056528,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "지행역",
+      "name": "지행역",
+      "name_en": "Jihaeng",
+      "lat": 37.892361,
+      "lng": 127.055734,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "덕정역",
+      "name": "덕정역",
+      "name_en": "Deokjeong",
+      "lat": 37.843216,
+      "lng": 127.061511,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "덕계역",
+      "name": "덕계역",
+      "name_en": "Deokgye",
+      "lat": 37.818761,
+      "lng": 127.056676,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "양주역",
+      "name": "양주역",
+      "name_en": "Yangju",
+      "lat": 37.774281,
+      "lng": 127.044719,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "녹양역",
+      "name": "녹양역",
+      "name_en": "Nogyang",
+      "lat": 37.759416,
+      "lng": 127.042272,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "가능역",
+      "name": "가능역",
+      "name_en": "Ganeung",
+      "lat": 37.748362,
+      "lng": 127.044251,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "의정부역",
+      "name": "의정부역",
+      "name_en": "Uijeongbu",
+      "lat": 37.73873,
+      "lng": 127.045891,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "회룡역",
+      "name": "회룡역",
+      "name_en": "Hoeryong",
+      "lat": 37.724037,
+      "lng": 127.047319,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "망월사역",
+      "name": "망월사역",
+      "name_en": "Mangwolsa",
+      "lat": 37.710499,
+      "lng": 127.047361,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "도봉산",
+      "name": "도봉산",
+      "name_en": "Dobongsan",
+      "lat": 37.689603,
+      "lng": 127.046047,
+      "lines": [
+        "1호선",
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "도봉역",
+      "name": "도봉역",
+      "name_en": "Dobong",
+      "lat": 37.679441,
+      "lng": 127.045521,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "방학역",
+      "name": "방학역",
+      "name_en": "Banghak",
+      "lat": 37.667471,
+      "lng": 127.044295,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "창동",
+      "name": "창동",
+      "name_en": "Chang-dong",
+      "lat": 37.653181,
+      "lng": 127.047663,
+      "lines": [
+        "1호선",
+        "4호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "녹천역",
+      "name": "녹천역",
+      "name_en": "Nokcheon",
+      "lat": 37.644599,
+      "lng": 127.051406,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "월계역",
+      "name": "월계역",
+      "name_en": "Wolgye",
+      "lat": 37.633114,
+      "lng": 127.058835,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광운대역",
+      "name": "광운대역",
+      "name_en": "Kwangwoon Univ.",
+      "lat": 37.62357,
+      "lng": 127.06181,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "석계",
+      "name": "석계",
+      "name_en": "Seokgye",
+      "lat": 37.615206,
+      "lng": 127.065594,
+      "lines": [
+        "1호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "신이문역",
+      "name": "신이문역",
+      "name_en": "Sinimun",
+      "lat": 37.601829,
+      "lng": 127.067347,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "외대앞역",
+      "name": "외대앞역",
+      "name_en": "Hankuk Univ. of Foreign Studies",
+      "lat": 37.596157,
+      "lng": 127.063572,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "회기역",
+      "name": "회기역",
+      "name_en": "Hoegi",
+      "lat": 37.589602,
+      "lng": 127.057936,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "청량리역",
+      "name": "청량리역",
+      "name_en": "Cheongnyangni",
+      "lat": 37.580543,
+      "lng": 127.048077,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "제기동",
+      "name": "제기동",
+      "name_en": "Jegidong",
+      "lat": 37.578116,
+      "lng": 127.034902,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신설동",
+      "name": "신설동",
+      "name_en": "Sinseoldong",
+      "lat": 37.576117,
+      "lng": 127.02471,
+      "lines": [
+        "1호선",
+        "2호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "동묘앞",
+      "name": "동묘앞",
+      "name_en": "Dongmyo",
+      "lat": 37.573265,
+      "lng": 127.016459,
+      "lines": [
+        "1호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "동대문",
+      "name": "동대문",
+      "name_en": "Dongdaemun",
+      "lat": 37.571646,
+      "lng": 127.01069,
+      "lines": [
+        "1호선",
+        "4호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "종로5가",
+      "name": "종로5가",
+      "name_en": "Jongno 5(o)ga",
+      "lat": 37.570971,
+      "lng": 127.0019,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "종로3가",
+      "name": "종로3가",
+      "name_en": "Jongno 3(sam)ga",
+      "lat": 37.570429,
+      "lng": 126.992095,
+      "lines": [
+        "1호선",
+        "3호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "종각",
+      "name": "종각",
+      "name_en": "Jonggak",
+      "lat": 37.570203,
+      "lng": 126.983116,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "시청",
+      "name": "시청",
+      "name_en": "City Hall",
+      "lat": 37.565211,
+      "lng": 126.977207,
+      "lines": [
+        "1호선",
+        "2호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "서울역",
+      "name": "서울역",
+      "name_en": "Seoul Station",
+      "lat": 37.55585,
+      "lng": 126.972103,
+      "lines": [
+        "1호선",
+        "4호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "남영역",
+      "name": "남영역",
+      "name_en": "Namyeong",
+      "lat": 37.540597,
+      "lng": 126.971171,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "용산역",
+      "name": "용산역",
+      "name_en": "Yongsan",
+      "lat": 37.52989,
+      "lng": 126.964775,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "노량진",
+      "name": "노량진",
+      "name_en": "Noryangjin",
+      "lat": 37.514072,
+      "lng": 126.941671,
+      "lines": [
+        "1호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "대방역",
+      "name": "대방역",
+      "name_en": "Daebang",
+      "lat": 37.513392,
+      "lng": 126.926407,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "신길",
+      "name": "신길",
+      "name_en": "Singil",
+      "lat": 37.517018,
+      "lng": 126.917743,
+      "lines": [
+        "1호선",
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "영등포역",
+      "name": "영등포역",
+      "name_en": "Yeongdeungpo",
+      "lat": 37.515756,
+      "lng": 126.907411,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신도림",
+      "name": "신도림",
+      "name_en": "Sindorim",
+      "lat": 37.508983,
+      "lng": 126.891513,
+      "lines": [
+        "1호선",
+        "2호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "구로역",
+      "name": "구로역",
+      "name_en": "Guro",
+      "lat": 37.503178,
+      "lng": 126.882037,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "가산디지털단지",
+      "name": "가산디지털단지",
+      "name_en": "Gasan Digital Complex",
+      "lat": 37.481568,
+      "lng": 126.882628,
+      "lines": [
+        "1호선",
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "독산역",
+      "name": "독산역",
+      "name_en": "Doksan",
+      "lat": 37.465994,
+      "lng": 126.889508,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "금천구청역",
+      "name": "금천구청역",
+      "name_en": "Geumcheon-gu Office",
+      "lat": 37.45576,
+      "lng": 126.894344,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "석수역",
+      "name": "석수역",
+      "name_en": "Seoksu",
+      "lat": 37.435161,
+      "lng": 126.902233,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "관악역",
+      "name": "관악역",
+      "name_en": "Gwanak",
+      "lat": 37.419578,
+      "lng": 126.908476,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "안양역",
+      "name": "안양역",
+      "name_en": "Anyang",
+      "lat": 37.401929,
+      "lng": 126.922647,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "명학역",
+      "name": "명학역",
+      "name_en": "Myeonghak",
+      "lat": 37.384435,
+      "lng": 126.935579,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "금정역",
+      "name": "금정역",
+      "name_en": "Geumjeong",
+      "lat": 37.371957,
+      "lng": 126.943411,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "군포역",
+      "name": "군포역",
+      "name_en": "Gunpo",
+      "lat": 37.353732,
+      "lng": 126.948517,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "당정역",
+      "name": "당정역",
+      "name_en": "Dangjeong",
+      "lat": 37.34338,
+      "lng": 126.948388,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "의왕역",
+      "name": "의왕역",
+      "name_en": "Uiwang",
+      "lat": 37.320648,
+      "lng": 126.948099,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "성균관대역",
+      "name": "성균관대역",
+      "name_en": "Sungkyunkwan Univ.",
+      "lat": 37.300344,
+      "lng": 126.970861,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "화서역",
+      "name": "화서역",
+      "name_en": "Hwaseo",
+      "lat": 37.28399,
+      "lng": 126.989581,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "수원역",
+      "name": "수원역",
+      "name_en": "Suwon",
+      "lat": 37.266162,
+      "lng": 126.999821,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "세류역",
+      "name": "세류역",
+      "name_en": "Seryu",
+      "lat": 37.244102,
+      "lng": 127.013772,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "병점역",
+      "name": "병점역",
+      "name_en": "Byeongjeom",
+      "lat": 37.206821,
+      "lng": 127.033268,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "세마역",
+      "name": "세마역",
+      "name_en": "Sema",
+      "lat": 37.187288,
+      "lng": 127.043279,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "오산대역",
+      "name": "오산대역",
+      "name_en": "Osan College",
+      "lat": 37.169401,
+      "lng": 127.063081,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "오산역",
+      "name": "오산역",
+      "name_en": "Osan",
+      "lat": 37.145472,
+      "lng": 127.066708,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "진위역",
+      "name": "진위역",
+      "name_en": "Jinwi",
+      "lat": 37.109771,
+      "lng": 127.062342,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "송탄역",
+      "name": "송탄역",
+      "name_en": "Songtan",
+      "lat": 37.075376,
+      "lng": 127.054397,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "서정리역",
+      "name": "서정리역",
+      "name_en": "Seojeong-ri",
+      "lat": 37.056459,
+      "lng": 127.052844,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "평택지제역",
+      "name": "평택지제역",
+      "name_en": "PyeongtaekJije",
+      "lat": 37.018822,
+      "lng": 127.070269,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "평택역",
+      "name": "평택역",
+      "name_en": "Pyeongtaek",
+      "lat": 36.990559,
+      "lng": 127.085496,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "성환역",
+      "name": "성환역",
+      "name_en": "Seonghwan",
+      "lat": 36.915781,
+      "lng": 127.127007,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "직산역",
+      "name": "직산역",
+      "name_en": "Jiksan",
+      "lat": 36.870921,
+      "lng": 127.143774,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "두정역",
+      "name": "두정역",
+      "name_en": "Dujeong",
+      "lat": 36.833791,
+      "lng": 127.148905,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "천안역",
+      "name": "천안역",
+      "name_en": "Cheonan",
+      "lat": 36.810238,
+      "lng": 127.146417,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "서동탄역",
+      "name": "서동탄역",
+      "name_en": "Seodongtan",
+      "lat": 37.195675,
+      "lng": 127.051893,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광명역",
+      "name": "광명역",
+      "name_en": "Gwangmyeong",
+      "lat": 37.415995,
+      "lng": 126.884523,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "구일역",
+      "name": "구일역",
+      "name_en": "Guil",
+      "lat": 37.495973,
+      "lng": 126.869201,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "개봉역",
+      "name": "개봉역",
+      "name_en": "Gaebong",
+      "lat": 37.494698,
+      "lng": 126.858504,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "오류동역",
+      "name": "오류동역",
+      "name_en": "Oryu-dong",
+      "lat": 37.4944,
+      "lng": 126.844551,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "온수역",
+      "name": "온수역",
+      "name_en": "Onsu",
+      "lat": 37.492267,
+      "lng": 126.823399,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "역곡역",
+      "name": "역곡역",
+      "name_en": "Yeokgok",
+      "lat": 37.48514,
+      "lng": 126.811622,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "소사역",
+      "name": "소사역",
+      "name_en": "Sosa",
+      "lat": 37.482755,
+      "lng": 126.795654,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "부천역",
+      "name": "부천역",
+      "name_en": "Bucheon",
+      "lat": 37.484066,
+      "lng": 126.782779,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "중동역",
+      "name": "중동역",
+      "name_en": "Jung-dong",
+      "lat": 37.486664,
+      "lng": 126.764474,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "송내역",
+      "name": "송내역",
+      "name_en": "Songnae",
+      "lat": 37.487626,
+      "lng": 126.753045,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "부개역",
+      "name": "부개역",
+      "name_en": "Bugae",
+      "lat": 37.488479,
+      "lng": 126.740549,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "부평역",
+      "name": "부평역",
+      "name_en": "Bupyeong",
+      "lat": 37.489457,
+      "lng": 126.724584,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "백운역",
+      "name": "백운역",
+      "name_en": "Baegun",
+      "lat": 37.483301,
+      "lng": 126.707179,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "동암역",
+      "name": "동암역",
+      "name_en": "Dongam",
+      "lat": 37.470835,
+      "lng": 126.703016,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "간석역",
+      "name": "간석역",
+      "name_en": "Ganseok",
+      "lat": 37.464689,
+      "lng": 126.693408,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "주안역",
+      "name": "주안역",
+      "name_en": "Juan",
+      "lat": 37.465041,
+      "lng": 126.680702,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "도화역",
+      "name": "도화역",
+      "name_en": "Dohwa",
+      "lat": 37.466154,
+      "lng": 126.66846,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "제물포역",
+      "name": "제물포역",
+      "name_en": "Jemulpo",
+      "lat": 37.466809,
+      "lng": 126.657165,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "도원역",
+      "name": "도원역",
+      "name_en": "Dowon",
+      "lat": 37.468604,
+      "lng": 126.642824,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "동인천역",
+      "name": "동인천역",
+      "name_en": "Dongincheon",
+      "lat": 37.475414,
+      "lng": 126.632598,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "인천역",
+      "name": "인천역",
+      "name_en": "Incheon",
+      "lat": 37.476364,
+      "lng": 126.616936,
+      "lines": [
+        "1호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "을지로입구",
+      "name": "을지로입구",
+      "name_en": "Euljiro 1(il)ga",
+      "lat": 37.565998,
+      "lng": 126.982569,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "을지로3가",
+      "name": "을지로3가",
+      "name_en": "Euljiro 3(sam)ga",
+      "lat": 37.566292,
+      "lng": 126.990873,
+      "lines": [
+        "2호선",
+        "3호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "을지로4가",
+      "name": "을지로4가",
+      "name_en": "Euljiro 4(sa)ga",
+      "lat": 37.566611,
+      "lng": 126.997622,
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "동대문역사문화공원(DDP)",
+      "name": "동대문역사문화공원(DDP)",
+      "name_en": "Dongdaemun History & Culture Park",
+      "lat": 37.565609,
+      "lng": 127.009083,
+      "lines": [
+        "2호선",
+        "4호선",
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "신당",
+      "name": "신당",
+      "name_en": "Sindang",
+      "lat": 37.565675,
+      "lng": 127.0194259,
+      "lines": [
+        "2호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "상왕십리",
+      "name": "상왕십리",
+      "name_en": "Sangwangsimni",
+      "lat": 37.564444,
+      "lng": 127.029322,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "왕십리(성동구청)",
+      "name": "왕십리(성동구청)",
+      "name_en": "Wangsimni",
+      "lat": 37.561289,
+      "lng": 127.0370615,
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "한양대",
+      "name": "한양대",
+      "name_en": "Hanyang Univ.",
+      "lat": 37.555758,
+      "lng": 127.0436594,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "뚝섬",
+      "name": "뚝섬",
+      "name_en": "Ttukseom",
+      "lat": 37.54718,
+      "lng": 127.047413,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "성수",
+      "name": "성수",
+      "name_en": "Seongsu",
+      "lat": 37.544628,
+      "lng": 127.055983,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "건대입구",
+      "name": "건대입구",
+      "name_en": "Konkuk Univ.",
+      "lat": 37.540408,
+      "lng": 127.069231,
+      "lines": [
+        "2호선",
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "구의(광진구청)",
+      "name": "구의(광진구청)",
+      "name_en": "Guui (Gwangjin-gu Office)",
+      "lat": 37.537157,
+      "lng": 127.0862124,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "강변(동서울터미널)",
+      "name": "강변(동서울터미널)",
+      "name_en": "Gangbyeon (Dongseoul Bus Terminal)",
+      "lat": 37.535161,
+      "lng": 127.094684,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "잠실나루",
+      "name": "잠실나루",
+      "name_en": "Jamsillaru",
+      "lat": 37.520688,
+      "lng": 127.103836,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "잠실(송파구청)",
+      "name": "잠실(송파구청)",
+      "name_en": "Jamsil (Songpa-gu Office)",
+      "lat": 37.513305,
+      "lng": 127.100129,
+      "lines": [
+        "2호선",
+        "8호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "잠실새내",
+      "name": "잠실새내",
+      "name_en": "Jamsilsaenae",
+      "lat": 37.511653,
+      "lng": 127.086224,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "종합운동장",
+      "name": "종합운동장",
+      "name_en": "Sports Complex",
+      "lat": 37.511128,
+      "lng": 127.073841,
+      "lines": [
+        "2호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "삼성(무역센터)",
+      "name": "삼성(무역센터)",
+      "name_en": "Samseong (World Trade Center Seoul)",
+      "lat": 37.508827,
+      "lng": 127.063203,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "선릉",
+      "name": "선릉",
+      "name_en": "Seolleung",
+      "lat": 37.504257,
+      "lng": 127.048174,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "역삼",
+      "name": "역삼",
+      "name_en": "Yeoksam",
+      "lat": 37.500658,
+      "lng": 127.03643,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "강남",
+      "name": "강남",
+      "name_en": "Gangnam",
+      "lat": 37.49805,
+      "lng": 127.02795,
+      "lines": [
+        "2호선",
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "교대(법원·검찰청)",
+      "name": "교대(법원·검찰청)",
+      "name_en": "Seoul Nat'l Univ. of Education (Court & Public Prosecutor's Office)",
+      "lat": 37.493957,
+      "lng": 127.014431,
+      "lines": [
+        "2호선",
+        "3호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "서초",
+      "name": "서초",
+      "name_en": "Seocho",
+      "lat": 37.49191,
+      "lng": 127.007685,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "방배",
+      "name": "방배",
+      "name_en": "Bangbae",
+      "lat": 37.481469,
+      "lng": 126.997627,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "사당",
+      "name": "사당",
+      "name_en": "Sadang",
+      "lat": 37.476536,
+      "lng": 126.981631,
+      "lines": [
+        "2호선",
+        "4호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "낙성대(강감찬)",
+      "name": "낙성대(강감찬)",
+      "name_en": "Nakseongdae",
+      "lat": 37.47713,
+      "lng": 126.963583,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "서울대입구(관악구청)",
+      "name": "서울대입구(관악구청)",
+      "name_en": "Seoul Nat‘l Univ. (Gwanak-gu Office)",
+      "lat": 37.481233,
+      "lng": 126.952745,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "봉천",
+      "name": "봉천",
+      "name_en": "Bongcheon",
+      "lat": 37.482416,
+      "lng": 126.941696,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신림",
+      "name": "신림",
+      "name_en": "Sillim",
+      "lat": 37.484216,
+      "lng": 126.929573,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신대방",
+      "name": "신대방",
+      "name_en": "Sindaebang",
+      "lat": 37.487604,
+      "lng": 126.913479,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "구로디지털단지",
+      "name": "구로디지털단지",
+      "name_en": "Guro Digital Complex",
+      "lat": 37.4852931,
+      "lng": 126.901456,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "대림(구로구청)",
+      "name": "대림(구로구청)",
+      "name_en": "Daerim (Guro-gu Office)",
+      "lat": 37.4932826,
+      "lng": 126.8949793,
+      "lines": [
+        "2호선",
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "문래",
+      "name": "문래",
+      "name_en": "Mullae",
+      "lat": 37.517993,
+      "lng": 126.894766,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "영등포구청",
+      "name": "영등포구청",
+      "name_en": "Yeongdeungpo-gu Office",
+      "lat": 37.525766,
+      "lng": 126.896627,
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "당산",
+      "name": "당산",
+      "name_en": "Dangsan",
+      "lat": 37.534807,
+      "lng": 126.902611,
+      "lines": [
+        "2호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "합정",
+      "name": "합정",
+      "name_en": "Hapjeong",
+      "lat": 37.550025,
+      "lng": 126.914557,
+      "lines": [
+        "2호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "홍대입구",
+      "name": "홍대입구",
+      "name_en": "Hongik Univ.",
+      "lat": 37.556748,
+      "lng": 126.923643,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "신촌(지하)",
+      "name": "신촌(지하)",
+      "name_en": "Sinchon",
+      "lat": 37.555153,
+      "lng": 126.93689,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "이대",
+      "name": "이대",
+      "name_en": "Ewha Womans Univ.",
+      "lat": 37.556734,
+      "lng": 126.945897,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "아현",
+      "name": "아현",
+      "name_en": "Ahyeon",
+      "lat": 37.557407,
+      "lng": 126.956079,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "충정로(경기대입구)",
+      "name": "충정로(경기대입구)",
+      "name_en": "Chungjeongno (Kyonggi Univ.)",
+      "lat": 37.559742,
+      "lng": 126.964455,
+      "lines": [
+        "2호선",
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "용답",
+      "name": "용답",
+      "name_en": "Yongdap",
+      "lat": 37.562066,
+      "lng": 127.05087863,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신답",
+      "name": "신답",
+      "name_en": "Sindap",
+      "lat": 37.569847,
+      "lng": 127.047048,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "용두(동대문구청)",
+      "name": "용두(동대문구청)",
+      "name_en": "Yongdu (Dongdaemun-gu Office)",
+      "lat": 37.574012,
+      "lng": 127.03811,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "도림천",
+      "name": "도림천",
+      "name_en": "Dorimcheon",
+      "lat": 37.5145589,
+      "lng": 126.882586,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "양천구청",
+      "name": "양천구청",
+      "name_en": "Yangcheon-gu Office",
+      "lat": 37.5123294,
+      "lng": 126.865593,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신정네거리",
+      "name": "신정네거리",
+      "name_en": "Sinjeongnegeori",
+      "lat": 37.520218,
+      "lng": 126.852849,
+      "lines": [
+        "2호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "지축",
+      "name": "지축",
+      "name_en": "Jichuk",
+      "lat": 37.648151,
+      "lng": 126.913751,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "구파발",
+      "name": "구파발",
+      "name_en": "Gupabal",
+      "lat": 37.636612,
+      "lng": 126.918827,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "연신내",
+      "name": "연신내",
+      "name_en": "Yeonsinnae",
+      "lat": 37.619295,
+      "lng": 126.920959,
+      "lines": [
+        "3호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "불광",
+      "name": "불광",
+      "name_en": "Bulgwang",
+      "lat": 37.610154,
+      "lng": 126.930183,
+      "lines": [
+        "3호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "녹번",
+      "name": "녹번",
+      "name_en": "Nokbeon",
+      "lat": 37.600882,
+      "lng": 126.935758,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "홍제",
+      "name": "홍제",
+      "name_en": "Hongje",
+      "lat": 37.588851,
+      "lng": 126.944092,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "무악재",
+      "name": "무악재",
+      "name_en": "Muakjae",
+      "lat": 37.582658,
+      "lng": 126.950131,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "독립문",
+      "name": "독립문",
+      "name_en": "Dongnimmun",
+      "lat": 37.574534,
+      "lng": 126.957902,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "경복궁(정부서울청사)",
+      "name": "경복궁(정부서울청사)",
+      "name_en": "Gyeongbokgung (Government Complex-Seoul)",
+      "lat": 37.575844,
+      "lng": 126.973576,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "안국",
+      "name": "안국",
+      "name_en": "Anguk",
+      "lat": 37.576562,
+      "lng": 126.98547,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "충무로",
+      "name": "충무로",
+      "name_en": "Chungmuro",
+      "lat": 37.561382,
+      "lng": 126.994173,
+      "lines": [
+        "3호선",
+        "4호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "동대입구",
+      "name": "동대입구",
+      "name_en": "Dongguk Univ.",
+      "lat": 37.55906,
+      "lng": 127.005273,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "약수",
+      "name": "약수",
+      "name_en": "Yaksu",
+      "lat": 37.554554,
+      "lng": 127.010858,
+      "lines": [
+        "3호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "금호",
+      "name": "금호",
+      "name_en": "Geumho",
+      "lat": 37.548269,
+      "lng": 127.015785,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "옥수",
+      "name": "옥수",
+      "name_en": "Oksu",
+      "lat": 37.541653,
+      "lng": 127.017303,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "압구정",
+      "name": "압구정",
+      "name_en": "Apgujeong",
+      "lat": 37.526169,
+      "lng": 127.028502,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신사",
+      "name": "신사",
+      "name_en": "Sinsa",
+      "lat": 37.516438,
+      "lng": 127.020247,
+      "lines": [
+        "3호선",
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "잠원",
+      "name": "잠원",
+      "name_en": "Jamwon",
+      "lat": 37.512989,
+      "lng": 127.011613,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "고속터미널",
+      "name": "고속터미널",
+      "name_en": "Express Bus Terminal",
+      "lat": 37.504953,
+      "lng": 127.004916,
+      "lines": [
+        "3호선",
+        "7호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "남부터미널(예술의전당)",
+      "name": "남부터미널(예술의전당)",
+      "name_en": "Nambu Bus Terminal (Seoul Arts Center)",
+      "lat": 37.48494,
+      "lng": 127.016289,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "양재(서초구청)",
+      "name": "양재(서초구청)",
+      "name_en": "Yangjae (Seocho-gu Office)",
+      "lat": 37.48458,
+      "lng": 127.03423,
+      "lines": [
+        "3호선",
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "매봉",
+      "name": "매봉",
+      "name_en": "Maebong",
+      "lat": 37.487114,
+      "lng": 127.046907,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "도곡",
+      "name": "도곡",
+      "name_en": "Dogok",
+      "lat": 37.491129,
+      "lng": 127.055694,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "대치",
+      "name": "대치",
+      "name_en": "Daechi",
+      "lat": 37.494601,
+      "lng": 127.063449,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "학여울",
+      "name": "학여울",
+      "name_en": "Hangnyeoul",
+      "lat": 37.496787,
+      "lng": 127.0708601,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "대청",
+      "name": "대청",
+      "name_en": "Daecheong",
+      "lat": 37.493607,
+      "lng": 127.079526,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "일원",
+      "name": "일원",
+      "name_en": "Irwon",
+      "lat": 37.48389,
+      "lng": 127.08416,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "수서",
+      "name": "수서",
+      "name_en": "Suseo",
+      "lat": 37.4875,
+      "lng": 127.101924,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "가락시장",
+      "name": "가락시장",
+      "name_en": "Garak Market",
+      "lat": 37.492318,
+      "lng": 127.1177,
+      "lines": [
+        "3호선",
+        "8호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "경찰병원",
+      "name": "경찰병원",
+      "name_en": "National Police Hospital",
+      "lat": 37.495754,
+      "lng": 127.124198,
+      "lines": [
+        "3호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "오금",
+      "name": "오금",
+      "name_en": "Ogeum",
+      "lat": 37.502288,
+      "lng": 127.128344,
+      "lines": [
+        "3호선",
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "불암산",
+      "name": "불암산",
+      "name_en": "Danggogae",
+      "lat": 37.67009,
+      "lng": 127.079004,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "상계",
+      "name": "상계",
+      "name_en": "Sanggye",
+      "lat": 37.660576,
+      "lng": 127.073199,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "노원",
+      "name": "노원",
+      "name_en": "Nowon",
+      "lat": 37.656274,
+      "lng": 127.063183,
+      "lines": [
+        "4호선",
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "쌍문",
+      "name": "쌍문",
+      "name_en": "Ssangmun",
+      "lat": 37.648274,
+      "lng": 127.034381,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "수유(강북구청)",
+      "name": "수유(강북구청)",
+      "name_en": "Suyu (Gangbuk-gu Office)",
+      "lat": 37.637727,
+      "lng": 127.025371,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "미아(서울사이버대학)",
+      "name": "미아(서울사이버대학)",
+      "name_en": "Mia (Seoul Cyber Univ.)",
+      "lat": 37.626435,
+      "lng": 127.026151,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "미아사거리",
+      "name": "미아사거리",
+      "name_en": "Miasageori ",
+      "lat": 37.613276,
+      "lng": 127.030083,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "길음",
+      "name": "길음",
+      "name_en": "Gireum",
+      "lat": 37.603387,
+      "lng": 127.025053,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "성신여대입구(돈암)",
+      "name": "성신여대입구(돈암)",
+      "name_en": "Sungshin Women's Univ. (Donam)",
+      "lat": 37.592882,
+      "lng": 127.016908,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "한성대입구(삼선교)",
+      "name": "한성대입구(삼선교)",
+      "name_en": "Hansung Univ. (Samseongyo)",
+      "lat": 37.58838,
+      "lng": 127.005951,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "혜화",
+      "name": "혜화",
+      "name_en": "Hyehwa",
+      "lat": 37.582116,
+      "lng": 127.001929,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "명동",
+      "name": "명동",
+      "name_en": "Myeongdong",
+      "lat": 37.560955,
+      "lng": 126.986271,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "회현(남대문시장)",
+      "name": "회현(남대문시장)",
+      "name_en": "Hoehyeon (Namdaemun Market)",
+      "lat": 37.558698,
+      "lng": 126.978346,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "숙대입구(갈월)",
+      "name": "숙대입구(갈월)",
+      "name_en": "Sookmyung Women's Univ. (Garwol)",
+      "lat": 37.5447834,
+      "lng": 126.9721,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "삼각지(전쟁기념관)",
+      "name": "삼각지(전쟁기념관)",
+      "name_en": "Samgakji",
+      "lat": 37.534457,
+      "lng": 126.972992,
+      "lines": [
+        "4호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "신용산",
+      "name": "신용산",
+      "name_en": "Sinyongsan",
+      "lat": 37.52909,
+      "lng": 126.96788,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "이촌(국립중앙박물관)",
+      "name": "이촌(국립중앙박물관)",
+      "name_en": "Ichon (National Museum of Korea)",
+      "lat": 37.52919,
+      "lng": 126.9679818,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "동작(현충원)",
+      "name": "동작(현충원)",
+      "name_en": "Dongjak (Seoul National Cemetery)",
+      "lat": 37.503567,
+      "lng": 126.980171,
+      "lines": [
+        "4호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "총신대입구(이수)",
+      "name": "총신대입구(이수)",
+      "name_en": "Chongshin Univ. (Isu)",
+      "lat": 37.487521,
+      "lng": 126.982309,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "남태령",
+      "name": "남태령",
+      "name_en": "Namtaeryeong",
+      "lat": 37.464339,
+      "lng": 126.989081,
+      "lines": [
+        "4호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "방화",
+      "name": "방화",
+      "name_en": "Banghwa",
+      "lat": 37.577669,
+      "lng": 126.812822,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "개화산",
+      "name": "개화산",
+      "name_en": "Gaehwasan",
+      "lat": 37.572458,
+      "lng": 126.806838,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "김포공항",
+      "name": "김포공항",
+      "name_en": "Gimpo Int'l Airport",
+      "lat": 37.56217,
+      "lng": 126.801273,
+      "lines": [
+        "5호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "송정",
+      "name": "송정",
+      "name_en": "Songjeong",
+      "lat": 37.561201,
+      "lng": 126.812052,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "마곡",
+      "name": "마곡",
+      "name_en": "Magok",
+      "lat": 37.55865,
+      "lng": 126.837693,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "발산",
+      "name": "발산",
+      "name_en": "Balsan",
+      "lat": 37.558692,
+      "lng": 126.837633,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "우장산",
+      "name": "우장산",
+      "name_en": "Ujangsan",
+      "lat": 37.548864,
+      "lng": 126.83633,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "화곡",
+      "name": "화곡",
+      "name_en": "Hwagok",
+      "lat": 37.541585,
+      "lng": 126.840436,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "까치산",
+      "name": "까치산",
+      "name_en": "Kkachisan",
+      "lat": 37.5322,
+      "lng": 126.84645,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "신정(은행정)",
+      "name": "신정(은행정)",
+      "name_en": "Sinjeong (Eunhaengjeong)",
+      "lat": 37.525001,
+      "lng": 126.856176,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "목동",
+      "name": "목동",
+      "name_en": "Mokdong",
+      "lat": 37.526088,
+      "lng": 126.864296,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "오목교(목동운동장앞)",
+      "name": "오목교(목동운동장앞)",
+      "name_en": "Omokgyo (Mokdong Stadium)",
+      "lat": 37.524557,
+      "lng": 126.875049,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "양평",
+      "name": "양평",
+      "name_en": "Yangpyeong",
+      "lat": 37.525614,
+      "lng": 126.886177,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "영등포시장",
+      "name": "영등포시장",
+      "name_en": "Yeongdeungpo Market",
+      "lat": 37.52276,
+      "lng": 126.905143,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "여의도",
+      "name": "여의도",
+      "name_en": "Yeouido",
+      "lat": 37.521678,
+      "lng": 126.924318,
+      "lines": [
+        "5호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "여의나루",
+      "name": "여의나루",
+      "name_en": "Yeouinaru",
+      "lat": 37.527045,
+      "lng": 126.932807,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "마포",
+      "name": "마포",
+      "name_en": "Mapo",
+      "lat": 37.539718,
+      "lng": 126.946043,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "공덕",
+      "name": "공덕",
+      "name_en": "Gongdeok",
+      "lat": 37.544005,
+      "lng": 126.951058,
+      "lines": [
+        "5호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "애오개",
+      "name": "애오개",
+      "name_en": "Aeogae",
+      "lat": 37.553592,
+      "lng": 126.956733,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "서대문",
+      "name": "서대문",
+      "name_en": "Seodaemun",
+      "lat": 37.565812,
+      "lng": 126.966639,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광화문(세종문화회관)",
+      "name": "광화문(세종문화회관)",
+      "name_en": "Gwanghwamun(Sejong Center for the Performing Arts)",
+      "lat": 37.571645,
+      "lng": 126.976568,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "종로3가(탑골공원)",
+      "name": "종로3가(탑골공원)",
+      "name_en": "Jongno 3(sam)ga (Tapgol Park)",
+      "lat": 37.572546,
+      "lng": 126.990447,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "청구",
+      "name": "청구",
+      "name_en": "Cheonggu",
+      "lat": 37.560237,
+      "lng": 127.01379,
+      "lines": [
+        "5호선",
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "신금호",
+      "name": "신금호",
+      "name_en": "Singeumho",
+      "lat": 37.554504,
+      "lng": 127.020403,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "행당",
+      "name": "행당",
+      "name_en": "Haengdang",
+      "lat": 37.557297,
+      "lng": 127.029482,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "마장",
+      "name": "마장",
+      "name_en": "Majang",
+      "lat": 37.566066,
+      "lng": 127.042921,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "답십리",
+      "name": "답십리",
+      "name_en": "Dapsimni",
+      "lat": 37.566833,
+      "lng": 127.05266,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "장한평",
+      "name": "장한평",
+      "name_en": "Janghanpyeong",
+      "lat": 37.561438,
+      "lng": 127.064601,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "군자(능동)",
+      "name": "군자(능동)",
+      "name_en": "Gunja (Neungdong)",
+      "lat": 37.557102,
+      "lng": 127.079559,
+      "lines": [
+        "5호선",
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "아차산(어린이대공원후문)",
+      "name": "아차산(어린이대공원후문)",
+      "name_en": "Achasan (Rear Entrance to Seoul Children's Grand Park)",
+      "lat": 37.552005,
+      "lng": 127.089609,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광나루(장신대)",
+      "name": "광나루(장신대)",
+      "name_en": "Gwangnaru (Presbyterian College & Theological Seminary)",
+      "lat": 37.545301,
+      "lng": 127.103478,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "천호(풍납토성)",
+      "name": "천호(풍납토성)",
+      "name_en": "Cheonho (Pungnaptoseong)",
+      "lat": 37.538566,
+      "lng": 127.123539,
+      "lines": [
+        "5호선",
+        "8호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "강동",
+      "name": "강동",
+      "name_en": "Gangdong",
+      "lat": 37.53581,
+      "lng": 127.13249,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "길동",
+      "name": "길동",
+      "name_en": "Gildong",
+      "lat": 37.538022,
+      "lng": 127.140085,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "굽은다리(강동구민회관앞)",
+      "name": "굽은다리(강동구민회관앞)",
+      "name_en": "Gubeundari (Gangdong Community Center )",
+      "lat": 37.545442,
+      "lng": 127.142844,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "명일",
+      "name": "명일",
+      "name_en": "Myeongil",
+      "lat": 37.551317,
+      "lng": 127.144002,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "고덕",
+      "name": "고덕",
+      "name_en": "Godeok",
+      "lat": 37.555002,
+      "lng": 127.154214,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "상일동",
+      "name": "상일동",
+      "name_en": "Sangildong",
+      "lat": 37.556714,
+      "lng": 127.166381,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "강일",
+      "name": "강일",
+      "name_en": "Gangil",
+      "lat": 37.557521,
+      "lng": 127.176018,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "미사",
+      "name": "미사",
+      "name_en": "Misa",
+      "lat": 37.56309,
+      "lng": 127.192954,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "하남풍산",
+      "name": "하남풍산",
+      "name_en": "Hanam Pungsan",
+      "lat": 37.552201,
+      "lng": 127.203897,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "하남시청(덕풍∙신장)",
+      "name": "하남시청(덕풍∙신장)",
+      "name_en": "Hanam City Hall (Deokpung&Sinjang)",
+      "lat": 37.541723,
+      "lng": 127.206901,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "하남검단산",
+      "name": "하남검단산",
+      "name_en": "Hanam Geomdansan",
+      "lat": 37.539729,
+      "lng": 127.223427,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "둔촌동",
+      "name": "둔촌동",
+      "name_en": "Dunchondong",
+      "lat": 37.527787,
+      "lng": 127.136219,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "올림픽공원(한국체대)",
+      "name": "올림픽공원(한국체대)",
+      "name_en": "Olympic Park (Korea National Sport Univ.)",
+      "lat": 37.516217,
+      "lng": 127.130957,
+      "lines": [
+        "5호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "방이",
+      "name": "방이",
+      "name_en": "Bangi",
+      "lat": 37.508752,
+      "lng": 127.126054,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "개롱",
+      "name": "개롱",
+      "name_en": "Gaerong",
+      "lat": 37.498097,
+      "lng": 127.134817,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "거여",
+      "name": "거여",
+      "name_en": "Geoyeo",
+      "lat": 37.493208,
+      "lng": 127.143983,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "마천",
+      "name": "마천",
+      "name_en": "Macheon",
+      "lat": 37.494972,
+      "lng": 127.152784,
+      "lines": [
+        "5호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "응암",
+      "name": "응암",
+      "name_en": "Eungam",
+      "lat": 37.59859,
+      "lng": 126.915583,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "역촌",
+      "name": "역촌",
+      "name_en": "Yeokchon",
+      "lat": 37.60605,
+      "lng": 126.922764,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "독바위",
+      "name": "독바위",
+      "name_en": "Dokbawi",
+      "lat": 37.618413,
+      "lng": 126.933035,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "구산",
+      "name": "구산",
+      "name_en": "Gusan",
+      "lat": 37.611196,
+      "lng": 126.9172519,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "새절(신사)",
+      "name": "새절(신사)",
+      "name_en": "Saejeol (Sinsa)",
+      "lat": 37.591148,
+      "lng": 126.913613,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "증산(명지대앞)",
+      "name": "증산(명지대앞)",
+      "name_en": "Jeungsan (Myongji Univ.)",
+      "lat": 37.583989,
+      "lng": 126.909785,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "디지털미디어시티",
+      "name": "디지털미디어시티",
+      "name_en": "Digital Media City",
+      "lat": 37.5760805,
+      "lng": 126.901343,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "월드컵경기장(성산)",
+      "name": "월드컵경기장(성산)",
+      "name_en": "World Cup Stadium (Seongsan)",
+      "lat": 37.569439,
+      "lng": 126.899077,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "마포구청",
+      "name": "마포구청",
+      "name_en": "Mapo-gu Office",
+      "lat": 37.563529,
+      "lng": 126.903356,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "망원",
+      "name": "망원",
+      "name_en": "Mangwon",
+      "lat": 37.556031,
+      "lng": 126.910129,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "상수",
+      "name": "상수",
+      "name_en": "Sangsu",
+      "lat": 37.547704,
+      "lng": 126.92292,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광흥창(서강)",
+      "name": "광흥창(서강)",
+      "name_en": "Gwangheungchang (Seogang)",
+      "lat": 37.547464,
+      "lng": 126.931971,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "대흥(서강대앞)",
+      "name": "대흥(서강대앞)",
+      "name_en": "Daeheung (Sogang Univ.)",
+      "lat": 37.547732,
+      "lng": 126.942214,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "효창공원앞",
+      "name": "효창공원앞",
+      "name_en": "Hyochang Park ",
+      "lat": 37.539279,
+      "lng": 126.961348,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "녹사평(용산구청)",
+      "name": "녹사평(용산구청)",
+      "name_en": "Noksapyeong (Yongsan-gu Office)",
+      "lat": 37.53469,
+      "lng": 126.98665,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "이태원",
+      "name": "이태원",
+      "name_en": "Itaewon",
+      "lat": 37.534485,
+      "lng": 126.994369,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "한강진",
+      "name": "한강진",
+      "name_en": "Hangangjin",
+      "lat": 37.53956,
+      "lng": 127.001729,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "버티고개",
+      "name": "버티고개",
+      "name_en": "Beotigogae",
+      "lat": 37.547933,
+      "lng": 127.006948,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "창신",
+      "name": "창신",
+      "name_en": "Changsin",
+      "lat": 37.579772,
+      "lng": 127.015246,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "보문",
+      "name": "보문",
+      "name_en": "Bomun",
+      "lat": 37.585426,
+      "lng": 127.019722,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "안암(고대병원앞)",
+      "name": "안암(고대병원앞)",
+      "name_en": "Anam (Korea Univ. Hospital)",
+      "lat": 37.586261,
+      "lng": 127.02903,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "고려대(종암)",
+      "name": "고려대(종암)",
+      "name_en": "Korea Univ. (Jongam)",
+      "lat": 37.59034,
+      "lng": 127.03626,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "월곡(동덕여대)",
+      "name": "월곡(동덕여대)",
+      "name_en": "Wolgok (Dongduk Women's Univ.)",
+      "lat": 37.60192,
+      "lng": 127.041492,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "상월곡(한국과학기술연구원)",
+      "name": "상월곡(한국과학기술연구원)",
+      "name_en": "Sangwolgok(KIST)",
+      "lat": 37.606392,
+      "lng": 127.048509,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "돌곶이",
+      "name": "돌곶이",
+      "name_en": "Dolgoji",
+      "lat": 37.610522,
+      "lng": 127.056419,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "태릉입구",
+      "name": "태릉입구",
+      "name_en": "Taereung",
+      "lat": 37.617319,
+      "lng": 127.074741,
+      "lines": [
+        "6호선",
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "화랑대(서울여대입구)",
+      "name": "화랑대(서울여대입구)",
+      "name_en": "Hwarangdae (Seoul Women's Univ.)",
+      "lat": 37.619875,
+      "lng": 127.084106,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "봉화산(서울의료원)",
+      "name": "봉화산(서울의료원)",
+      "name_en": "Bonghwasan (Seoul Medical Center)",
+      "lat": 37.617429,
+      "lng": 127.0912326,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신내",
+      "name": "신내",
+      "name_en": "Sinnae",
+      "lat": 37.612571,
+      "lng": 127.104326,
+      "lines": [
+        "6호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "장암",
+      "name": "장암",
+      "name_en": "Jangam",
+      "lat": 37.70015,
+      "lng": 127.053126,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "수락산",
+      "name": "수락산",
+      "name_en": "Suraksan",
+      "lat": 37.677804,
+      "lng": 127.055314,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "마들",
+      "name": "마들",
+      "name_en": "Madeul",
+      "lat": 37.664985,
+      "lng": 127.057701,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "중계",
+      "name": "중계",
+      "name_en": "Junggye",
+      "lat": 37.645052,
+      "lng": 127.064084,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "하계",
+      "name": "하계",
+      "name_en": "Hagye",
+      "lat": 37.636363,
+      "lng": 127.067999,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "공릉(서울과학기술대)",
+      "name": "공릉(서울과학기술대)",
+      "name_en": "Gongneung (Seoul National Univ. of Science & Technology)",
+      "lat": 37.625642,
+      "lng": 127.072969,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "먹골",
+      "name": "먹골",
+      "name_en": "Meokgol",
+      "lat": 37.610638,
+      "lng": 127.077719,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "중화",
+      "name": "중화",
+      "name_en": "Junghwa",
+      "lat": 37.602604,
+      "lng": 127.079254,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "상봉",
+      "name": "상봉",
+      "name_en": "Sangbong",
+      "lat": 37.595673,
+      "lng": 127.085708,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "면목",
+      "name": "면목",
+      "name_en": "Myeonmok",
+      "lat": 37.588671,
+      "lng": 127.087503,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "사가정",
+      "name": "사가정",
+      "name_en": "Sagajeong",
+      "lat": 37.580912,
+      "lng": 127.088502,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "용마산(용마폭포공원)",
+      "name": "용마산(용마폭포공원)",
+      "name_en": "Yongmasan",
+      "lat": 37.573752,
+      "lng": 127.086802,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "중곡",
+      "name": "중곡",
+      "name_en": "Junggok",
+      "lat": 37.565877,
+      "lng": 127.084291,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "어린이대공원(세종대)",
+      "name": "어린이대공원(세종대)",
+      "name_en": "Children's Grand Park (Sejong Univ.)",
+      "lat": 37.547962,
+      "lng": 127.07465,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "자양(뚝섬한강공원)",
+      "name": "자양(뚝섬한강공원)",
+      "name_en": "Jayang (Ttukseom Hangang Park)",
+      "lat": 37.531558,
+      "lng": 127.066714,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "청담",
+      "name": "청담",
+      "name_en": "Cheongdam",
+      "lat": 37.519097,
+      "lng": 127.051851,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "강남구청",
+      "name": "강남구청",
+      "name_en": "Gangnam-gu Office",
+      "lat": 37.517185,
+      "lng": 127.04122,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "학동",
+      "name": "학동",
+      "name_en": "Hakdong",
+      "lat": 37.514262,
+      "lng": 127.031738,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "논현",
+      "name": "논현",
+      "name_en": "Nonhyeon",
+      "lat": 37.511108,
+      "lng": 127.021385,
+      "lines": [
+        "7호선",
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "반포",
+      "name": "반포",
+      "name_en": "Banpo",
+      "lat": 37.508171,
+      "lng": 127.011717,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "내방",
+      "name": "내방",
+      "name_en": "Naebang",
+      "lat": 37.48764,
+      "lng": 126.993541,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "이수",
+      "name": "이수",
+      "name_en": "Isu",
+      "lat": 37.485258,
+      "lng": 126.981766,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "남성",
+      "name": "남성",
+      "name_en": "Namseong",
+      "lat": 37.484688,
+      "lng": 126.971108,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "숭실대입구(살피재)",
+      "name": "숭실대입구(살피재)",
+      "name_en": "Soongsil Univ. (Salpijae)",
+      "lat": 37.496258,
+      "lng": 126.953649,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "상도",
+      "name": "상도",
+      "name_en": "Sangdo",
+      "lat": 37.50279,
+      "lng": 126.947949,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "장승배기",
+      "name": "장승배기",
+      "name_en": "Jangseungbaegi",
+      "lat": 37.504845,
+      "lng": 126.939025,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신대방삼거리",
+      "name": "신대방삼거리",
+      "name_en": "Sindaebangsamgeori",
+      "lat": 37.499717,
+      "lng": 126.928218,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "보라매",
+      "name": "보라매",
+      "name_en": "Boramae",
+      "lat": 37.499916,
+      "lng": 126.920112,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신풍",
+      "name": "신풍",
+      "name_en": "Sinpung",
+      "lat": 37.500107,
+      "lng": 126.909806,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "남구로",
+      "name": "남구로",
+      "name_en": "Namguro",
+      "lat": 37.486181,
+      "lng": 126.887372,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "철산",
+      "name": "철산",
+      "name_en": "Cheolsan",
+      "lat": 37.47616,
+      "lng": 126.868217,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광명사거리",
+      "name": "광명사거리",
+      "name_en": "Gwangmyeongsageori",
+      "lat": 37.47927,
+      "lng": 126.854854,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "천왕",
+      "name": "천왕",
+      "name_en": "Cheonwang",
+      "lat": 37.486699,
+      "lng": 126.838684,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "온수(성공회대입구)",
+      "name": "온수(성공회대입구)",
+      "name_en": "Onsu (Sungkonghoe Univ.)",
+      "lat": 37.492059,
+      "lng": 126.823294,
+      "lines": [
+        "7호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "별내역",
+      "name": "별내역",
+      "name_en": "Byeollae",
+      "lat": 37.642517,
+      "lng": 127.1273,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "다산역",
+      "name": "다산역",
+      "name_en": "Dasan ",
+      "lat": 37.62437,
+      "lng": 127.1498,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "동구릉",
+      "name": "동구릉",
+      "name_en": "Donggureung",
+      "lat": 37.610556,
+      "lng": 127.135056,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "구리(구리전통시장)",
+      "name": "구리(구리전통시장)",
+      "name_en": "Guri(Guri Traditional Market)",
+      "lat": 37.60256,
+      "lng": 127.14073,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "장자호수공원",
+      "name": "장자호수공원",
+      "name_en": "Jangja Lake Park",
+      "lat": 37.587222,
+      "lng": 127.13793,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "암사역사공원",
+      "name": "암사역사공원",
+      "name_en": "Amsa History Park",
+      "lat": 37.557167,
+      "lng": 127.137556,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "암사",
+      "name": "암사",
+      "name_en": "Amsa",
+      "lat": 37.550127,
+      "lng": 127.127521,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "강동구청",
+      "name": "강동구청",
+      "name_en": "Gangdong-gu Office",
+      "lat": 37.530348,
+      "lng": 127.120461,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "몽촌토성(평화의문)",
+      "name": "몽촌토성(평화의문)",
+      "name_en": "Mongchontoseong (World Peace Gate)",
+      "lat": 37.517692,
+      "lng": 127.11274,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "석촌",
+      "name": "석촌",
+      "name_en": "Seokchon",
+      "lat": 37.505396,
+      "lng": 127.106995,
+      "lines": [
+        "8호선",
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "송파",
+      "name": "송파",
+      "name_en": "Songpa",
+      "lat": 37.49978,
+      "lng": 127.11212,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "문정",
+      "name": "문정",
+      "name_en": "Munjeong",
+      "lat": 37.485931,
+      "lng": 127.122473,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "장지",
+      "name": "장지",
+      "name_en": "Jangji",
+      "lat": 37.478609,
+      "lng": 127.126229,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "복정",
+      "name": "복정",
+      "name_en": "Bokjeong",
+      "lat": 37.471016,
+      "lng": 127.126746,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "남위례",
+      "name": "남위례",
+      "name_en": "Namwirye ",
+      "lat": 37.462839,
+      "lng": 127.139047,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "산성",
+      "name": "산성",
+      "name_en": "Sanseong",
+      "lat": 37.456886,
+      "lng": 127.149927,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "남한산성입구(성남법원·검찰청)",
+      "name": "남한산성입구(성남법원·검찰청)",
+      "name_en": "Namhansanseong(Seongnam Court & Public Prosecutor's Office)",
+      "lat": 37.451568,
+      "lng": 127.159845,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "단대오거리",
+      "name": "단대오거리",
+      "name_en": "Dandaeogeori",
+      "lat": 37.445057,
+      "lng": 127.156735,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신흥",
+      "name": "신흥",
+      "name_en": "Sinheung",
+      "lat": 37.440952,
+      "lng": 127.14759,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "수진",
+      "name": "수진",
+      "name_en": "Sujin",
+      "lat": 37.437575,
+      "lng": 127.140936,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "모란",
+      "name": "모란",
+      "name_en": "Moran",
+      "lat": 37.433988,
+      "lng": 127.129921,
+      "lines": [
+        "8호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "개화",
+      "name": "개화",
+      "name_en": "Gaehwa",
+      "lat": 37.578591,
+      "lng": 126.797833,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "공항시장",
+      "name": "공항시장",
+      "name_en": "Airport Market",
+      "lat": 37.563726,
+      "lng": 126.810678,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신방화",
+      "name": "신방화",
+      "name_en": "Sinbanghwa",
+      "lat": 37.5675,
+      "lng": 126.816667,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "마곡나루(서울식물원)",
+      "name": "마곡나루(서울식물원)",
+      "name_en": "Magongnaru(Seoul Botanic Park)",
+      "lat": 37.566717,
+      "lng": 126.8276071,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "양천향교",
+      "name": "양천향교",
+      "name_en": "Yangcheon Hyanggyo",
+      "lat": 37.568333,
+      "lng": 126.841389,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "가양",
+      "name": "가양",
+      "name_en": "Gayang",
+      "lat": 37.561111,
+      "lng": 126.855078,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "증미",
+      "name": "증미",
+      "name_en": "Jeungmi",
+      "lat": 37.55785,
+      "lng": 126.861067,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "등촌",
+      "name": "등촌",
+      "name_en": "Deungchon",
+      "lat": 37.551111,
+      "lng": 126.864722,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "염창",
+      "name": "염창",
+      "name_en": "Yeomchang",
+      "lat": 37.546944,
+      "lng": 126.874722,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신목동",
+      "name": "신목동",
+      "name_en": "Sinmokdong",
+      "lat": 37.544167,
+      "lng": 126.883056,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "선유도",
+      "name": "선유도",
+      "name_en": "Seonyudo",
+      "lat": 37.537778,
+      "lng": 126.893889,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "국회의사당",
+      "name": "국회의사당",
+      "name_en": "National Assembly",
+      "lat": 37.528105,
+      "lng": 126.917874,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "샛강",
+      "name": "샛강",
+      "name_en": "Saetgang",
+      "lat": 37.5173,
+      "lng": 126.9284,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "노들",
+      "name": "노들",
+      "name_en": "Nodeul",
+      "lat": 37.512726,
+      "lng": 126.953096,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "흑석(중앙대입구)",
+      "name": "흑석(중앙대입구)",
+      "name_en": "Heukseok(Chung-Ang Univ.)",
+      "lat": 37.508889,
+      "lng": 126.963611,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "구반포",
+      "name": "구반포",
+      "name_en": "Gubanpo",
+      "lat": 37.501389,
+      "lng": 126.987222,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신반포",
+      "name": "신반포",
+      "name_en": "Sinbanpo",
+      "lat": 37.5035033,
+      "lng": 126.996044,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "사평",
+      "name": "사평",
+      "name_en": "Sapyeong",
+      "lat": 37.504161,
+      "lng": 127.015219,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "신논현",
+      "name": "신논현",
+      "name_en": "Sinnonhyeon",
+      "lat": 37.504444,
+      "lng": 127.024417,
+      "lines": [
+        "9호선",
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "언주",
+      "name": "언주",
+      "name_en": "Eonju",
+      "lat": 37.507287,
+      "lng": 127.033868,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "선정릉",
+      "name": "선정릉",
+      "name_en": "Seonjeongneung",
+      "lat": 37.51028,
+      "lng": 127.0437593,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "삼성중앙",
+      "name": "삼성중앙",
+      "name_en": "Samseongjungang",
+      "lat": 37.513011,
+      "lng": 127.053282,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "봉은사",
+      "name": "봉은사",
+      "name_en": "Bongeunsa",
+      "lat": 37.514219,
+      "lng": 127.060245,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "삼전",
+      "name": "삼전",
+      "name_en": "Samjeon",
+      "lat": 37.504531,
+      "lng": 127.087211,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "석촌고분",
+      "name": "석촌고분",
+      "name_en": "Seokchon Gobun",
+      "lat": 37.502439,
+      "lng": 127.096611,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "송파나루",
+      "name": "송파나루",
+      "name_en": "Songpanaru",
+      "lat": 37.51055,
+      "lng": 127.112451,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "한성백제",
+      "name": "한성백제",
+      "name_en": "Hanseong Baekje",
+      "lat": 37.516369,
+      "lng": 127.116211,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "둔촌오륜",
+      "name": "둔촌오륜",
+      "name_en": "Dunchon Oryun",
+      "lat": 37.519339,
+      "lng": 127.138619,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "중앙보훈병원",
+      "name": "중앙보훈병원",
+      "name_en": "VHS Medical Center",
+      "lat": 37.528807,
+      "lng": 127.148488,
+      "lines": [
+        "9호선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "양재시민의숲(매헌)",
+      "name": "양재시민의숲(매헌)",
+      "name_en": "Yangjae Citizen's Forest(Maeheon)",
+      "lat": 37.4709638768813,
+      "lng": 127.038420263319,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "청계산입구",
+      "name": "청계산입구",
+      "name_en": "Cheonggyesan",
+      "lat": 37.4487148450701,
+      "lng": 127.054339616958,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "판교",
+      "name": "판교",
+      "name_en": "Pangyo(Pangyo Techno Valley)",
+      "lat": 37.3957147534829,
+      "lng": 127.111210738619,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "정자",
+      "name": "정자",
+      "name_en": "Jeongja",
+      "lat": 37.3682101915529,
+      "lng": 127.108385905864,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "미금",
+      "name": "미금",
+      "name_en": "Migeum",
+      "lat": 37.3511833209472,
+      "lng": 127.108902778591,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": true
+    },
+    {
+      "id": "동천",
+      "name": "동천",
+      "name_en": "Dongcheon",
+      "lat": 37.3386841329961,
+      "lng": 127.102793673668,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "수지구청",
+      "name": "수지구청",
+      "name_en": "Suji-gu Office",
+      "lat": 37.3230089609191,
+      "lng": 127.095581285703,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "성복",
+      "name": "성복",
+      "name_en": "Seongbok",
+      "lat": 37.3140425091456,
+      "lng": 127.080757826931,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "상현",
+      "name": "상현",
+      "name_en": "Sanghyeon",
+      "lat": 37.2986852587224,
+      "lng": 127.06957991138,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광교중앙(아주대)",
+      "name": "광교중앙(아주대)",
+      "name_en": "Gwanggyo Jungang",
+      "lat": 37.2877375194967,
+      "lng": 127.052625032841,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    },
+    {
+      "id": "광교(경기대)",
+      "name": "광교(경기대)",
+      "name_en": "Gwanggyo (Kyonggi Univ.)",
+      "lat": 37.3017347422146,
+      "lng": 127.044856131638,
+      "lines": [
+        "신분당선"
+      ],
+      "is_transfer": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "소요산역",
+      "to": "동두천역",
+      "line": "1호선",
+      "distance_km": 2.401,
+      "time_min": 4.37
+    },
+    {
+      "from": "동두천역",
+      "to": "소요산역",
+      "line": "1호선",
+      "distance_km": 2.401,
+      "time_min": 4.37
+    },
+    {
+      "from": "동두천역",
+      "to": "보산역",
+      "line": "1호선",
+      "distance_km": 1.493,
+      "time_min": 2.71
+    },
+    {
+      "from": "보산역",
+      "to": "동두천역",
+      "line": "1호선",
+      "distance_km": 1.493,
+      "time_min": 2.71
+    },
+    {
+      "from": "보산역",
+      "to": "동두천중앙역",
+      "line": "1호선",
+      "distance_km": 1.385,
+      "time_min": 2.52
+    },
+    {
+      "from": "동두천중앙역",
+      "to": "보산역",
+      "line": "1호선",
+      "distance_km": 1.385,
+      "time_min": 2.52
+    },
+    {
+      "from": "동두천중앙역",
+      "to": "지행역",
+      "line": "1호선",
+      "distance_km": 1.054,
+      "time_min": 1.92
+    },
+    {
+      "from": "지행역",
+      "to": "동두천중앙역",
+      "line": "1호선",
+      "distance_km": 1.054,
+      "time_min": 1.92
+    },
+    {
+      "from": "지행역",
+      "to": "덕정역",
+      "line": "1호선",
+      "distance_km": 5.488,
+      "time_min": 9.98
+    },
+    {
+      "from": "덕정역",
+      "to": "지행역",
+      "line": "1호선",
+      "distance_km": 5.488,
+      "time_min": 9.98
+    },
+    {
+      "from": "덕정역",
+      "to": "덕계역",
+      "line": "1호선",
+      "distance_km": 2.752,
+      "time_min": 5.0
+    },
+    {
+      "from": "덕계역",
+      "to": "덕정역",
+      "line": "1호선",
+      "distance_km": 2.752,
+      "time_min": 5.0
+    },
+    {
+      "from": "덕계역",
+      "to": "양주역",
+      "line": "1호선",
+      "distance_km": 5.056,
+      "time_min": 9.19
+    },
+    {
+      "from": "양주역",
+      "to": "덕계역",
+      "line": "1호선",
+      "distance_km": 5.056,
+      "time_min": 9.19
+    },
+    {
+      "from": "양주역",
+      "to": "녹양역",
+      "line": "1호선",
+      "distance_km": 1.667,
+      "time_min": 3.03
+    },
+    {
+      "from": "녹양역",
+      "to": "양주역",
+      "line": "1호선",
+      "distance_km": 1.667,
+      "time_min": 3.03
+    },
+    {
+      "from": "녹양역",
+      "to": "가능역",
+      "line": "1호선",
+      "distance_km": 1.241,
+      "time_min": 2.26
+    },
+    {
+      "from": "가능역",
+      "to": "녹양역",
+      "line": "1호선",
+      "distance_km": 1.241,
+      "time_min": 2.26
+    },
+    {
+      "from": "가능역",
+      "to": "의정부역",
+      "line": "1호선",
+      "distance_km": 1.081,
+      "time_min": 1.96
+    },
+    {
+      "from": "의정부역",
+      "to": "가능역",
+      "line": "1호선",
+      "distance_km": 1.081,
+      "time_min": 1.96
+    },
+    {
+      "from": "의정부역",
+      "to": "회룡역",
+      "line": "1호선",
+      "distance_km": 1.639,
+      "time_min": 7.48
+    },
+    {
+      "from": "회룡역",
+      "to": "의정부역",
+      "line": "1호선",
+      "distance_km": 1.639,
+      "time_min": 7.48
+    },
+    {
+      "from": "회룡역",
+      "to": "망월사역",
+      "line": "1호선",
+      "distance_km": 1.505,
+      "time_min": 7.24
+    },
+    {
+      "from": "망월사역",
+      "to": "회룡역",
+      "line": "1호선",
+      "distance_km": 1.505,
+      "time_min": 7.24
+    },
+    {
+      "from": "망월사역",
+      "to": "도봉산",
+      "line": "1호선",
+      "distance_km": 2.326,
+      "time_min": 8.73
+    },
+    {
+      "from": "도봉산",
+      "to": "망월사역",
+      "line": "1호선",
+      "distance_km": 2.326,
+      "time_min": 8.73
+    },
+    {
+      "from": "도봉산",
+      "to": "도봉역",
+      "line": "1호선",
+      "distance_km": 1.131,
+      "time_min": 6.56
+    },
+    {
+      "from": "도봉역",
+      "to": "도봉산",
+      "line": "1호선",
+      "distance_km": 1.131,
+      "time_min": 6.56
+    },
+    {
+      "from": "도봉역",
+      "to": "방학역",
+      "line": "1호선",
+      "distance_km": 1.335,
+      "time_min": 2.43
+    },
+    {
+      "from": "방학역",
+      "to": "도봉역",
+      "line": "1호선",
+      "distance_km": 1.335,
+      "time_min": 2.43
+    },
+    {
+      "from": "방학역",
+      "to": "창동",
+      "line": "1호선",
+      "distance_km": 1.616,
+      "time_min": 7.44
+    },
+    {
+      "from": "창동",
+      "to": "방학역",
+      "line": "1호선",
+      "distance_km": 1.616,
+      "time_min": 7.44
+    },
+    {
+      "from": "창동",
+      "to": "녹천역",
+      "line": "1호선",
+      "distance_km": 1.01,
+      "time_min": 6.34
+    },
+    {
+      "from": "녹천역",
+      "to": "창동",
+      "line": "1호선",
+      "distance_km": 1.01,
+      "time_min": 6.34
+    },
+    {
+      "from": "녹천역",
+      "to": "월계역",
+      "line": "1호선",
+      "distance_km": 1.435,
+      "time_min": 2.61
+    },
+    {
+      "from": "월계역",
+      "to": "녹천역",
+      "line": "1호선",
+      "distance_km": 1.435,
+      "time_min": 2.61
+    },
+    {
+      "from": "월계역",
+      "to": "광운대역",
+      "line": "1호선",
+      "distance_km": 1.093,
+      "time_min": 6.49
+    },
+    {
+      "from": "광운대역",
+      "to": "월계역",
+      "line": "1호선",
+      "distance_km": 1.093,
+      "time_min": 6.49
+    },
+    {
+      "from": "광운대역",
+      "to": "석계",
+      "line": "1호선",
+      "distance_km": 0.988,
+      "time_min": 6.3
+    },
+    {
+      "from": "석계",
+      "to": "광운대역",
+      "line": "1호선",
+      "distance_km": 0.988,
+      "time_min": 6.3
+    },
+    {
+      "from": "석계",
+      "to": "신이문역",
+      "line": "1호선",
+      "distance_km": 1.495,
+      "time_min": 7.22
+    },
+    {
+      "from": "신이문역",
+      "to": "석계",
+      "line": "1호선",
+      "distance_km": 1.495,
+      "time_min": 7.22
+    },
+    {
+      "from": "신이문역",
+      "to": "외대앞역",
+      "line": "1호선",
+      "distance_km": 0.713,
+      "time_min": 1.3
+    },
+    {
+      "from": "외대앞역",
+      "to": "신이문역",
+      "line": "1호선",
+      "distance_km": 0.713,
+      "time_min": 1.3
+    },
+    {
+      "from": "외대앞역",
+      "to": "회기역",
+      "line": "1호선",
+      "distance_km": 0.882,
+      "time_min": 6.1
+    },
+    {
+      "from": "회기역",
+      "to": "외대앞역",
+      "line": "1호선",
+      "distance_km": 0.882,
+      "time_min": 6.1
+    },
+    {
+      "from": "회기역",
+      "to": "청량리역",
+      "line": "1호선",
+      "distance_km": 1.33,
+      "time_min": 6.92
+    },
+    {
+      "from": "청량리역",
+      "to": "회기역",
+      "line": "1호선",
+      "distance_km": 1.33,
+      "time_min": 6.92
+    },
+    {
+      "from": "청량리역",
+      "to": "제기동",
+      "line": "1호선",
+      "distance_km": 1.192,
+      "time_min": 6.67
+    },
+    {
+      "from": "제기동",
+      "to": "청량리역",
+      "line": "1호선",
+      "distance_km": 1.192,
+      "time_min": 6.67
+    },
+    {
+      "from": "제기동",
+      "to": "신설동",
+      "line": "1호선",
+      "distance_km": 0.925,
+      "time_min": 6.18
+    },
+    {
+      "from": "신설동",
+      "to": "제기동",
+      "line": "1호선",
+      "distance_km": 0.925,
+      "time_min": 6.18
+    },
+    {
+      "from": "신설동",
+      "to": "동묘앞",
+      "line": "1호선",
+      "distance_km": 0.793,
+      "time_min": 5.94
+    },
+    {
+      "from": "동묘앞",
+      "to": "신설동",
+      "line": "1호선",
+      "distance_km": 0.793,
+      "time_min": 5.94
+    },
+    {
+      "from": "동묘앞",
+      "to": "동대문",
+      "line": "1호선",
+      "distance_km": 0.539,
+      "time_min": 5.48
+    },
+    {
+      "from": "동대문",
+      "to": "동묘앞",
+      "line": "1호선",
+      "distance_km": 0.539,
+      "time_min": 5.48
+    },
+    {
+      "from": "동대문",
+      "to": "종로5가",
+      "line": "1호선",
+      "distance_km": 0.778,
+      "time_min": 5.92
+    },
+    {
+      "from": "종로5가",
+      "to": "동대문",
+      "line": "1호선",
+      "distance_km": 0.778,
+      "time_min": 5.92
+    },
+    {
+      "from": "종로5가",
+      "to": "종로3가",
+      "line": "1호선",
+      "distance_km": 0.866,
+      "time_min": 6.07
+    },
+    {
+      "from": "종로3가",
+      "to": "종로5가",
+      "line": "1호선",
+      "distance_km": 0.866,
+      "time_min": 6.07
+    },
+    {
+      "from": "종로3가",
+      "to": "종각",
+      "line": "1호선",
+      "distance_km": 0.792,
+      "time_min": 5.94
+    },
+    {
+      "from": "종각",
+      "to": "종로3가",
+      "line": "1호선",
+      "distance_km": 0.792,
+      "time_min": 5.94
+    },
+    {
+      "from": "종각",
+      "to": "시청",
+      "line": "1호선",
+      "distance_km": 0.761,
+      "time_min": 5.88
+    },
+    {
+      "from": "시청",
+      "to": "종각",
+      "line": "1호선",
+      "distance_km": 0.761,
+      "time_min": 5.88
+    },
+    {
+      "from": "시청",
+      "to": "서울역",
+      "line": "1호선",
+      "distance_km": 1.134,
+      "time_min": 6.56
+    },
+    {
+      "from": "서울역",
+      "to": "시청",
+      "line": "1호선",
+      "distance_km": 1.134,
+      "time_min": 6.56
+    },
+    {
+      "from": "서울역",
+      "to": "남영역",
+      "line": "1호선",
+      "distance_km": 1.698,
+      "time_min": 7.59
+    },
+    {
+      "from": "남영역",
+      "to": "서울역",
+      "line": "1호선",
+      "distance_km": 1.698,
+      "time_min": 7.59
+    },
+    {
+      "from": "남영역",
+      "to": "용산역",
+      "line": "1호선",
+      "distance_km": 1.317,
+      "time_min": 6.9
+    },
+    {
+      "from": "용산역",
+      "to": "남영역",
+      "line": "1호선",
+      "distance_km": 1.317,
+      "time_min": 6.9
+    },
+    {
+      "from": "용산역",
+      "to": "노량진",
+      "line": "1호선",
+      "distance_km": 2.692,
+      "time_min": 9.39
+    },
+    {
+      "from": "노량진",
+      "to": "용산역",
+      "line": "1호선",
+      "distance_km": 2.692,
+      "time_min": 9.39
+    },
+    {
+      "from": "노량진",
+      "to": "대방역",
+      "line": "1호선",
+      "distance_km": 1.348,
+      "time_min": 6.95
+    },
+    {
+      "from": "대방역",
+      "to": "노량진",
+      "line": "1호선",
+      "distance_km": 1.348,
+      "time_min": 6.95
+    },
+    {
+      "from": "대방역",
+      "to": "신길",
+      "line": "1호선",
+      "distance_km": 0.864,
+      "time_min": 6.07
+    },
+    {
+      "from": "신길",
+      "to": "대방역",
+      "line": "1호선",
+      "distance_km": 0.864,
+      "time_min": 6.07
+    },
+    {
+      "from": "신길",
+      "to": "영등포역",
+      "line": "1호선",
+      "distance_km": 0.922,
+      "time_min": 6.18
+    },
+    {
+      "from": "영등포역",
+      "to": "신길",
+      "line": "1호선",
+      "distance_km": 0.922,
+      "time_min": 6.18
+    },
+    {
+      "from": "영등포역",
+      "to": "신도림",
+      "line": "1호선",
+      "distance_km": 1.592,
+      "time_min": 7.39
+    },
+    {
+      "from": "신도림",
+      "to": "영등포역",
+      "line": "1호선",
+      "distance_km": 1.592,
+      "time_min": 7.39
+    },
+    {
+      "from": "신도림",
+      "to": "구로역",
+      "line": "1호선",
+      "distance_km": 1.056,
+      "time_min": 6.42
+    },
+    {
+      "from": "구로역",
+      "to": "신도림",
+      "line": "1호선",
+      "distance_km": 1.056,
+      "time_min": 6.42
+    },
+    {
+      "from": "구로역",
+      "to": "가산디지털단지",
+      "line": "1호선",
+      "distance_km": 2.403,
+      "time_min": 8.87
+    },
+    {
+      "from": "가산디지털단지",
+      "to": "구로역",
+      "line": "1호선",
+      "distance_km": 2.403,
+      "time_min": 8.87
+    },
+    {
+      "from": "가산디지털단지",
+      "to": "독산역",
+      "line": "1호선",
+      "distance_km": 1.835,
+      "time_min": 7.84
+    },
+    {
+      "from": "독산역",
+      "to": "가산디지털단지",
+      "line": "1호선",
+      "distance_km": 1.835,
+      "time_min": 7.84
+    },
+    {
+      "from": "독산역",
+      "to": "금천구청역",
+      "line": "1호선",
+      "distance_km": 1.215,
+      "time_min": 2.21
+    },
+    {
+      "from": "금천구청역",
+      "to": "독산역",
+      "line": "1호선",
+      "distance_km": 1.215,
+      "time_min": 2.21
+    },
+    {
+      "from": "금천구청역",
+      "to": "석수역",
+      "line": "1호선",
+      "distance_km": 2.394,
+      "time_min": 4.35
+    },
+    {
+      "from": "석수역",
+      "to": "금천구청역",
+      "line": "1호선",
+      "distance_km": 2.394,
+      "time_min": 4.35
+    },
+    {
+      "from": "석수역",
+      "to": "관악역",
+      "line": "1호선",
+      "distance_km": 1.818,
+      "time_min": 3.31
+    },
+    {
+      "from": "관악역",
+      "to": "석수역",
+      "line": "1호선",
+      "distance_km": 1.818,
+      "time_min": 3.31
+    },
+    {
+      "from": "관악역",
+      "to": "안양역",
+      "line": "1호선",
+      "distance_km": 2.328,
+      "time_min": 4.23
+    },
+    {
+      "from": "안양역",
+      "to": "관악역",
+      "line": "1호선",
+      "distance_km": 2.328,
+      "time_min": 4.23
+    },
+    {
+      "from": "안양역",
+      "to": "명학역",
+      "line": "1호선",
+      "distance_km": 2.256,
+      "time_min": 4.1
+    },
+    {
+      "from": "명학역",
+      "to": "안양역",
+      "line": "1호선",
+      "distance_km": 2.256,
+      "time_min": 4.1
+    },
+    {
+      "from": "명학역",
+      "to": "금정역",
+      "line": "1호선",
+      "distance_km": 1.55,
+      "time_min": 7.32
+    },
+    {
+      "from": "금정역",
+      "to": "명학역",
+      "line": "1호선",
+      "distance_km": 1.55,
+      "time_min": 7.32
+    },
+    {
+      "from": "금정역",
+      "to": "군포역",
+      "line": "1호선",
+      "distance_km": 2.076,
+      "time_min": 8.27
+    },
+    {
+      "from": "군포역",
+      "to": "금정역",
+      "line": "1호선",
+      "distance_km": 2.076,
+      "time_min": 8.27
+    },
+    {
+      "from": "군포역",
+      "to": "당정역",
+      "line": "1호선",
+      "distance_km": 1.151,
+      "time_min": 2.09
+    },
+    {
+      "from": "당정역",
+      "to": "군포역",
+      "line": "1호선",
+      "distance_km": 1.151,
+      "time_min": 2.09
+    },
+    {
+      "from": "당정역",
+      "to": "의왕역",
+      "line": "1호선",
+      "distance_km": 2.528,
+      "time_min": 4.6
+    },
+    {
+      "from": "의왕역",
+      "to": "당정역",
+      "line": "1호선",
+      "distance_km": 2.528,
+      "time_min": 4.6
+    },
+    {
+      "from": "의왕역",
+      "to": "성균관대역",
+      "line": "1호선",
+      "distance_km": 3.025,
+      "time_min": 5.5
+    },
+    {
+      "from": "성균관대역",
+      "to": "의왕역",
+      "line": "1호선",
+      "distance_km": 3.025,
+      "time_min": 5.5
+    },
+    {
+      "from": "성균관대역",
+      "to": "화서역",
+      "line": "1호선",
+      "distance_km": 2.46,
+      "time_min": 4.47
+    },
+    {
+      "from": "화서역",
+      "to": "성균관대역",
+      "line": "1호선",
+      "distance_km": 2.46,
+      "time_min": 4.47
+    },
+    {
+      "from": "화서역",
+      "to": "수원역",
+      "line": "1호선",
+      "distance_km": 2.18,
+      "time_min": 8.46
+    },
+    {
+      "from": "수원역",
+      "to": "화서역",
+      "line": "1호선",
+      "distance_km": 2.18,
+      "time_min": 8.46
+    },
+    {
+      "from": "수원역",
+      "to": "세류역",
+      "line": "1호선",
+      "distance_km": 2.746,
+      "time_min": 9.49
+    },
+    {
+      "from": "세류역",
+      "to": "수원역",
+      "line": "1호선",
+      "distance_km": 2.746,
+      "time_min": 9.49
+    },
+    {
+      "from": "세류역",
+      "to": "병점역",
+      "line": "1호선",
+      "distance_km": 4.49,
+      "time_min": 8.16
+    },
+    {
+      "from": "병점역",
+      "to": "세류역",
+      "line": "1호선",
+      "distance_km": 4.49,
+      "time_min": 8.16
+    },
+    {
+      "from": "병점역",
+      "to": "세마역",
+      "line": "1호선",
+      "distance_km": 2.346,
+      "time_min": 4.27
+    },
+    {
+      "from": "세마역",
+      "to": "병점역",
+      "line": "1호선",
+      "distance_km": 2.346,
+      "time_min": 4.27
+    },
+    {
+      "from": "세마역",
+      "to": "오산대역",
+      "line": "1호선",
+      "distance_km": 2.652,
+      "time_min": 4.82
+    },
+    {
+      "from": "오산대역",
+      "to": "세마역",
+      "line": "1호선",
+      "distance_km": 2.652,
+      "time_min": 4.82
+    },
+    {
+      "from": "오산대역",
+      "to": "오산역",
+      "line": "1호선",
+      "distance_km": 2.68,
+      "time_min": 4.87
+    },
+    {
+      "from": "오산역",
+      "to": "오산대역",
+      "line": "1호선",
+      "distance_km": 2.68,
+      "time_min": 4.87
+    },
+    {
+      "from": "오산역",
+      "to": "진위역",
+      "line": "1호선",
+      "distance_km": 3.989,
+      "time_min": 7.25
+    },
+    {
+      "from": "진위역",
+      "to": "오산역",
+      "line": "1호선",
+      "distance_km": 3.989,
+      "time_min": 7.25
+    },
+    {
+      "from": "진위역",
+      "to": "송탄역",
+      "line": "1호선",
+      "distance_km": 3.889,
+      "time_min": 7.07
+    },
+    {
+      "from": "송탄역",
+      "to": "진위역",
+      "line": "1호선",
+      "distance_km": 3.889,
+      "time_min": 7.07
+    },
+    {
+      "from": "송탄역",
+      "to": "서정리역",
+      "line": "1호선",
+      "distance_km": 2.108,
+      "time_min": 3.83
+    },
+    {
+      "from": "서정리역",
+      "to": "송탄역",
+      "line": "1호선",
+      "distance_km": 2.108,
+      "time_min": 3.83
+    },
+    {
+      "from": "서정리역",
+      "to": "평택지제역",
+      "line": "1호선",
+      "distance_km": 4.462,
+      "time_min": 8.11
+    },
+    {
+      "from": "평택지제역",
+      "to": "서정리역",
+      "line": "1호선",
+      "distance_km": 4.462,
+      "time_min": 8.11
+    },
+    {
+      "from": "평택지제역",
+      "to": "평택역",
+      "line": "1호선",
+      "distance_km": 3.421,
+      "time_min": 6.22
+    },
+    {
+      "from": "평택역",
+      "to": "평택지제역",
+      "line": "1호선",
+      "distance_km": 3.421,
+      "time_min": 6.22
+    },
+    {
+      "from": "평택역",
+      "to": "성환역",
+      "line": "1호선",
+      "distance_km": 9.096,
+      "time_min": 16.54
+    },
+    {
+      "from": "성환역",
+      "to": "평택역",
+      "line": "1호선",
+      "distance_km": 9.096,
+      "time_min": 16.54
+    },
+    {
+      "from": "성환역",
+      "to": "직산역",
+      "line": "1호선",
+      "distance_km": 5.206,
+      "time_min": 9.47
+    },
+    {
+      "from": "직산역",
+      "to": "성환역",
+      "line": "1호선",
+      "distance_km": 5.206,
+      "time_min": 9.47
+    },
+    {
+      "from": "직산역",
+      "to": "두정역",
+      "line": "1호선",
+      "distance_km": 4.154,
+      "time_min": 7.55
+    },
+    {
+      "from": "두정역",
+      "to": "직산역",
+      "line": "1호선",
+      "distance_km": 4.154,
+      "time_min": 7.55
+    },
+    {
+      "from": "두정역",
+      "to": "천안역",
+      "line": "1호선",
+      "distance_km": 2.628,
+      "time_min": 4.78
+    },
+    {
+      "from": "천안역",
+      "to": "두정역",
+      "line": "1호선",
+      "distance_km": 2.628,
+      "time_min": 4.78
+    },
+    {
+      "from": "구일역",
+      "to": "개봉역",
+      "line": "1호선",
+      "distance_km": 0.954,
+      "time_min": 1.74
+    },
+    {
+      "from": "개봉역",
+      "to": "구일역",
+      "line": "1호선",
+      "distance_km": 0.954,
+      "time_min": 1.74
+    },
+    {
+      "from": "개봉역",
+      "to": "오류동역",
+      "line": "1호선",
+      "distance_km": 1.231,
+      "time_min": 2.24
+    },
+    {
+      "from": "오류동역",
+      "to": "개봉역",
+      "line": "1호선",
+      "distance_km": 1.231,
+      "time_min": 2.24
+    },
+    {
+      "from": "오류동역",
+      "to": "온수역",
+      "line": "1호선",
+      "distance_km": 1.881,
+      "time_min": 7.92
+    },
+    {
+      "from": "온수역",
+      "to": "오류동역",
+      "line": "1호선",
+      "distance_km": 1.881,
+      "time_min": 7.92
+    },
+    {
+      "from": "온수역",
+      "to": "역곡역",
+      "line": "1호선",
+      "distance_km": 1.307,
+      "time_min": 6.88
+    },
+    {
+      "from": "역곡역",
+      "to": "온수역",
+      "line": "1호선",
+      "distance_km": 1.307,
+      "time_min": 6.88
+    },
+    {
+      "from": "역곡역",
+      "to": "소사역",
+      "line": "1호선",
+      "distance_km": 1.434,
+      "time_min": 7.11
+    },
+    {
+      "from": "소사역",
+      "to": "역곡역",
+      "line": "1호선",
+      "distance_km": 1.434,
+      "time_min": 7.11
+    },
+    {
+      "from": "소사역",
+      "to": "부천역",
+      "line": "1호선",
+      "distance_km": 1.145,
+      "time_min": 6.58
+    },
+    {
+      "from": "부천역",
+      "to": "소사역",
+      "line": "1호선",
+      "distance_km": 1.145,
+      "time_min": 6.58
+    },
+    {
+      "from": "부천역",
+      "to": "중동역",
+      "line": "1호선",
+      "distance_km": 1.641,
+      "time_min": 2.98
+    },
+    {
+      "from": "중동역",
+      "to": "부천역",
+      "line": "1호선",
+      "distance_km": 1.641,
+      "time_min": 2.98
+    },
+    {
+      "from": "중동역",
+      "to": "송내역",
+      "line": "1호선",
+      "distance_km": 1.014,
+      "time_min": 1.84
+    },
+    {
+      "from": "송내역",
+      "to": "중동역",
+      "line": "1호선",
+      "distance_km": 1.014,
+      "time_min": 1.84
+    },
+    {
+      "from": "송내역",
+      "to": "부개역",
+      "line": "1호선",
+      "distance_km": 1.107,
+      "time_min": 2.01
+    },
+    {
+      "from": "부개역",
+      "to": "송내역",
+      "line": "1호선",
+      "distance_km": 1.107,
+      "time_min": 2.01
+    },
+    {
+      "from": "부개역",
+      "to": "부평역",
+      "line": "1호선",
+      "distance_km": 1.413,
+      "time_min": 7.07
+    },
+    {
+      "from": "부평역",
+      "to": "부개역",
+      "line": "1호선",
+      "distance_km": 1.413,
+      "time_min": 7.07
+    },
+    {
+      "from": "부평역",
+      "to": "백운역",
+      "line": "1호선",
+      "distance_km": 1.681,
+      "time_min": 7.56
+    },
+    {
+      "from": "백운역",
+      "to": "부평역",
+      "line": "1호선",
+      "distance_km": 1.681,
+      "time_min": 7.56
+    },
+    {
+      "from": "백운역",
+      "to": "동암역",
+      "line": "1호선",
+      "distance_km": 1.434,
+      "time_min": 2.61
+    },
+    {
+      "from": "동암역",
+      "to": "백운역",
+      "line": "1호선",
+      "distance_km": 1.434,
+      "time_min": 2.61
+    },
+    {
+      "from": "동암역",
+      "to": "간석역",
+      "line": "1호선",
+      "distance_km": 1.089,
+      "time_min": 1.98
+    },
+    {
+      "from": "간석역",
+      "to": "동암역",
+      "line": "1호선",
+      "distance_km": 1.089,
+      "time_min": 1.98
+    },
+    {
+      "from": "간석역",
+      "to": "주안역",
+      "line": "1호선",
+      "distance_km": 1.122,
+      "time_min": 6.54
+    },
+    {
+      "from": "주안역",
+      "to": "간석역",
+      "line": "1호선",
+      "distance_km": 1.122,
+      "time_min": 6.54
+    },
+    {
+      "from": "주안역",
+      "to": "도화역",
+      "line": "1호선",
+      "distance_km": 1.088,
+      "time_min": 6.48
+    },
+    {
+      "from": "도화역",
+      "to": "주안역",
+      "line": "1호선",
+      "distance_km": 1.088,
+      "time_min": 6.48
+    },
+    {
+      "from": "도화역",
+      "to": "제물포역",
+      "line": "1호선",
+      "distance_km": 1.0,
+      "time_min": 1.82
+    },
+    {
+      "from": "제물포역",
+      "to": "도화역",
+      "line": "1호선",
+      "distance_km": 1.0,
+      "time_min": 1.82
+    },
+    {
+      "from": "제물포역",
+      "to": "도원역",
+      "line": "1호선",
+      "distance_km": 1.281,
+      "time_min": 2.33
+    },
+    {
+      "from": "도원역",
+      "to": "제물포역",
+      "line": "1호선",
+      "distance_km": 1.281,
+      "time_min": 2.33
+    },
+    {
+      "from": "도원역",
+      "to": "동인천역",
+      "line": "1호선",
+      "distance_km": 1.178,
+      "time_min": 2.14
+    },
+    {
+      "from": "동인천역",
+      "to": "도원역",
+      "line": "1호선",
+      "distance_km": 1.178,
+      "time_min": 2.14
+    },
+    {
+      "from": "동인천역",
+      "to": "인천역",
+      "line": "1호선",
+      "distance_km": 1.386,
+      "time_min": 7.02
+    },
+    {
+      "from": "인천역",
+      "to": "동인천역",
+      "line": "1호선",
+      "distance_km": 1.386,
+      "time_min": 7.02
+    },
+    {
+      "from": "시청",
+      "to": "을지로입구",
+      "line": "2호선",
+      "distance_km": 0.481,
+      "time_min": 5.37
+    },
+    {
+      "from": "을지로입구",
+      "to": "시청",
+      "line": "2호선",
+      "distance_km": 0.481,
+      "time_min": 5.37
+    },
+    {
+      "from": "을지로입구",
+      "to": "을지로3가",
+      "line": "2호선",
+      "distance_km": 0.733,
+      "time_min": 5.83
+    },
+    {
+      "from": "을지로3가",
+      "to": "을지로입구",
+      "line": "2호선",
+      "distance_km": 0.733,
+      "time_min": 5.83
+    },
+    {
+      "from": "을지로3가",
+      "to": "을지로4가",
+      "line": "2호선",
+      "distance_km": 0.596,
+      "time_min": 5.58
+    },
+    {
+      "from": "을지로4가",
+      "to": "을지로3가",
+      "line": "2호선",
+      "distance_km": 0.596,
+      "time_min": 5.58
+    },
+    {
+      "from": "을지로4가",
+      "to": "동대문역사문화공원(DDP)",
+      "line": "2호선",
+      "distance_km": 1.016,
+      "time_min": 6.35
+    },
+    {
+      "from": "동대문역사문화공원(DDP)",
+      "to": "을지로4가",
+      "line": "2호선",
+      "distance_km": 1.016,
+      "time_min": 6.35
+    },
+    {
+      "from": "동대문역사문화공원(DDP)",
+      "to": "신당",
+      "line": "2호선",
+      "distance_km": 0.912,
+      "time_min": 6.16
+    },
+    {
+      "from": "신당",
+      "to": "동대문역사문화공원(DDP)",
+      "line": "2호선",
+      "distance_km": 0.912,
+      "time_min": 6.16
+    },
+    {
+      "from": "신당",
+      "to": "상왕십리",
+      "line": "2호선",
+      "distance_km": 0.883,
+      "time_min": 6.11
+    },
+    {
+      "from": "상왕십리",
+      "to": "신당",
+      "line": "2호선",
+      "distance_km": 0.883,
+      "time_min": 6.11
+    },
+    {
+      "from": "상왕십리",
+      "to": "왕십리(성동구청)",
+      "line": "2호선",
+      "distance_km": 0.767,
+      "time_min": 5.89
+    },
+    {
+      "from": "왕십리(성동구청)",
+      "to": "상왕십리",
+      "line": "2호선",
+      "distance_km": 0.767,
+      "time_min": 5.89
+    },
+    {
+      "from": "왕십리(성동구청)",
+      "to": "한양대",
+      "line": "2호선",
+      "distance_km": 0.846,
+      "time_min": 6.04
+    },
+    {
+      "from": "한양대",
+      "to": "왕십리(성동구청)",
+      "line": "2호선",
+      "distance_km": 0.846,
+      "time_min": 6.04
+    },
+    {
+      "from": "한양대",
+      "to": "뚝섬",
+      "line": "2호선",
+      "distance_km": 1.01,
+      "time_min": 1.84
+    },
+    {
+      "from": "뚝섬",
+      "to": "한양대",
+      "line": "2호선",
+      "distance_km": 1.01,
+      "time_min": 1.84
+    },
+    {
+      "from": "뚝섬",
+      "to": "성수",
+      "line": "2호선",
+      "distance_km": 0.807,
+      "time_min": 1.47
+    },
+    {
+      "from": "성수",
+      "to": "뚝섬",
+      "line": "2호선",
+      "distance_km": 0.807,
+      "time_min": 1.47
+    },
+    {
+      "from": "성수",
+      "to": "건대입구",
+      "line": "2호선",
+      "distance_km": 1.259,
+      "time_min": 6.79
+    },
+    {
+      "from": "건대입구",
+      "to": "성수",
+      "line": "2호선",
+      "distance_km": 1.259,
+      "time_min": 6.79
+    },
+    {
+      "from": "건대입구",
+      "to": "구의(광진구청)",
+      "line": "2호선",
+      "distance_km": 1.54,
+      "time_min": 7.3
+    },
+    {
+      "from": "구의(광진구청)",
+      "to": "건대입구",
+      "line": "2호선",
+      "distance_km": 1.54,
+      "time_min": 7.3
+    },
+    {
+      "from": "구의(광진구청)",
+      "to": "강변(동서울터미널)",
+      "line": "2호선",
+      "distance_km": 0.779,
+      "time_min": 1.42
+    },
+    {
+      "from": "강변(동서울터미널)",
+      "to": "구의(광진구청)",
+      "line": "2호선",
+      "distance_km": 0.779,
+      "time_min": 1.42
+    },
+    {
+      "from": "강변(동서울터미널)",
+      "to": "잠실나루",
+      "line": "2호선",
+      "distance_km": 1.8,
+      "time_min": 3.27
+    },
+    {
+      "from": "잠실나루",
+      "to": "강변(동서울터미널)",
+      "line": "2호선",
+      "distance_km": 1.8,
+      "time_min": 3.27
+    },
+    {
+      "from": "잠실나루",
+      "to": "잠실(송파구청)",
+      "line": "2호선",
+      "distance_km": 0.884,
+      "time_min": 6.11
+    },
+    {
+      "from": "잠실(송파구청)",
+      "to": "잠실나루",
+      "line": "2호선",
+      "distance_km": 0.884,
+      "time_min": 6.11
+    },
+    {
+      "from": "잠실(송파구청)",
+      "to": "잠실새내",
+      "line": "2호선",
+      "distance_km": 1.24,
+      "time_min": 6.75
+    },
+    {
+      "from": "잠실새내",
+      "to": "잠실(송파구청)",
+      "line": "2호선",
+      "distance_km": 1.24,
+      "time_min": 6.75
+    },
+    {
+      "from": "잠실새내",
+      "to": "종합운동장",
+      "line": "2호선",
+      "distance_km": 1.094,
+      "time_min": 6.49
+    },
+    {
+      "from": "종합운동장",
+      "to": "잠실새내",
+      "line": "2호선",
+      "distance_km": 1.094,
+      "time_min": 6.49
+    },
+    {
+      "from": "종합운동장",
+      "to": "삼성(무역센터)",
+      "line": "2호선",
+      "distance_km": 0.973,
+      "time_min": 6.27
+    },
+    {
+      "from": "삼성(무역센터)",
+      "to": "종합운동장",
+      "line": "2호선",
+      "distance_km": 0.973,
+      "time_min": 6.27
+    },
+    {
+      "from": "삼성(무역센터)",
+      "to": "선릉",
+      "line": "2호선",
+      "distance_km": 1.42,
+      "time_min": 7.08
+    },
+    {
+      "from": "선릉",
+      "to": "삼성(무역센터)",
+      "line": "2호선",
+      "distance_km": 1.42,
+      "time_min": 7.08
+    },
+    {
+      "from": "선릉",
+      "to": "역삼",
+      "line": "2호선",
+      "distance_km": 1.111,
+      "time_min": 6.52
+    },
+    {
+      "from": "역삼",
+      "to": "선릉",
+      "line": "2호선",
+      "distance_km": 1.111,
+      "time_min": 6.52
+    },
+    {
+      "from": "역삼",
+      "to": "강남",
+      "line": "2호선",
+      "distance_km": 0.802,
+      "time_min": 5.96
+    },
+    {
+      "from": "강남",
+      "to": "역삼",
+      "line": "2호선",
+      "distance_km": 0.802,
+      "time_min": 5.96
+    },
+    {
+      "from": "강남",
+      "to": "교대(법원·검찰청)",
+      "line": "2호선",
+      "distance_km": 1.277,
+      "time_min": 6.82
+    },
+    {
+      "from": "교대(법원·검찰청)",
+      "to": "강남",
+      "line": "2호선",
+      "distance_km": 1.277,
+      "time_min": 6.82
+    },
+    {
+      "from": "교대(법원·검찰청)",
+      "to": "서초",
+      "line": "2호선",
+      "distance_km": 0.637,
+      "time_min": 5.66
+    },
+    {
+      "from": "서초",
+      "to": "교대(법원·검찰청)",
+      "line": "2호선",
+      "distance_km": 0.637,
+      "time_min": 5.66
+    },
+    {
+      "from": "서초",
+      "to": "방배",
+      "line": "2호선",
+      "distance_km": 1.461,
+      "time_min": 2.66
+    },
+    {
+      "from": "방배",
+      "to": "서초",
+      "line": "2호선",
+      "distance_km": 1.461,
+      "time_min": 2.66
+    },
+    {
+      "from": "방배",
+      "to": "사당",
+      "line": "2호선",
+      "distance_km": 1.514,
+      "time_min": 7.25
+    },
+    {
+      "from": "사당",
+      "to": "방배",
+      "line": "2호선",
+      "distance_km": 1.514,
+      "time_min": 7.25
+    },
+    {
+      "from": "사당",
+      "to": "낙성대(강감찬)",
+      "line": "2호선",
+      "distance_km": 1.594,
+      "time_min": 7.4
+    },
+    {
+      "from": "낙성대(강감찬)",
+      "to": "사당",
+      "line": "2호선",
+      "distance_km": 1.594,
+      "time_min": 7.4
+    },
+    {
+      "from": "낙성대(강감찬)",
+      "to": "서울대입구(관악구청)",
+      "line": "2호선",
+      "distance_km": 1.06,
+      "time_min": 1.93
+    },
+    {
+      "from": "서울대입구(관악구청)",
+      "to": "낙성대(강감찬)",
+      "line": "2호선",
+      "distance_km": 1.06,
+      "time_min": 1.93
+    },
+    {
+      "from": "서울대입구(관악구청)",
+      "to": "봉천",
+      "line": "2호선",
+      "distance_km": 0.984,
+      "time_min": 1.79
+    },
+    {
+      "from": "봉천",
+      "to": "서울대입구(관악구청)",
+      "line": "2호선",
+      "distance_km": 0.984,
+      "time_min": 1.79
+    },
+    {
+      "from": "봉천",
+      "to": "신림",
+      "line": "2호선",
+      "distance_km": 1.088,
+      "time_min": 1.98
+    },
+    {
+      "from": "신림",
+      "to": "봉천",
+      "line": "2호선",
+      "distance_km": 1.088,
+      "time_min": 1.98
+    },
+    {
+      "from": "신림",
+      "to": "신대방",
+      "line": "2호선",
+      "distance_km": 1.469,
+      "time_min": 2.67
+    },
+    {
+      "from": "신대방",
+      "to": "신림",
+      "line": "2호선",
+      "distance_km": 1.469,
+      "time_min": 2.67
+    },
+    {
+      "from": "신대방",
+      "to": "구로디지털단지",
+      "line": "2호선",
+      "distance_km": 1.092,
+      "time_min": 1.98
+    },
+    {
+      "from": "구로디지털단지",
+      "to": "신대방",
+      "line": "2호선",
+      "distance_km": 1.092,
+      "time_min": 1.98
+    },
+    {
+      "from": "구로디지털단지",
+      "to": "대림(구로구청)",
+      "line": "2호선",
+      "distance_km": 1.056,
+      "time_min": 6.42
+    },
+    {
+      "from": "대림(구로구청)",
+      "to": "구로디지털단지",
+      "line": "2호선",
+      "distance_km": 1.056,
+      "time_min": 6.42
+    },
+    {
+      "from": "대림(구로구청)",
+      "to": "신도림",
+      "line": "2호선",
+      "distance_km": 1.772,
+      "time_min": 7.72
+    },
+    {
+      "from": "신도림",
+      "to": "대림(구로구청)",
+      "line": "2호선",
+      "distance_km": 1.772,
+      "time_min": 7.72
+    },
+    {
+      "from": "신도림",
+      "to": "문래",
+      "line": "2호선",
+      "distance_km": 1.042,
+      "time_min": 6.39
+    },
+    {
+      "from": "문래",
+      "to": "신도림",
+      "line": "2호선",
+      "distance_km": 1.042,
+      "time_min": 6.39
+    },
+    {
+      "from": "문래",
+      "to": "영등포구청",
+      "line": "2호선",
+      "distance_km": 0.88,
+      "time_min": 6.1
+    },
+    {
+      "from": "영등포구청",
+      "to": "문래",
+      "line": "2호선",
+      "distance_km": 0.88,
+      "time_min": 6.1
+    },
+    {
+      "from": "영등포구청",
+      "to": "당산",
+      "line": "2호선",
+      "distance_km": 1.135,
+      "time_min": 6.56
+    },
+    {
+      "from": "당산",
+      "to": "영등포구청",
+      "line": "2호선",
+      "distance_km": 1.135,
+      "time_min": 6.56
+    },
+    {
+      "from": "당산",
+      "to": "합정",
+      "line": "2호선",
+      "distance_km": 1.993,
+      "time_min": 8.12
+    },
+    {
+      "from": "합정",
+      "to": "당산",
+      "line": "2호선",
+      "distance_km": 1.993,
+      "time_min": 8.12
+    },
+    {
+      "from": "합정",
+      "to": "홍대입구",
+      "line": "2호선",
+      "distance_km": 1.096,
+      "time_min": 6.49
+    },
+    {
+      "from": "홍대입구",
+      "to": "합정",
+      "line": "2호선",
+      "distance_km": 1.096,
+      "time_min": 6.49
+    },
+    {
+      "from": "홍대입구",
+      "to": "신촌(지하)",
+      "line": "2호선",
+      "distance_km": 1.181,
+      "time_min": 6.65
+    },
+    {
+      "from": "신촌(지하)",
+      "to": "홍대입구",
+      "line": "2호선",
+      "distance_km": 1.181,
+      "time_min": 6.65
+    },
+    {
+      "from": "신촌(지하)",
+      "to": "이대",
+      "line": "2호선",
+      "distance_km": 0.813,
+      "time_min": 1.48
+    },
+    {
+      "from": "이대",
+      "to": "신촌(지하)",
+      "line": "2호선",
+      "distance_km": 0.813,
+      "time_min": 1.48
+    },
+    {
+      "from": "이대",
+      "to": "아현",
+      "line": "2호선",
+      "distance_km": 0.901,
+      "time_min": 1.64
+    },
+    {
+      "from": "아현",
+      "to": "이대",
+      "line": "2호선",
+      "distance_km": 0.901,
+      "time_min": 1.64
+    },
+    {
+      "from": "아현",
+      "to": "충정로(경기대입구)",
+      "line": "2호선",
+      "distance_km": 0.783,
+      "time_min": 5.92
+    },
+    {
+      "from": "충정로(경기대입구)",
+      "to": "아현",
+      "line": "2호선",
+      "distance_km": 0.783,
+      "time_min": 5.92
+    },
+    {
+      "from": "지축",
+      "to": "구파발",
+      "line": "3호선",
+      "distance_km": 1.359,
+      "time_min": 2.47
+    },
+    {
+      "from": "구파발",
+      "to": "지축",
+      "line": "3호선",
+      "distance_km": 1.359,
+      "time_min": 2.47
+    },
+    {
+      "from": "구파발",
+      "to": "연신내",
+      "line": "3호선",
+      "distance_km": 1.935,
+      "time_min": 8.02
+    },
+    {
+      "from": "연신내",
+      "to": "구파발",
+      "line": "3호선",
+      "distance_km": 1.935,
+      "time_min": 8.02
+    },
+    {
+      "from": "연신내",
+      "to": "불광",
+      "line": "3호선",
+      "distance_km": 1.301,
+      "time_min": 6.87
+    },
+    {
+      "from": "불광",
+      "to": "연신내",
+      "line": "3호선",
+      "distance_km": 1.301,
+      "time_min": 6.87
+    },
+    {
+      "from": "불광",
+      "to": "녹번",
+      "line": "3호선",
+      "distance_km": 1.142,
+      "time_min": 6.58
+    },
+    {
+      "from": "녹번",
+      "to": "불광",
+      "line": "3호선",
+      "distance_km": 1.142,
+      "time_min": 6.58
+    },
+    {
+      "from": "녹번",
+      "to": "홍제",
+      "line": "3호선",
+      "distance_km": 1.526,
+      "time_min": 2.77
+    },
+    {
+      "from": "홍제",
+      "to": "녹번",
+      "line": "3호선",
+      "distance_km": 1.526,
+      "time_min": 2.77
+    },
+    {
+      "from": "홍제",
+      "to": "무악재",
+      "line": "3호선",
+      "distance_km": 0.87,
+      "time_min": 1.58
+    },
+    {
+      "from": "무악재",
+      "to": "홍제",
+      "line": "3호선",
+      "distance_km": 0.87,
+      "time_min": 1.58
+    },
+    {
+      "from": "무악재",
+      "to": "독립문",
+      "line": "3호선",
+      "distance_km": 1.134,
+      "time_min": 2.06
+    },
+    {
+      "from": "독립문",
+      "to": "무악재",
+      "line": "3호선",
+      "distance_km": 1.134,
+      "time_min": 2.06
+    },
+    {
+      "from": "독립문",
+      "to": "경복궁(정부서울청사)",
+      "line": "3호선",
+      "distance_km": 1.389,
+      "time_min": 2.53
+    },
+    {
+      "from": "경복궁(정부서울청사)",
+      "to": "독립문",
+      "line": "3호선",
+      "distance_km": 1.389,
+      "time_min": 2.53
+    },
+    {
+      "from": "경복궁(정부서울청사)",
+      "to": "안국",
+      "line": "3호선",
+      "distance_km": 1.051,
+      "time_min": 1.91
+    },
+    {
+      "from": "안국",
+      "to": "경복궁(정부서울청사)",
+      "line": "3호선",
+      "distance_km": 1.051,
+      "time_min": 1.91
+    },
+    {
+      "from": "안국",
+      "to": "종로3가",
+      "line": "3호선",
+      "distance_km": 0.898,
+      "time_min": 6.13
+    },
+    {
+      "from": "종로3가",
+      "to": "안국",
+      "line": "3호선",
+      "distance_km": 0.898,
+      "time_min": 6.13
+    },
+    {
+      "from": "종로3가",
+      "to": "을지로3가",
+      "line": "3호선",
+      "distance_km": 0.472,
+      "time_min": 5.36
+    },
+    {
+      "from": "을지로3가",
+      "to": "종로3가",
+      "line": "3호선",
+      "distance_km": 0.472,
+      "time_min": 5.36
+    },
+    {
+      "from": "을지로3가",
+      "to": "충무로",
+      "line": "3호선",
+      "distance_km": 0.619,
+      "time_min": 5.62
+    },
+    {
+      "from": "충무로",
+      "to": "을지로3가",
+      "line": "3호선",
+      "distance_km": 0.619,
+      "time_min": 5.62
+    },
+    {
+      "from": "충무로",
+      "to": "동대입구",
+      "line": "3호선",
+      "distance_km": 1.012,
+      "time_min": 6.34
+    },
+    {
+      "from": "동대입구",
+      "to": "충무로",
+      "line": "3호선",
+      "distance_km": 1.012,
+      "time_min": 6.34
+    },
+    {
+      "from": "동대입구",
+      "to": "약수",
+      "line": "3호선",
+      "distance_km": 0.702,
+      "time_min": 5.78
+    },
+    {
+      "from": "약수",
+      "to": "동대입구",
+      "line": "3호선",
+      "distance_km": 0.702,
+      "time_min": 5.78
+    },
+    {
+      "from": "약수",
+      "to": "금호",
+      "line": "3호선",
+      "distance_km": 0.823,
+      "time_min": 6.0
+    },
+    {
+      "from": "금호",
+      "to": "약수",
+      "line": "3호선",
+      "distance_km": 0.823,
+      "time_min": 6.0
+    },
+    {
+      "from": "금호",
+      "to": "옥수",
+      "line": "3호선",
+      "distance_km": 0.748,
+      "time_min": 5.86
+    },
+    {
+      "from": "옥수",
+      "to": "금호",
+      "line": "3호선",
+      "distance_km": 0.748,
+      "time_min": 5.86
+    },
+    {
+      "from": "옥수",
+      "to": "압구정",
+      "line": "3호선",
+      "distance_km": 1.985,
+      "time_min": 8.11
+    },
+    {
+      "from": "압구정",
+      "to": "옥수",
+      "line": "3호선",
+      "distance_km": 1.985,
+      "time_min": 8.11
+    },
+    {
+      "from": "압구정",
+      "to": "신사",
+      "line": "3호선",
+      "distance_km": 1.304,
+      "time_min": 6.87
+    },
+    {
+      "from": "신사",
+      "to": "압구정",
+      "line": "3호선",
+      "distance_km": 1.304,
+      "time_min": 6.87
+    },
+    {
+      "from": "신사",
+      "to": "잠원",
+      "line": "3호선",
+      "distance_km": 0.853,
+      "time_min": 6.05
+    },
+    {
+      "from": "잠원",
+      "to": "신사",
+      "line": "3호선",
+      "distance_km": 0.853,
+      "time_min": 6.05
+    },
+    {
+      "from": "잠원",
+      "to": "고속터미널",
+      "line": "3호선",
+      "distance_km": 1.071,
+      "time_min": 6.45
+    },
+    {
+      "from": "고속터미널",
+      "to": "잠원",
+      "line": "3호선",
+      "distance_km": 1.071,
+      "time_min": 6.45
+    },
+    {
+      "from": "고속터미널",
+      "to": "교대(법원·검찰청)",
+      "line": "3호선",
+      "distance_km": 1.483,
+      "time_min": 7.2
+    },
+    {
+      "from": "교대(법원·검찰청)",
+      "to": "고속터미널",
+      "line": "3호선",
+      "distance_km": 1.483,
+      "time_min": 7.2
+    },
+    {
+      "from": "교대(법원·검찰청)",
+      "to": "남부터미널(예술의전당)",
+      "line": "3호선",
+      "distance_km": 1.016,
+      "time_min": 6.35
+    },
+    {
+      "from": "남부터미널(예술의전당)",
+      "to": "교대(법원·검찰청)",
+      "line": "3호선",
+      "distance_km": 1.016,
+      "time_min": 6.35
+    },
+    {
+      "from": "남부터미널(예술의전당)",
+      "to": "양재(서초구청)",
+      "line": "3호선",
+      "distance_km": 1.584,
+      "time_min": 7.38
+    },
+    {
+      "from": "양재(서초구청)",
+      "to": "남부터미널(예술의전당)",
+      "line": "3호선",
+      "distance_km": 1.584,
+      "time_min": 7.38
+    },
+    {
+      "from": "양재(서초구청)",
+      "to": "매봉",
+      "line": "3호선",
+      "distance_km": 1.153,
+      "time_min": 6.6
+    },
+    {
+      "from": "매봉",
+      "to": "양재(서초구청)",
+      "line": "3호선",
+      "distance_km": 1.153,
+      "time_min": 6.6
+    },
+    {
+      "from": "매봉",
+      "to": "도곡",
+      "line": "3호선",
+      "distance_km": 0.895,
+      "time_min": 6.13
+    },
+    {
+      "from": "도곡",
+      "to": "매봉",
+      "line": "3호선",
+      "distance_km": 0.895,
+      "time_min": 6.13
+    },
+    {
+      "from": "도곡",
+      "to": "대치",
+      "line": "3호선",
+      "distance_km": 0.786,
+      "time_min": 5.93
+    },
+    {
+      "from": "대치",
+      "to": "도곡",
+      "line": "3호선",
+      "distance_km": 0.786,
+      "time_min": 5.93
+    },
+    {
+      "from": "대치",
+      "to": "학여울",
+      "line": "3호선",
+      "distance_km": 0.698,
+      "time_min": 1.27
+    },
+    {
+      "from": "학여울",
+      "to": "대치",
+      "line": "3호선",
+      "distance_km": 0.698,
+      "time_min": 1.27
+    },
+    {
+      "from": "학여울",
+      "to": "대청",
+      "line": "3호선",
+      "distance_km": 0.842,
+      "time_min": 1.53
+    },
+    {
+      "from": "대청",
+      "to": "학여울",
+      "line": "3호선",
+      "distance_km": 0.842,
+      "time_min": 1.53
+    },
+    {
+      "from": "대청",
+      "to": "일원",
+      "line": "3호선",
+      "distance_km": 1.155,
+      "time_min": 2.1
+    },
+    {
+      "from": "일원",
+      "to": "대청",
+      "line": "3호선",
+      "distance_km": 1.155,
+      "time_min": 2.1
+    },
+    {
+      "from": "일원",
+      "to": "수서",
+      "line": "3호선",
+      "distance_km": 1.618,
+      "time_min": 7.44
+    },
+    {
+      "from": "수서",
+      "to": "일원",
+      "line": "3호선",
+      "distance_km": 1.618,
+      "time_min": 7.44
+    },
+    {
+      "from": "수서",
+      "to": "가락시장",
+      "line": "3호선",
+      "distance_km": 1.491,
+      "time_min": 7.21
+    },
+    {
+      "from": "가락시장",
+      "to": "수서",
+      "line": "3호선",
+      "distance_km": 1.491,
+      "time_min": 7.21
+    },
+    {
+      "from": "가락시장",
+      "to": "경찰병원",
+      "line": "3호선",
+      "distance_km": 0.689,
+      "time_min": 5.75
+    },
+    {
+      "from": "경찰병원",
+      "to": "가락시장",
+      "line": "3호선",
+      "distance_km": 0.689,
+      "time_min": 5.75
+    },
+    {
+      "from": "경찰병원",
+      "to": "오금",
+      "line": "3호선",
+      "distance_km": 0.813,
+      "time_min": 5.98
+    },
+    {
+      "from": "오금",
+      "to": "경찰병원",
+      "line": "3호선",
+      "distance_km": 0.813,
+      "time_min": 5.98
+    },
+    {
+      "from": "불암산",
+      "to": "상계",
+      "line": "4호선",
+      "distance_km": 1.175,
+      "time_min": 2.14
+    },
+    {
+      "from": "상계",
+      "to": "불암산",
+      "line": "4호선",
+      "distance_km": 1.175,
+      "time_min": 2.14
+    },
+    {
+      "from": "상계",
+      "to": "노원",
+      "line": "4호선",
+      "distance_km": 1.003,
+      "time_min": 6.32
+    },
+    {
+      "from": "노원",
+      "to": "상계",
+      "line": "4호선",
+      "distance_km": 1.003,
+      "time_min": 6.32
+    },
+    {
+      "from": "노원",
+      "to": "창동",
+      "line": "4호선",
+      "distance_km": 1.409,
+      "time_min": 7.06
+    },
+    {
+      "from": "창동",
+      "to": "노원",
+      "line": "4호선",
+      "distance_km": 1.409,
+      "time_min": 7.06
+    },
+    {
+      "from": "창동",
+      "to": "쌍문",
+      "line": "4호선",
+      "distance_km": 1.29,
+      "time_min": 6.85
+    },
+    {
+      "from": "쌍문",
+      "to": "창동",
+      "line": "4호선",
+      "distance_km": 1.29,
+      "time_min": 6.85
+    },
+    {
+      "from": "쌍문",
+      "to": "수유(강북구청)",
+      "line": "4호선",
+      "distance_km": 1.416,
+      "time_min": 2.57
+    },
+    {
+      "from": "수유(강북구청)",
+      "to": "쌍문",
+      "line": "4호선",
+      "distance_km": 1.416,
+      "time_min": 2.57
+    },
+    {
+      "from": "수유(강북구청)",
+      "to": "미아(서울사이버대학)",
+      "line": "4호선",
+      "distance_km": 1.257,
+      "time_min": 2.29
+    },
+    {
+      "from": "미아(서울사이버대학)",
+      "to": "수유(강북구청)",
+      "line": "4호선",
+      "distance_km": 1.257,
+      "time_min": 2.29
+    },
+    {
+      "from": "미아(서울사이버대학)",
+      "to": "미아사거리",
+      "line": "4호선",
+      "distance_km": 1.504,
+      "time_min": 2.73
+    },
+    {
+      "from": "미아사거리",
+      "to": "미아(서울사이버대학)",
+      "line": "4호선",
+      "distance_km": 1.504,
+      "time_min": 2.73
+    },
+    {
+      "from": "미아사거리",
+      "to": "길음",
+      "line": "4호선",
+      "distance_km": 1.186,
+      "time_min": 2.16
+    },
+    {
+      "from": "길음",
+      "to": "미아사거리",
+      "line": "4호선",
+      "distance_km": 1.186,
+      "time_min": 2.16
+    },
+    {
+      "from": "길음",
+      "to": "성신여대입구(돈암)",
+      "line": "4호선",
+      "distance_km": 1.371,
+      "time_min": 2.49
+    },
+    {
+      "from": "성신여대입구(돈암)",
+      "to": "길음",
+      "line": "4호선",
+      "distance_km": 1.371,
+      "time_min": 2.49
+    },
+    {
+      "from": "성신여대입구(돈암)",
+      "to": "한성대입구(삼선교)",
+      "line": "4호선",
+      "distance_km": 1.087,
+      "time_min": 1.98
+    },
+    {
+      "from": "한성대입구(삼선교)",
+      "to": "성신여대입구(돈암)",
+      "line": "4호선",
+      "distance_km": 1.087,
+      "time_min": 1.98
+    },
+    {
+      "from": "한성대입구(삼선교)",
+      "to": "혜화",
+      "line": "4호선",
+      "distance_km": 0.782,
+      "time_min": 1.42
+    },
+    {
+      "from": "혜화",
+      "to": "한성대입구(삼선교)",
+      "line": "4호선",
+      "distance_km": 0.782,
+      "time_min": 1.42
+    },
+    {
+      "from": "혜화",
+      "to": "동대문",
+      "line": "4호선",
+      "distance_km": 1.397,
+      "time_min": 7.04
+    },
+    {
+      "from": "동대문",
+      "to": "혜화",
+      "line": "4호선",
+      "distance_km": 1.397,
+      "time_min": 7.04
+    },
+    {
+      "from": "동대문",
+      "to": "동대문역사문화공원(DDP)",
+      "line": "4호선",
+      "distance_km": 0.686,
+      "time_min": 5.75
+    },
+    {
+      "from": "동대문역사문화공원(DDP)",
+      "to": "동대문",
+      "line": "4호선",
+      "distance_km": 0.686,
+      "time_min": 5.75
+    },
+    {
+      "from": "동대문역사문화공원(DDP)",
+      "to": "충무로",
+      "line": "4호선",
+      "distance_km": 1.396,
+      "time_min": 7.04
+    },
+    {
+      "from": "충무로",
+      "to": "동대문역사문화공원(DDP)",
+      "line": "4호선",
+      "distance_km": 1.396,
+      "time_min": 7.04
+    },
+    {
+      "from": "충무로",
+      "to": "명동",
+      "line": "4호선",
+      "distance_km": 0.698,
+      "time_min": 5.77
+    },
+    {
+      "from": "명동",
+      "to": "충무로",
+      "line": "4호선",
+      "distance_km": 0.698,
+      "time_min": 5.77
+    },
+    {
+      "from": "명동",
+      "to": "회현(남대문시장)",
+      "line": "4호선",
+      "distance_km": 0.742,
+      "time_min": 1.35
+    },
+    {
+      "from": "회현(남대문시장)",
+      "to": "명동",
+      "line": "4호선",
+      "distance_km": 0.742,
+      "time_min": 1.35
+    },
+    {
+      "from": "회현(남대문시장)",
+      "to": "서울역",
+      "line": "4호선",
+      "distance_km": 0.635,
+      "time_min": 5.65
+    },
+    {
+      "from": "서울역",
+      "to": "회현(남대문시장)",
+      "line": "4호선",
+      "distance_km": 0.635,
+      "time_min": 5.65
+    },
+    {
+      "from": "서울역",
+      "to": "숙대입구(갈월)",
+      "line": "4호선",
+      "distance_km": 1.231,
+      "time_min": 6.74
+    },
+    {
+      "from": "숙대입구(갈월)",
+      "to": "서울역",
+      "line": "4호선",
+      "distance_km": 1.231,
+      "time_min": 6.74
+    },
+    {
+      "from": "숙대입구(갈월)",
+      "to": "삼각지(전쟁기념관)",
+      "line": "4호선",
+      "distance_km": 1.151,
+      "time_min": 6.59
+    },
+    {
+      "from": "삼각지(전쟁기념관)",
+      "to": "숙대입구(갈월)",
+      "line": "4호선",
+      "distance_km": 1.151,
+      "time_min": 6.59
+    },
+    {
+      "from": "삼각지(전쟁기념관)",
+      "to": "신용산",
+      "line": "4호선",
+      "distance_km": 0.748,
+      "time_min": 5.86
+    },
+    {
+      "from": "신용산",
+      "to": "삼각지(전쟁기념관)",
+      "line": "4호선",
+      "distance_km": 0.748,
+      "time_min": 5.86
+    },
+    {
+      "from": "신용산",
+      "to": "이촌(국립중앙박물관)",
+      "line": "4호선",
+      "distance_km": 0.014,
+      "time_min": 4.53
+    },
+    {
+      "from": "이촌(국립중앙박물관)",
+      "to": "신용산",
+      "line": "4호선",
+      "distance_km": 0.014,
+      "time_min": 4.53
+    },
+    {
+      "from": "이촌(국립중앙박물관)",
+      "to": "동작(현충원)",
+      "line": "4호선",
+      "distance_km": 3.045,
+      "time_min": 10.04
+    },
+    {
+      "from": "동작(현충원)",
+      "to": "이촌(국립중앙박물관)",
+      "line": "4호선",
+      "distance_km": 3.045,
+      "time_min": 10.04
+    },
+    {
+      "from": "동작(현충원)",
+      "to": "총신대입구(이수)",
+      "line": "4호선",
+      "distance_km": 1.794,
+      "time_min": 7.76
+    },
+    {
+      "from": "총신대입구(이수)",
+      "to": "동작(현충원)",
+      "line": "4호선",
+      "distance_km": 1.794,
+      "time_min": 7.76
+    },
+    {
+      "from": "총신대입구(이수)",
+      "to": "사당",
+      "line": "4호선",
+      "distance_km": 1.223,
+      "time_min": 6.72
+    },
+    {
+      "from": "사당",
+      "to": "총신대입구(이수)",
+      "line": "4호선",
+      "distance_km": 1.223,
+      "time_min": 6.72
+    },
+    {
+      "from": "사당",
+      "to": "남태령",
+      "line": "4호선",
+      "distance_km": 1.507,
+      "time_min": 7.24
+    },
+    {
+      "from": "남태령",
+      "to": "사당",
+      "line": "4호선",
+      "distance_km": 1.507,
+      "time_min": 7.24
+    },
+    {
+      "from": "방화",
+      "to": "개화산",
+      "line": "5호선",
+      "distance_km": 0.783,
+      "time_min": 1.42
+    },
+    {
+      "from": "개화산",
+      "to": "방화",
+      "line": "5호선",
+      "distance_km": 0.783,
+      "time_min": 1.42
+    },
+    {
+      "from": "개화산",
+      "to": "김포공항",
+      "line": "5호선",
+      "distance_km": 1.245,
+      "time_min": 6.76
+    },
+    {
+      "from": "김포공항",
+      "to": "개화산",
+      "line": "5호선",
+      "distance_km": 1.245,
+      "time_min": 6.76
+    },
+    {
+      "from": "김포공항",
+      "to": "송정",
+      "line": "5호선",
+      "distance_km": 0.956,
+      "time_min": 6.24
+    },
+    {
+      "from": "송정",
+      "to": "김포공항",
+      "line": "5호선",
+      "distance_km": 0.956,
+      "time_min": 6.24
+    },
+    {
+      "from": "송정",
+      "to": "마곡",
+      "line": "5호선",
+      "distance_km": 2.278,
+      "time_min": 4.14
+    },
+    {
+      "from": "마곡",
+      "to": "송정",
+      "line": "5호선",
+      "distance_km": 2.278,
+      "time_min": 4.14
+    },
+    {
+      "from": "마곡",
+      "to": "발산",
+      "line": "5호선",
+      "distance_km": 0.007,
+      "time_min": 0.01
+    },
+    {
+      "from": "발산",
+      "to": "마곡",
+      "line": "5호선",
+      "distance_km": 0.007,
+      "time_min": 0.01
+    },
+    {
+      "from": "발산",
+      "to": "우장산",
+      "line": "5호선",
+      "distance_km": 1.099,
+      "time_min": 2.0
+    },
+    {
+      "from": "우장산",
+      "to": "발산",
+      "line": "5호선",
+      "distance_km": 1.099,
+      "time_min": 2.0
+    },
+    {
+      "from": "우장산",
+      "to": "화곡",
+      "line": "5호선",
+      "distance_km": 0.887,
+      "time_min": 1.61
+    },
+    {
+      "from": "화곡",
+      "to": "우장산",
+      "line": "5호선",
+      "distance_km": 0.887,
+      "time_min": 1.61
+    },
+    {
+      "from": "화곡",
+      "to": "까치산",
+      "line": "5호선",
+      "distance_km": 1.171,
+      "time_min": 6.63
+    },
+    {
+      "from": "까치산",
+      "to": "화곡",
+      "line": "5호선",
+      "distance_km": 1.171,
+      "time_min": 6.63
+    },
+    {
+      "from": "까치산",
+      "to": "신정(은행정)",
+      "line": "5호선",
+      "distance_km": 1.173,
+      "time_min": 6.63
+    },
+    {
+      "from": "신정(은행정)",
+      "to": "까치산",
+      "line": "5호선",
+      "distance_km": 1.173,
+      "time_min": 6.63
+    },
+    {
+      "from": "신정(은행정)",
+      "to": "목동",
+      "line": "5호선",
+      "distance_km": 0.726,
+      "time_min": 1.32
+    },
+    {
+      "from": "목동",
+      "to": "신정(은행정)",
+      "line": "5호선",
+      "distance_km": 0.726,
+      "time_min": 1.32
+    },
+    {
+      "from": "목동",
+      "to": "오목교(목동운동장앞)",
+      "line": "5호선",
+      "distance_km": 0.963,
+      "time_min": 1.75
+    },
+    {
+      "from": "오목교(목동운동장앞)",
+      "to": "목동",
+      "line": "5호선",
+      "distance_km": 0.963,
+      "time_min": 1.75
+    },
+    {
+      "from": "오목교(목동운동장앞)",
+      "to": "양평",
+      "line": "5호선",
+      "distance_km": 0.988,
+      "time_min": 1.8
+    },
+    {
+      "from": "양평",
+      "to": "오목교(목동운동장앞)",
+      "line": "5호선",
+      "distance_km": 0.988,
+      "time_min": 1.8
+    },
+    {
+      "from": "양평",
+      "to": "영등포구청",
+      "line": "5호선",
+      "distance_km": 0.922,
+      "time_min": 6.18
+    },
+    {
+      "from": "영등포구청",
+      "to": "양평",
+      "line": "5호선",
+      "distance_km": 0.922,
+      "time_min": 6.18
+    },
+    {
+      "from": "영등포구청",
+      "to": "영등포시장",
+      "line": "5호선",
+      "distance_km": 0.822,
+      "time_min": 5.99
+    },
+    {
+      "from": "영등포시장",
+      "to": "영등포구청",
+      "line": "5호선",
+      "distance_km": 0.822,
+      "time_min": 5.99
+    },
+    {
+      "from": "영등포시장",
+      "to": "신길",
+      "line": "5호선",
+      "distance_km": 1.282,
+      "time_min": 6.83
+    },
+    {
+      "from": "신길",
+      "to": "영등포시장",
+      "line": "5호선",
+      "distance_km": 1.282,
+      "time_min": 6.83
+    },
+    {
+      "from": "신길",
+      "to": "여의도",
+      "line": "5호선",
+      "distance_km": 0.778,
+      "time_min": 5.91
+    },
+    {
+      "from": "여의도",
+      "to": "신길",
+      "line": "5호선",
+      "distance_km": 0.778,
+      "time_min": 5.91
+    },
+    {
+      "from": "여의도",
+      "to": "여의나루",
+      "line": "5호선",
+      "distance_km": 0.957,
+      "time_min": 6.24
+    },
+    {
+      "from": "여의나루",
+      "to": "여의도",
+      "line": "5호선",
+      "distance_km": 0.957,
+      "time_min": 6.24
+    },
+    {
+      "from": "여의나루",
+      "to": "마포",
+      "line": "5호선",
+      "distance_km": 1.83,
+      "time_min": 3.33
+    },
+    {
+      "from": "마포",
+      "to": "여의나루",
+      "line": "5호선",
+      "distance_km": 1.83,
+      "time_min": 3.33
+    },
+    {
+      "from": "마포",
+      "to": "공덕",
+      "line": "5호선",
+      "distance_km": 0.65,
+      "time_min": 5.68
+    },
+    {
+      "from": "공덕",
+      "to": "마포",
+      "line": "5호선",
+      "distance_km": 0.65,
+      "time_min": 5.68
+    },
+    {
+      "from": "공덕",
+      "to": "애오개",
+      "line": "5호선",
+      "distance_km": 1.178,
+      "time_min": 6.64
+    },
+    {
+      "from": "애오개",
+      "to": "공덕",
+      "line": "5호선",
+      "distance_km": 1.178,
+      "time_min": 6.64
+    },
+    {
+      "from": "애오개",
+      "to": "충정로(경기대입구)",
+      "line": "5호선",
+      "distance_km": 0.965,
+      "time_min": 6.25
+    },
+    {
+      "from": "충정로(경기대입구)",
+      "to": "애오개",
+      "line": "5호선",
+      "distance_km": 0.965,
+      "time_min": 6.25
+    },
+    {
+      "from": "충정로(경기대입구)",
+      "to": "서대문",
+      "line": "5호선",
+      "distance_km": 0.702,
+      "time_min": 5.78
+    },
+    {
+      "from": "서대문",
+      "to": "충정로(경기대입구)",
+      "line": "5호선",
+      "distance_km": 0.702,
+      "time_min": 5.78
+    },
+    {
+      "from": "서대문",
+      "to": "광화문(세종문화회관)",
+      "line": "5호선",
+      "distance_km": 1.089,
+      "time_min": 1.98
+    },
+    {
+      "from": "광화문(세종문화회관)",
+      "to": "서대문",
+      "line": "5호선",
+      "distance_km": 1.089,
+      "time_min": 1.98
+    },
+    {
+      "from": "광화문(세종문화회관)",
+      "to": "종로3가(탑골공원)",
+      "line": "5호선",
+      "distance_km": 1.227,
+      "time_min": 6.73
+    },
+    {
+      "from": "종로3가(탑골공원)",
+      "to": "광화문(세종문화회관)",
+      "line": "5호선",
+      "distance_km": 1.227,
+      "time_min": 6.73
+    },
+    {
+      "from": "종로3가(탑골공원)",
+      "to": "을지로4가",
+      "line": "5호선",
+      "distance_km": 0.914,
+      "time_min": 6.16
+    },
+    {
+      "from": "을지로4가",
+      "to": "종로3가(탑골공원)",
+      "line": "5호선",
+      "distance_km": 0.914,
+      "time_min": 6.16
+    },
+    {
+      "from": "을지로4가",
+      "to": "동대문역사문화공원(DDP)",
+      "line": "5호선",
+      "distance_km": 1.016,
+      "time_min": 6.35
+    },
+    {
+      "from": "동대문역사문화공원(DDP)",
+      "to": "을지로4가",
+      "line": "5호선",
+      "distance_km": 1.016,
+      "time_min": 6.35
+    },
+    {
+      "from": "동대문역사문화공원(DDP)",
+      "to": "청구",
+      "line": "5호선",
+      "distance_km": 0.727,
+      "time_min": 5.82
+    },
+    {
+      "from": "청구",
+      "to": "동대문역사문화공원(DDP)",
+      "line": "5호선",
+      "distance_km": 0.727,
+      "time_min": 5.82
+    },
+    {
+      "from": "청구",
+      "to": "신금호",
+      "line": "5호선",
+      "distance_km": 0.864,
+      "time_min": 6.07
+    },
+    {
+      "from": "신금호",
+      "to": "청구",
+      "line": "5호선",
+      "distance_km": 0.864,
+      "time_min": 6.07
+    },
+    {
+      "from": "신금호",
+      "to": "행당",
+      "line": "5호선",
+      "distance_km": 0.858,
+      "time_min": 1.56
+    },
+    {
+      "from": "행당",
+      "to": "신금호",
+      "line": "5호선",
+      "distance_km": 0.858,
+      "time_min": 1.56
+    },
+    {
+      "from": "행당",
+      "to": "왕십리(성동구청)",
+      "line": "5호선",
+      "distance_km": 0.802,
+      "time_min": 5.96
+    },
+    {
+      "from": "왕십리(성동구청)",
+      "to": "행당",
+      "line": "5호선",
+      "distance_km": 0.802,
+      "time_min": 5.96
+    },
+    {
+      "from": "왕십리(성동구청)",
+      "to": "마장",
+      "line": "5호선",
+      "distance_km": 0.741,
+      "time_min": 5.85
+    },
+    {
+      "from": "마장",
+      "to": "왕십리(성동구청)",
+      "line": "5호선",
+      "distance_km": 0.741,
+      "time_min": 5.85
+    },
+    {
+      "from": "마장",
+      "to": "답십리",
+      "line": "5호선",
+      "distance_km": 0.863,
+      "time_min": 1.57
+    },
+    {
+      "from": "답십리",
+      "to": "마장",
+      "line": "5호선",
+      "distance_km": 0.863,
+      "time_min": 1.57
+    },
+    {
+      "from": "답십리",
+      "to": "장한평",
+      "line": "5호선",
+      "distance_km": 1.211,
+      "time_min": 2.2
+    },
+    {
+      "from": "장한평",
+      "to": "답십리",
+      "line": "5호선",
+      "distance_km": 1.211,
+      "time_min": 2.2
+    },
+    {
+      "from": "장한평",
+      "to": "군자(능동)",
+      "line": "5호선",
+      "distance_km": 1.404,
+      "time_min": 7.05
+    },
+    {
+      "from": "군자(능동)",
+      "to": "장한평",
+      "line": "5호선",
+      "distance_km": 1.404,
+      "time_min": 7.05
+    },
+    {
+      "from": "군자(능동)",
+      "to": "아차산(어린이대공원후문)",
+      "line": "5호선",
+      "distance_km": 1.052,
+      "time_min": 6.41
+    },
+    {
+      "from": "아차산(어린이대공원후문)",
+      "to": "군자(능동)",
+      "line": "5호선",
+      "distance_km": 1.052,
+      "time_min": 6.41
+    },
+    {
+      "from": "아차산(어린이대공원후문)",
+      "to": "광나루(장신대)",
+      "line": "5호선",
+      "distance_km": 1.432,
+      "time_min": 2.6
+    },
+    {
+      "from": "광나루(장신대)",
+      "to": "아차산(어린이대공원후문)",
+      "line": "5호선",
+      "distance_km": 1.432,
+      "time_min": 2.6
+    },
+    {
+      "from": "광나루(장신대)",
+      "to": "천호(풍납토성)",
+      "line": "5호선",
+      "distance_km": 1.921,
+      "time_min": 7.99
+    },
+    {
+      "from": "천호(풍납토성)",
+      "to": "광나루(장신대)",
+      "line": "5호선",
+      "distance_km": 1.921,
+      "time_min": 7.99
+    },
+    {
+      "from": "천호(풍납토성)",
+      "to": "강동",
+      "line": "5호선",
+      "distance_km": 0.847,
+      "time_min": 6.04
+    },
+    {
+      "from": "강동",
+      "to": "천호(풍납토성)",
+      "line": "5호선",
+      "distance_km": 0.847,
+      "time_min": 6.04
+    },
+    {
+      "from": "강동",
+      "to": "길동",
+      "line": "5호선",
+      "distance_km": 0.713,
+      "time_min": 1.3
+    },
+    {
+      "from": "길동",
+      "to": "강동",
+      "line": "5호선",
+      "distance_km": 0.713,
+      "time_min": 1.3
+    },
+    {
+      "from": "길동",
+      "to": "굽은다리(강동구민회관앞)",
+      "line": "5호선",
+      "distance_km": 0.86,
+      "time_min": 1.56
+    },
+    {
+      "from": "굽은다리(강동구민회관앞)",
+      "to": "길동",
+      "line": "5호선",
+      "distance_km": 0.86,
+      "time_min": 1.56
+    },
+    {
+      "from": "굽은다리(강동구민회관앞)",
+      "to": "명일",
+      "line": "5호선",
+      "distance_km": 0.661,
+      "time_min": 1.2
+    },
+    {
+      "from": "명일",
+      "to": "굽은다리(강동구민회관앞)",
+      "line": "5호선",
+      "distance_km": 0.661,
+      "time_min": 1.2
+    },
+    {
+      "from": "명일",
+      "to": "고덕",
+      "line": "5호선",
+      "distance_km": 0.989,
+      "time_min": 1.8
+    },
+    {
+      "from": "고덕",
+      "to": "명일",
+      "line": "5호선",
+      "distance_km": 0.989,
+      "time_min": 1.8
+    },
+    {
+      "from": "고덕",
+      "to": "상일동",
+      "line": "5호선",
+      "distance_km": 1.089,
+      "time_min": 1.98
+    },
+    {
+      "from": "상일동",
+      "to": "고덕",
+      "line": "5호선",
+      "distance_km": 1.089,
+      "time_min": 1.98
+    },
+    {
+      "from": "상일동",
+      "to": "강일",
+      "line": "5호선",
+      "distance_km": 0.854,
+      "time_min": 1.55
+    },
+    {
+      "from": "강일",
+      "to": "상일동",
+      "line": "5호선",
+      "distance_km": 0.854,
+      "time_min": 1.55
+    },
+    {
+      "from": "강일",
+      "to": "미사",
+      "line": "5호선",
+      "distance_km": 1.616,
+      "time_min": 2.94
+    },
+    {
+      "from": "미사",
+      "to": "강일",
+      "line": "5호선",
+      "distance_km": 1.616,
+      "time_min": 2.94
+    },
+    {
+      "from": "미사",
+      "to": "하남풍산",
+      "line": "5호선",
+      "distance_km": 1.548,
+      "time_min": 2.81
+    },
+    {
+      "from": "하남풍산",
+      "to": "미사",
+      "line": "5호선",
+      "distance_km": 1.548,
+      "time_min": 2.81
+    },
+    {
+      "from": "하남풍산",
+      "to": "하남시청(덕풍∙신장)",
+      "line": "5호선",
+      "distance_km": 1.195,
+      "time_min": 2.17
+    },
+    {
+      "from": "하남시청(덕풍∙신장)",
+      "to": "하남풍산",
+      "line": "5호선",
+      "distance_km": 1.195,
+      "time_min": 2.17
+    },
+    {
+      "from": "하남시청(덕풍∙신장)",
+      "to": "하남검단산",
+      "line": "5호선",
+      "distance_km": 1.474,
+      "time_min": 2.68
+    },
+    {
+      "from": "하남검단산",
+      "to": "하남시청(덕풍∙신장)",
+      "line": "5호선",
+      "distance_km": 1.474,
+      "time_min": 2.68
+    },
+    {
+      "from": "하남검단산",
+      "to": "둔촌동",
+      "line": "5호선",
+      "distance_km": 7.804,
+      "time_min": 14.19
+    },
+    {
+      "from": "둔촌동",
+      "to": "하남검단산",
+      "line": "5호선",
+      "distance_km": 7.804,
+      "time_min": 14.19
+    },
+    {
+      "from": "둔촌동",
+      "to": "올림픽공원(한국체대)",
+      "line": "5호선",
+      "distance_km": 1.368,
+      "time_min": 6.99
+    },
+    {
+      "from": "올림픽공원(한국체대)",
+      "to": "둔촌동",
+      "line": "5호선",
+      "distance_km": 1.368,
+      "time_min": 6.99
+    },
+    {
+      "from": "올림픽공원(한국체대)",
+      "to": "방이",
+      "line": "5호선",
+      "distance_km": 0.936,
+      "time_min": 6.2
+    },
+    {
+      "from": "방이",
+      "to": "올림픽공원(한국체대)",
+      "line": "5호선",
+      "distance_km": 0.936,
+      "time_min": 6.2
+    },
+    {
+      "from": "방이",
+      "to": "오금",
+      "line": "5호선",
+      "distance_km": 0.747,
+      "time_min": 5.86
+    },
+    {
+      "from": "오금",
+      "to": "방이",
+      "line": "5호선",
+      "distance_km": 0.747,
+      "time_min": 5.86
+    },
+    {
+      "from": "오금",
+      "to": "개롱",
+      "line": "5호선",
+      "distance_km": 0.737,
+      "time_min": 5.84
+    },
+    {
+      "from": "개롱",
+      "to": "오금",
+      "line": "5호선",
+      "distance_km": 0.737,
+      "time_min": 5.84
+    },
+    {
+      "from": "개롱",
+      "to": "거여",
+      "line": "5호선",
+      "distance_km": 0.974,
+      "time_min": 1.77
+    },
+    {
+      "from": "거여",
+      "to": "개롱",
+      "line": "5호선",
+      "distance_km": 0.974,
+      "time_min": 1.77
+    },
+    {
+      "from": "거여",
+      "to": "마천",
+      "line": "5호선",
+      "distance_km": 0.801,
+      "time_min": 1.46
+    },
+    {
+      "from": "마천",
+      "to": "거여",
+      "line": "5호선",
+      "distance_km": 0.801,
+      "time_min": 1.46
+    },
+    {
+      "from": "응암",
+      "to": "역촌",
+      "line": "6호선",
+      "distance_km": 1.043,
+      "time_min": 1.9
+    },
+    {
+      "from": "역촌",
+      "to": "응암",
+      "line": "6호선",
+      "distance_km": 1.043,
+      "time_min": 1.9
+    },
+    {
+      "from": "역촌",
+      "to": "불광",
+      "line": "6호선",
+      "distance_km": 0.797,
+      "time_min": 5.95
+    },
+    {
+      "from": "불광",
+      "to": "역촌",
+      "line": "6호선",
+      "distance_km": 0.797,
+      "time_min": 5.95
+    },
+    {
+      "from": "불광",
+      "to": "독바위",
+      "line": "6호선",
+      "distance_km": 0.952,
+      "time_min": 6.23
+    },
+    {
+      "from": "독바위",
+      "to": "불광",
+      "line": "6호선",
+      "distance_km": 0.952,
+      "time_min": 6.23
+    },
+    {
+      "from": "독바위",
+      "to": "연신내",
+      "line": "6호선",
+      "distance_km": 1.068,
+      "time_min": 6.44
+    },
+    {
+      "from": "연신내",
+      "to": "독바위",
+      "line": "6호선",
+      "distance_km": 1.068,
+      "time_min": 6.44
+    },
+    {
+      "from": "연신내",
+      "to": "구산",
+      "line": "6호선",
+      "distance_km": 0.958,
+      "time_min": 6.24
+    },
+    {
+      "from": "구산",
+      "to": "연신내",
+      "line": "6호선",
+      "distance_km": 0.958,
+      "time_min": 6.24
+    },
+    {
+      "from": "구산",
+      "to": "새절(신사)",
+      "line": "6호선",
+      "distance_km": 2.252,
+      "time_min": 4.09
+    },
+    {
+      "from": "새절(신사)",
+      "to": "구산",
+      "line": "6호선",
+      "distance_km": 2.252,
+      "time_min": 4.09
+    },
+    {
+      "from": "새절(신사)",
+      "to": "증산(명지대앞)",
+      "line": "6호선",
+      "distance_km": 0.865,
+      "time_min": 1.57
+    },
+    {
+      "from": "증산(명지대앞)",
+      "to": "새절(신사)",
+      "line": "6호선",
+      "distance_km": 0.865,
+      "time_min": 1.57
+    },
+    {
+      "from": "증산(명지대앞)",
+      "to": "디지털미디어시티",
+      "line": "6호선",
+      "distance_km": 1.152,
+      "time_min": 6.59
+    },
+    {
+      "from": "디지털미디어시티",
+      "to": "증산(명지대앞)",
+      "line": "6호선",
+      "distance_km": 1.152,
+      "time_min": 6.59
+    },
+    {
+      "from": "디지털미디어시티",
+      "to": "월드컵경기장(성산)",
+      "line": "6호선",
+      "distance_km": 0.765,
+      "time_min": 5.89
+    },
+    {
+      "from": "월드컵경기장(성산)",
+      "to": "디지털미디어시티",
+      "line": "6호선",
+      "distance_km": 0.765,
+      "time_min": 5.89
+    },
+    {
+      "from": "월드컵경기장(성산)",
+      "to": "마포구청",
+      "line": "6호선",
+      "distance_km": 0.758,
+      "time_min": 1.38
+    },
+    {
+      "from": "마포구청",
+      "to": "월드컵경기장(성산)",
+      "line": "6호선",
+      "distance_km": 0.758,
+      "time_min": 1.38
+    },
+    {
+      "from": "마포구청",
+      "to": "망원",
+      "line": "6호선",
+      "distance_km": 1.025,
+      "time_min": 1.86
+    },
+    {
+      "from": "망원",
+      "to": "마포구청",
+      "line": "6호선",
+      "distance_km": 1.025,
+      "time_min": 1.86
+    },
+    {
+      "from": "망원",
+      "to": "합정",
+      "line": "6호선",
+      "distance_km": 0.774,
+      "time_min": 5.91
+    },
+    {
+      "from": "합정",
+      "to": "망원",
+      "line": "6호선",
+      "distance_km": 0.774,
+      "time_min": 5.91
+    },
+    {
+      "from": "합정",
+      "to": "상수",
+      "line": "6호선",
+      "distance_km": 0.781,
+      "time_min": 5.92
+    },
+    {
+      "from": "상수",
+      "to": "합정",
+      "line": "6호선",
+      "distance_km": 0.781,
+      "time_min": 5.92
+    },
+    {
+      "from": "상수",
+      "to": "광흥창(서강)",
+      "line": "6호선",
+      "distance_km": 0.798,
+      "time_min": 1.45
+    },
+    {
+      "from": "광흥창(서강)",
+      "to": "상수",
+      "line": "6호선",
+      "distance_km": 0.798,
+      "time_min": 1.45
+    },
+    {
+      "from": "광흥창(서강)",
+      "to": "대흥(서강대앞)",
+      "line": "6호선",
+      "distance_km": 0.904,
+      "time_min": 1.64
+    },
+    {
+      "from": "대흥(서강대앞)",
+      "to": "광흥창(서강)",
+      "line": "6호선",
+      "distance_km": 0.904,
+      "time_min": 1.64
+    },
+    {
+      "from": "대흥(서강대앞)",
+      "to": "공덕",
+      "line": "6호선",
+      "distance_km": 0.883,
+      "time_min": 6.11
+    },
+    {
+      "from": "공덕",
+      "to": "대흥(서강대앞)",
+      "line": "6호선",
+      "distance_km": 0.883,
+      "time_min": 6.11
+    },
+    {
+      "from": "공덕",
+      "to": "효창공원앞",
+      "line": "6호선",
+      "distance_km": 1.048,
+      "time_min": 6.41
+    },
+    {
+      "from": "효창공원앞",
+      "to": "공덕",
+      "line": "6호선",
+      "distance_km": 1.048,
+      "time_min": 6.41
+    },
+    {
+      "from": "효창공원앞",
+      "to": "삼각지(전쟁기념관)",
+      "line": "6호선",
+      "distance_km": 1.158,
+      "time_min": 6.61
+    },
+    {
+      "from": "삼각지(전쟁기념관)",
+      "to": "효창공원앞",
+      "line": "6호선",
+      "distance_km": 1.158,
+      "time_min": 6.61
+    },
+    {
+      "from": "삼각지(전쟁기념관)",
+      "to": "녹사평(용산구청)",
+      "line": "6호선",
+      "distance_km": 1.205,
+      "time_min": 6.69
+    },
+    {
+      "from": "녹사평(용산구청)",
+      "to": "삼각지(전쟁기념관)",
+      "line": "6호선",
+      "distance_km": 1.205,
+      "time_min": 6.69
+    },
+    {
+      "from": "녹사평(용산구청)",
+      "to": "이태원",
+      "line": "6호선",
+      "distance_km": 0.681,
+      "time_min": 1.24
+    },
+    {
+      "from": "이태원",
+      "to": "녹사평(용산구청)",
+      "line": "6호선",
+      "distance_km": 0.681,
+      "time_min": 1.24
+    },
+    {
+      "from": "이태원",
+      "to": "한강진",
+      "line": "6호선",
+      "distance_km": 0.86,
+      "time_min": 1.56
+    },
+    {
+      "from": "한강진",
+      "to": "이태원",
+      "line": "6호선",
+      "distance_km": 0.86,
+      "time_min": 1.56
+    },
+    {
+      "from": "한강진",
+      "to": "버티고개",
+      "line": "6호선",
+      "distance_km": 1.039,
+      "time_min": 1.89
+    },
+    {
+      "from": "버티고개",
+      "to": "한강진",
+      "line": "6호선",
+      "distance_km": 1.039,
+      "time_min": 1.89
+    },
+    {
+      "from": "버티고개",
+      "to": "약수",
+      "line": "6호선",
+      "distance_km": 0.813,
+      "time_min": 5.98
+    },
+    {
+      "from": "약수",
+      "to": "버티고개",
+      "line": "6호선",
+      "distance_km": 0.813,
+      "time_min": 5.98
+    },
+    {
+      "from": "약수",
+      "to": "청구",
+      "line": "6호선",
+      "distance_km": 0.683,
+      "time_min": 5.74
+    },
+    {
+      "from": "청구",
+      "to": "약수",
+      "line": "6호선",
+      "distance_km": 0.683,
+      "time_min": 5.74
+    },
+    {
+      "from": "청구",
+      "to": "신당",
+      "line": "6호선",
+      "distance_km": 0.783,
+      "time_min": 5.92
+    },
+    {
+      "from": "신당",
+      "to": "청구",
+      "line": "6호선",
+      "distance_km": 0.783,
+      "time_min": 5.92
+    },
+    {
+      "from": "신당",
+      "to": "동묘앞",
+      "line": "6호선",
+      "distance_km": 0.884,
+      "time_min": 6.11
+    },
+    {
+      "from": "동묘앞",
+      "to": "신당",
+      "line": "6호선",
+      "distance_km": 0.884,
+      "time_min": 6.11
+    },
+    {
+      "from": "동묘앞",
+      "to": "창신",
+      "line": "6호선",
+      "distance_km": 0.731,
+      "time_min": 5.83
+    },
+    {
+      "from": "창신",
+      "to": "동묘앞",
+      "line": "6호선",
+      "distance_km": 0.731,
+      "time_min": 5.83
+    },
+    {
+      "from": "창신",
+      "to": "보문",
+      "line": "6호선",
+      "distance_km": 0.742,
+      "time_min": 1.35
+    },
+    {
+      "from": "보문",
+      "to": "창신",
+      "line": "6호선",
+      "distance_km": 0.742,
+      "time_min": 1.35
+    },
+    {
+      "from": "보문",
+      "to": "안암(고대병원앞)",
+      "line": "6호선",
+      "distance_km": 0.825,
+      "time_min": 1.5
+    },
+    {
+      "from": "안암(고대병원앞)",
+      "to": "보문",
+      "line": "6호선",
+      "distance_km": 0.825,
+      "time_min": 1.5
+    },
+    {
+      "from": "안암(고대병원앞)",
+      "to": "고려대(종암)",
+      "line": "6호선",
+      "distance_km": 0.782,
+      "time_min": 1.42
+    },
+    {
+      "from": "고려대(종암)",
+      "to": "안암(고대병원앞)",
+      "line": "6호선",
+      "distance_km": 0.782,
+      "time_min": 1.42
+    },
+    {
+      "from": "고려대(종암)",
+      "to": "월곡(동덕여대)",
+      "line": "6호선",
+      "distance_km": 1.368,
+      "time_min": 2.49
+    },
+    {
+      "from": "월곡(동덕여대)",
+      "to": "고려대(종암)",
+      "line": "6호선",
+      "distance_km": 1.368,
+      "time_min": 2.49
+    },
+    {
+      "from": "월곡(동덕여대)",
+      "to": "상월곡(한국과학기술연구원)",
+      "line": "6호선",
+      "distance_km": 0.793,
+      "time_min": 1.44
+    },
+    {
+      "from": "상월곡(한국과학기술연구원)",
+      "to": "월곡(동덕여대)",
+      "line": "6호선",
+      "distance_km": 0.793,
+      "time_min": 1.44
+    },
+    {
+      "from": "상월곡(한국과학기술연구원)",
+      "to": "돌곶이",
+      "line": "6호선",
+      "distance_km": 0.835,
+      "time_min": 1.52
+    },
+    {
+      "from": "돌곶이",
+      "to": "상월곡(한국과학기술연구원)",
+      "line": "6호선",
+      "distance_km": 0.835,
+      "time_min": 1.52
+    },
+    {
+      "from": "돌곶이",
+      "to": "석계",
+      "line": "6호선",
+      "distance_km": 0.961,
+      "time_min": 6.25
+    },
+    {
+      "from": "석계",
+      "to": "돌곶이",
+      "line": "6호선",
+      "distance_km": 0.961,
+      "time_min": 6.25
+    },
+    {
+      "from": "석계",
+      "to": "태릉입구",
+      "line": "6호선",
+      "distance_km": 0.839,
+      "time_min": 6.03
+    },
+    {
+      "from": "태릉입구",
+      "to": "석계",
+      "line": "6호선",
+      "distance_km": 0.839,
+      "time_min": 6.03
+    },
+    {
+      "from": "태릉입구",
+      "to": "화랑대(서울여대입구)",
+      "line": "6호선",
+      "distance_km": 0.872,
+      "time_min": 6.09
+    },
+    {
+      "from": "화랑대(서울여대입구)",
+      "to": "태릉입구",
+      "line": "6호선",
+      "distance_km": 0.872,
+      "time_min": 6.09
+    },
+    {
+      "from": "화랑대(서울여대입구)",
+      "to": "봉화산(서울의료원)",
+      "line": "6호선",
+      "distance_km": 0.684,
+      "time_min": 1.24
+    },
+    {
+      "from": "봉화산(서울의료원)",
+      "to": "화랑대(서울여대입구)",
+      "line": "6호선",
+      "distance_km": 0.684,
+      "time_min": 1.24
+    },
+    {
+      "from": "봉화산(서울의료원)",
+      "to": "신내",
+      "line": "6호선",
+      "distance_km": 1.274,
+      "time_min": 2.32
+    },
+    {
+      "from": "신내",
+      "to": "봉화산(서울의료원)",
+      "line": "6호선",
+      "distance_km": 1.274,
+      "time_min": 2.32
+    },
+    {
+      "from": "장암",
+      "to": "도봉산",
+      "line": "7호선",
+      "distance_km": 1.328,
+      "time_min": 6.91
+    },
+    {
+      "from": "도봉산",
+      "to": "장암",
+      "line": "7호선",
+      "distance_km": 1.328,
+      "time_min": 6.91
+    },
+    {
+      "from": "도봉산",
+      "to": "수락산",
+      "line": "7호선",
+      "distance_km": 1.545,
+      "time_min": 7.31
+    },
+    {
+      "from": "수락산",
+      "to": "도봉산",
+      "line": "7호선",
+      "distance_km": 1.545,
+      "time_min": 7.31
+    },
+    {
+      "from": "수락산",
+      "to": "마들",
+      "line": "7호선",
+      "distance_km": 1.441,
+      "time_min": 2.62
+    },
+    {
+      "from": "마들",
+      "to": "수락산",
+      "line": "7호선",
+      "distance_km": 1.441,
+      "time_min": 2.62
+    },
+    {
+      "from": "마들",
+      "to": "노원",
+      "line": "7호선",
+      "distance_km": 1.082,
+      "time_min": 6.47
+    },
+    {
+      "from": "노원",
+      "to": "마들",
+      "line": "7호선",
+      "distance_km": 1.082,
+      "time_min": 6.47
+    },
+    {
+      "from": "노원",
+      "to": "중계",
+      "line": "7호선",
+      "distance_km": 1.25,
+      "time_min": 6.77
+    },
+    {
+      "from": "중계",
+      "to": "노원",
+      "line": "7호선",
+      "distance_km": 1.25,
+      "time_min": 6.77
+    },
+    {
+      "from": "중계",
+      "to": "하계",
+      "line": "7호선",
+      "distance_km": 1.026,
+      "time_min": 1.87
+    },
+    {
+      "from": "하계",
+      "to": "중계",
+      "line": "7호선",
+      "distance_km": 1.026,
+      "time_min": 1.87
+    },
+    {
+      "from": "하계",
+      "to": "공릉(서울과학기술대)",
+      "line": "7호선",
+      "distance_km": 1.27,
+      "time_min": 2.31
+    },
+    {
+      "from": "공릉(서울과학기술대)",
+      "to": "하계",
+      "line": "7호선",
+      "distance_km": 1.27,
+      "time_min": 2.31
+    },
+    {
+      "from": "공릉(서울과학기술대)",
+      "to": "태릉입구",
+      "line": "7호선",
+      "distance_km": 0.939,
+      "time_min": 6.21
+    },
+    {
+      "from": "태릉입구",
+      "to": "공릉(서울과학기술대)",
+      "line": "7호선",
+      "distance_km": 0.939,
+      "time_min": 6.21
+    },
+    {
+      "from": "태릉입구",
+      "to": "먹골",
+      "line": "7호선",
+      "distance_km": 0.788,
+      "time_min": 5.93
+    },
+    {
+      "from": "먹골",
+      "to": "태릉입구",
+      "line": "7호선",
+      "distance_km": 0.788,
+      "time_min": 5.93
+    },
+    {
+      "from": "먹골",
+      "to": "중화",
+      "line": "7호선",
+      "distance_km": 0.904,
+      "time_min": 1.64
+    },
+    {
+      "from": "중화",
+      "to": "먹골",
+      "line": "7호선",
+      "distance_km": 0.904,
+      "time_min": 1.64
+    },
+    {
+      "from": "중화",
+      "to": "상봉",
+      "line": "7호선",
+      "distance_km": 0.958,
+      "time_min": 6.24
+    },
+    {
+      "from": "상봉",
+      "to": "중화",
+      "line": "7호선",
+      "distance_km": 0.958,
+      "time_min": 6.24
+    },
+    {
+      "from": "상봉",
+      "to": "면목",
+      "line": "7호선",
+      "distance_km": 0.794,
+      "time_min": 5.94
+    },
+    {
+      "from": "면목",
+      "to": "상봉",
+      "line": "7호선",
+      "distance_km": 0.794,
+      "time_min": 5.94
+    },
+    {
+      "from": "면목",
+      "to": "사가정",
+      "line": "7호선",
+      "distance_km": 0.867,
+      "time_min": 1.58
+    },
+    {
+      "from": "사가정",
+      "to": "면목",
+      "line": "7호선",
+      "distance_km": 0.867,
+      "time_min": 1.58
+    },
+    {
+      "from": "사가정",
+      "to": "용마산(용마폭포공원)",
+      "line": "7호선",
+      "distance_km": 0.81,
+      "time_min": 1.47
+    },
+    {
+      "from": "용마산(용마폭포공원)",
+      "to": "사가정",
+      "line": "7호선",
+      "distance_km": 0.81,
+      "time_min": 1.47
+    },
+    {
+      "from": "용마산(용마폭포공원)",
+      "to": "중곡",
+      "line": "7호선",
+      "distance_km": 0.903,
+      "time_min": 1.64
+    },
+    {
+      "from": "중곡",
+      "to": "용마산(용마폭포공원)",
+      "line": "7호선",
+      "distance_km": 0.903,
+      "time_min": 1.64
+    },
+    {
+      "from": "중곡",
+      "to": "군자(능동)",
+      "line": "7호선",
+      "distance_km": 1.061,
+      "time_min": 6.43
+    },
+    {
+      "from": "군자(능동)",
+      "to": "중곡",
+      "line": "7호선",
+      "distance_km": 1.061,
+      "time_min": 6.43
+    },
+    {
+      "from": "군자(능동)",
+      "to": "어린이대공원(세종대)",
+      "line": "7호선",
+      "distance_km": 1.105,
+      "time_min": 6.51
+    },
+    {
+      "from": "어린이대공원(세종대)",
+      "to": "군자(능동)",
+      "line": "7호선",
+      "distance_km": 1.105,
+      "time_min": 6.51
+    },
+    {
+      "from": "어린이대공원(세종대)",
+      "to": "건대입구",
+      "line": "7호선",
+      "distance_km": 0.966,
+      "time_min": 6.26
+    },
+    {
+      "from": "건대입구",
+      "to": "어린이대공원(세종대)",
+      "line": "7호선",
+      "distance_km": 0.966,
+      "time_min": 6.26
+    },
+    {
+      "from": "건대입구",
+      "to": "자양(뚝섬한강공원)",
+      "line": "7호선",
+      "distance_km": 1.009,
+      "time_min": 6.33
+    },
+    {
+      "from": "자양(뚝섬한강공원)",
+      "to": "건대입구",
+      "line": "7호선",
+      "distance_km": 1.009,
+      "time_min": 6.33
+    },
+    {
+      "from": "자양(뚝섬한강공원)",
+      "to": "청담",
+      "line": "7호선",
+      "distance_km": 1.907,
+      "time_min": 3.47
+    },
+    {
+      "from": "청담",
+      "to": "자양(뚝섬한강공원)",
+      "line": "7호선",
+      "distance_km": 1.907,
+      "time_min": 3.47
+    },
+    {
+      "from": "청담",
+      "to": "강남구청",
+      "line": "7호선",
+      "distance_km": 0.961,
+      "time_min": 6.25
+    },
+    {
+      "from": "강남구청",
+      "to": "청담",
+      "line": "7호선",
+      "distance_km": 0.961,
+      "time_min": 6.25
+    },
+    {
+      "from": "강남구청",
+      "to": "학동",
+      "line": "7호선",
+      "distance_km": 0.897,
+      "time_min": 6.13
+    },
+    {
+      "from": "학동",
+      "to": "강남구청",
+      "line": "7호선",
+      "distance_km": 0.897,
+      "time_min": 6.13
+    },
+    {
+      "from": "학동",
+      "to": "논현",
+      "line": "7호선",
+      "distance_km": 0.978,
+      "time_min": 6.28
+    },
+    {
+      "from": "논현",
+      "to": "학동",
+      "line": "7호선",
+      "distance_km": 0.978,
+      "time_min": 6.28
+    },
+    {
+      "from": "논현",
+      "to": "반포",
+      "line": "7호선",
+      "distance_km": 0.913,
+      "time_min": 6.16
+    },
+    {
+      "from": "반포",
+      "to": "논현",
+      "line": "7호선",
+      "distance_km": 0.913,
+      "time_min": 6.16
+    },
+    {
+      "from": "반포",
+      "to": "고속터미널",
+      "line": "7호선",
+      "distance_km": 0.699,
+      "time_min": 5.77
+    },
+    {
+      "from": "고속터미널",
+      "to": "반포",
+      "line": "7호선",
+      "distance_km": 0.699,
+      "time_min": 5.77
+    },
+    {
+      "from": "고속터미널",
+      "to": "내방",
+      "line": "7호선",
+      "distance_km": 2.171,
+      "time_min": 8.45
+    },
+    {
+      "from": "내방",
+      "to": "고속터미널",
+      "line": "7호선",
+      "distance_km": 2.171,
+      "time_min": 8.45
+    },
+    {
+      "from": "내방",
+      "to": "이수",
+      "line": "7호선",
+      "distance_km": 1.072,
+      "time_min": 6.45
+    },
+    {
+      "from": "이수",
+      "to": "내방",
+      "line": "7호선",
+      "distance_km": 1.072,
+      "time_min": 6.45
+    },
+    {
+      "from": "이수",
+      "to": "남성",
+      "line": "7호선",
+      "distance_km": 0.943,
+      "time_min": 6.21
+    },
+    {
+      "from": "남성",
+      "to": "이수",
+      "line": "7호선",
+      "distance_km": 0.943,
+      "time_min": 6.21
+    },
+    {
+      "from": "남성",
+      "to": "숭실대입구(살피재)",
+      "line": "7호선",
+      "distance_km": 2.007,
+      "time_min": 3.65
+    },
+    {
+      "from": "숭실대입구(살피재)",
+      "to": "남성",
+      "line": "7호선",
+      "distance_km": 2.007,
+      "time_min": 3.65
+    },
+    {
+      "from": "숭실대입구(살피재)",
+      "to": "상도",
+      "line": "7호선",
+      "distance_km": 0.883,
+      "time_min": 1.61
+    },
+    {
+      "from": "상도",
+      "to": "숭실대입구(살피재)",
+      "line": "7호선",
+      "distance_km": 0.883,
+      "time_min": 1.61
+    },
+    {
+      "from": "상도",
+      "to": "장승배기",
+      "line": "7호선",
+      "distance_km": 0.82,
+      "time_min": 1.49
+    },
+    {
+      "from": "장승배기",
+      "to": "상도",
+      "line": "7호선",
+      "distance_km": 0.82,
+      "time_min": 1.49
+    },
+    {
+      "from": "장승배기",
+      "to": "신대방삼거리",
+      "line": "7호선",
+      "distance_km": 1.111,
+      "time_min": 2.02
+    },
+    {
+      "from": "신대방삼거리",
+      "to": "장승배기",
+      "line": "7호선",
+      "distance_km": 1.111,
+      "time_min": 2.02
+    },
+    {
+      "from": "신대방삼거리",
+      "to": "보라매",
+      "line": "7호선",
+      "distance_km": 0.715,
+      "time_min": 1.3
+    },
+    {
+      "from": "보라매",
+      "to": "신대방삼거리",
+      "line": "7호선",
+      "distance_km": 0.715,
+      "time_min": 1.3
+    },
+    {
+      "from": "보라매",
+      "to": "신풍",
+      "line": "7호선",
+      "distance_km": 0.909,
+      "time_min": 1.65
+    },
+    {
+      "from": "신풍",
+      "to": "보라매",
+      "line": "7호선",
+      "distance_km": 0.909,
+      "time_min": 1.65
+    },
+    {
+      "from": "신풍",
+      "to": "대림(구로구청)",
+      "line": "7호선",
+      "distance_km": 1.512,
+      "time_min": 7.25
+    },
+    {
+      "from": "대림(구로구청)",
+      "to": "신풍",
+      "line": "7호선",
+      "distance_km": 1.512,
+      "time_min": 7.25
+    },
+    {
+      "from": "대림(구로구청)",
+      "to": "남구로",
+      "line": "7호선",
+      "distance_km": 1.036,
+      "time_min": 6.38
+    },
+    {
+      "from": "남구로",
+      "to": "대림(구로구청)",
+      "line": "7호선",
+      "distance_km": 1.036,
+      "time_min": 6.38
+    },
+    {
+      "from": "남구로",
+      "to": "가산디지털단지",
+      "line": "7호선",
+      "distance_km": 0.662,
+      "time_min": 5.7
+    },
+    {
+      "from": "가산디지털단지",
+      "to": "남구로",
+      "line": "7호선",
+      "distance_km": 0.662,
+      "time_min": 5.7
+    },
+    {
+      "from": "가산디지털단지",
+      "to": "철산",
+      "line": "7호선",
+      "distance_km": 1.407,
+      "time_min": 7.06
+    },
+    {
+      "from": "철산",
+      "to": "가산디지털단지",
+      "line": "7호선",
+      "distance_km": 1.407,
+      "time_min": 7.06
+    },
+    {
+      "from": "철산",
+      "to": "광명사거리",
+      "line": "7호선",
+      "distance_km": 1.229,
+      "time_min": 2.23
+    },
+    {
+      "from": "광명사거리",
+      "to": "철산",
+      "line": "7호선",
+      "distance_km": 1.229,
+      "time_min": 2.23
+    },
+    {
+      "from": "광명사거리",
+      "to": "천왕",
+      "line": "7호선",
+      "distance_km": 1.649,
+      "time_min": 3.0
+    },
+    {
+      "from": "천왕",
+      "to": "광명사거리",
+      "line": "7호선",
+      "distance_km": 1.649,
+      "time_min": 3.0
+    },
+    {
+      "from": "천왕",
+      "to": "온수(성공회대입구)",
+      "line": "7호선",
+      "distance_km": 1.483,
+      "time_min": 7.2
+    },
+    {
+      "from": "온수(성공회대입구)",
+      "to": "천왕",
+      "line": "7호선",
+      "distance_km": 1.483,
+      "time_min": 7.2
+    },
+    {
+      "from": "별내역",
+      "to": "다산역",
+      "line": "8호선",
+      "distance_km": 2.828,
+      "time_min": 9.64
+    },
+    {
+      "from": "다산역",
+      "to": "별내역",
+      "line": "8호선",
+      "distance_km": 2.828,
+      "time_min": 9.64
+    },
+    {
+      "from": "다산역",
+      "to": "동구릉",
+      "line": "8호선",
+      "distance_km": 2.011,
+      "time_min": 3.66
+    },
+    {
+      "from": "동구릉",
+      "to": "다산역",
+      "line": "8호선",
+      "distance_km": 2.011,
+      "time_min": 3.66
+    },
+    {
+      "from": "동구릉",
+      "to": "구리(구리전통시장)",
+      "line": "8호선",
+      "distance_km": 1.02,
+      "time_min": 1.85
+    },
+    {
+      "from": "구리(구리전통시장)",
+      "to": "동구릉",
+      "line": "8호선",
+      "distance_km": 1.02,
+      "time_min": 1.85
+    },
+    {
+      "from": "구리(구리전통시장)",
+      "to": "장자호수공원",
+      "line": "8호선",
+      "distance_km": 1.723,
+      "time_min": 3.13
+    },
+    {
+      "from": "장자호수공원",
+      "to": "구리(구리전통시장)",
+      "line": "8호선",
+      "distance_km": 1.723,
+      "time_min": 3.13
+    },
+    {
+      "from": "장자호수공원",
+      "to": "암사역사공원",
+      "line": "8호선",
+      "distance_km": 3.342,
+      "time_min": 6.08
+    },
+    {
+      "from": "암사역사공원",
+      "to": "장자호수공원",
+      "line": "8호선",
+      "distance_km": 3.342,
+      "time_min": 6.08
+    },
+    {
+      "from": "암사역사공원",
+      "to": "암사",
+      "line": "8호선",
+      "distance_km": 1.181,
+      "time_min": 2.15
+    },
+    {
+      "from": "암사",
+      "to": "암사역사공원",
+      "line": "8호선",
+      "distance_km": 1.181,
+      "time_min": 2.15
+    },
+    {
+      "from": "암사",
+      "to": "천호(풍납토성)",
+      "line": "8호선",
+      "distance_km": 1.333,
+      "time_min": 6.92
+    },
+    {
+      "from": "천호(풍납토성)",
+      "to": "암사",
+      "line": "8호선",
+      "distance_km": 1.333,
+      "time_min": 6.92
+    },
+    {
+      "from": "천호(풍납토성)",
+      "to": "강동구청",
+      "line": "8호선",
+      "distance_km": 0.953,
+      "time_min": 6.23
+    },
+    {
+      "from": "강동구청",
+      "to": "천호(풍납토성)",
+      "line": "8호선",
+      "distance_km": 0.953,
+      "time_min": 6.23
+    },
+    {
+      "from": "강동구청",
+      "to": "몽촌토성(평화의문)",
+      "line": "8호선",
+      "distance_km": 1.563,
+      "time_min": 2.84
+    },
+    {
+      "from": "몽촌토성(평화의문)",
+      "to": "강동구청",
+      "line": "8호선",
+      "distance_km": 1.563,
+      "time_min": 2.84
+    },
+    {
+      "from": "몽촌토성(평화의문)",
+      "to": "잠실(송파구청)",
+      "line": "8호선",
+      "distance_km": 1.215,
+      "time_min": 6.71
+    },
+    {
+      "from": "잠실(송파구청)",
+      "to": "몽촌토성(평화의문)",
+      "line": "8호선",
+      "distance_km": 1.215,
+      "time_min": 6.71
+    },
+    {
+      "from": "잠실(송파구청)",
+      "to": "석촌",
+      "line": "8호선",
+      "distance_km": 1.068,
+      "time_min": 6.44
+    },
+    {
+      "from": "석촌",
+      "to": "잠실(송파구청)",
+      "line": "8호선",
+      "distance_km": 1.068,
+      "time_min": 6.44
+    },
+    {
+      "from": "석촌",
+      "to": "송파",
+      "line": "8호선",
+      "distance_km": 0.771,
+      "time_min": 5.9
+    },
+    {
+      "from": "송파",
+      "to": "석촌",
+      "line": "8호선",
+      "distance_km": 0.771,
+      "time_min": 5.9
+    },
+    {
+      "from": "송파",
+      "to": "가락시장",
+      "line": "8호선",
+      "distance_km": 0.965,
+      "time_min": 6.25
+    },
+    {
+      "from": "가락시장",
+      "to": "송파",
+      "line": "8호선",
+      "distance_km": 0.965,
+      "time_min": 6.25
+    },
+    {
+      "from": "가락시장",
+      "to": "문정",
+      "line": "8호선",
+      "distance_km": 0.826,
+      "time_min": 6.0
+    },
+    {
+      "from": "문정",
+      "to": "가락시장",
+      "line": "8호선",
+      "distance_km": 0.826,
+      "time_min": 6.0
+    },
+    {
+      "from": "문정",
+      "to": "장지",
+      "line": "8호선",
+      "distance_km": 0.879,
+      "time_min": 1.6
+    },
+    {
+      "from": "장지",
+      "to": "문정",
+      "line": "8호선",
+      "distance_km": 0.879,
+      "time_min": 1.6
+    },
+    {
+      "from": "장지",
+      "to": "복정",
+      "line": "8호선",
+      "distance_km": 0.846,
+      "time_min": 6.04
+    },
+    {
+      "from": "복정",
+      "to": "장지",
+      "line": "8호선",
+      "distance_km": 0.846,
+      "time_min": 6.04
+    },
+    {
+      "from": "복정",
+      "to": "남위례",
+      "line": "8호선",
+      "distance_km": 1.416,
+      "time_min": 7.07
+    },
+    {
+      "from": "남위례",
+      "to": "복정",
+      "line": "8호선",
+      "distance_km": 1.416,
+      "time_min": 7.07
+    },
+    {
+      "from": "남위례",
+      "to": "산성",
+      "line": "8호선",
+      "distance_km": 1.166,
+      "time_min": 2.12
+    },
+    {
+      "from": "산성",
+      "to": "남위례",
+      "line": "8호선",
+      "distance_km": 1.166,
+      "time_min": 2.12
+    },
+    {
+      "from": "산성",
+      "to": "남한산성입구(성남법원·검찰청)",
+      "line": "8호선",
+      "distance_km": 1.056,
+      "time_min": 1.92
+    },
+    {
+      "from": "남한산성입구(성남법원·검찰청)",
+      "to": "산성",
+      "line": "8호선",
+      "distance_km": 1.056,
+      "time_min": 1.92
+    },
+    {
+      "from": "남한산성입구(성남법원·검찰청)",
+      "to": "단대오거리",
+      "line": "8호선",
+      "distance_km": 0.774,
+      "time_min": 1.41
+    },
+    {
+      "from": "단대오거리",
+      "to": "남한산성입구(성남법원·검찰청)",
+      "line": "8호선",
+      "distance_km": 0.774,
+      "time_min": 1.41
+    },
+    {
+      "from": "단대오거리",
+      "to": "신흥",
+      "line": "8호선",
+      "distance_km": 0.927,
+      "time_min": 1.69
+    },
+    {
+      "from": "신흥",
+      "to": "단대오거리",
+      "line": "8호선",
+      "distance_km": 0.927,
+      "time_min": 1.69
+    },
+    {
+      "from": "신흥",
+      "to": "수진",
+      "line": "8호선",
+      "distance_km": 0.697,
+      "time_min": 1.27
+    },
+    {
+      "from": "수진",
+      "to": "신흥",
+      "line": "8호선",
+      "distance_km": 0.697,
+      "time_min": 1.27
+    },
+    {
+      "from": "수진",
+      "to": "모란",
+      "line": "8호선",
+      "distance_km": 1.051,
+      "time_min": 6.41
+    },
+    {
+      "from": "모란",
+      "to": "수진",
+      "line": "8호선",
+      "distance_km": 1.051,
+      "time_min": 6.41
+    },
+    {
+      "from": "개화",
+      "to": "김포공항",
+      "line": "9호선",
+      "distance_km": 1.851,
+      "time_min": 7.87
+    },
+    {
+      "from": "김포공항",
+      "to": "개화",
+      "line": "9호선",
+      "distance_km": 1.851,
+      "time_min": 7.87
+    },
+    {
+      "from": "김포공항",
+      "to": "공항시장",
+      "line": "9호선",
+      "distance_km": 0.847,
+      "time_min": 6.04
+    },
+    {
+      "from": "공항시장",
+      "to": "김포공항",
+      "line": "9호선",
+      "distance_km": 0.847,
+      "time_min": 6.04
+    },
+    {
+      "from": "공항시장",
+      "to": "신방화",
+      "line": "9호선",
+      "distance_km": 0.674,
+      "time_min": 1.23
+    },
+    {
+      "from": "신방화",
+      "to": "공항시장",
+      "line": "9호선",
+      "distance_km": 0.674,
+      "time_min": 1.23
+    },
+    {
+      "from": "신방화",
+      "to": "마곡나루(서울식물원)",
+      "line": "9호선",
+      "distance_km": 0.968,
+      "time_min": 6.26
+    },
+    {
+      "from": "마곡나루(서울식물원)",
+      "to": "신방화",
+      "line": "9호선",
+      "distance_km": 0.968,
+      "time_min": 6.26
+    },
+    {
+      "from": "마곡나루(서울식물원)",
+      "to": "양천향교",
+      "line": "9호선",
+      "distance_km": 1.228,
+      "time_min": 6.73
+    },
+    {
+      "from": "양천향교",
+      "to": "마곡나루(서울식물원)",
+      "line": "9호선",
+      "distance_km": 1.228,
+      "time_min": 6.73
+    },
+    {
+      "from": "양천향교",
+      "to": "가양",
+      "line": "9호선",
+      "distance_km": 1.449,
+      "time_min": 2.64
+    },
+    {
+      "from": "가양",
+      "to": "양천향교",
+      "line": "9호선",
+      "distance_km": 1.449,
+      "time_min": 2.64
+    },
+    {
+      "from": "가양",
+      "to": "증미",
+      "line": "9호선",
+      "distance_km": 0.64,
+      "time_min": 1.16
+    },
+    {
+      "from": "증미",
+      "to": "가양",
+      "line": "9호선",
+      "distance_km": 0.64,
+      "time_min": 1.16
+    },
+    {
+      "from": "증미",
+      "to": "등촌",
+      "line": "9호선",
+      "distance_km": 0.816,
+      "time_min": 1.48
+    },
+    {
+      "from": "등촌",
+      "to": "증미",
+      "line": "9호선",
+      "distance_km": 0.816,
+      "time_min": 1.48
+    },
+    {
+      "from": "등촌",
+      "to": "염창",
+      "line": "9호선",
+      "distance_km": 0.996,
+      "time_min": 1.81
+    },
+    {
+      "from": "염창",
+      "to": "등촌",
+      "line": "9호선",
+      "distance_km": 0.996,
+      "time_min": 1.81
+    },
+    {
+      "from": "염창",
+      "to": "신목동",
+      "line": "9호선",
+      "distance_km": 0.797,
+      "time_min": 1.45
+    },
+    {
+      "from": "신목동",
+      "to": "염창",
+      "line": "9호선",
+      "distance_km": 0.797,
+      "time_min": 1.45
+    },
+    {
+      "from": "신목동",
+      "to": "선유도",
+      "line": "9호선",
+      "distance_km": 1.19,
+      "time_min": 2.16
+    },
+    {
+      "from": "선유도",
+      "to": "신목동",
+      "line": "9호선",
+      "distance_km": 1.19,
+      "time_min": 2.16
+    },
+    {
+      "from": "선유도",
+      "to": "당산",
+      "line": "9호선",
+      "distance_km": 0.837,
+      "time_min": 6.02
+    },
+    {
+      "from": "당산",
+      "to": "선유도",
+      "line": "9호선",
+      "distance_km": 0.837,
+      "time_min": 6.02
+    },
+    {
+      "from": "당산",
+      "to": "국회의사당",
+      "line": "9호선",
+      "distance_km": 1.538,
+      "time_min": 7.3
+    },
+    {
+      "from": "국회의사당",
+      "to": "당산",
+      "line": "9호선",
+      "distance_km": 1.538,
+      "time_min": 7.3
+    },
+    {
+      "from": "국회의사당",
+      "to": "여의도",
+      "line": "9호선",
+      "distance_km": 0.913,
+      "time_min": 6.16
+    },
+    {
+      "from": "여의도",
+      "to": "국회의사당",
+      "line": "9호선",
+      "distance_km": 0.913,
+      "time_min": 6.16
+    },
+    {
+      "from": "여의도",
+      "to": "샛강",
+      "line": "9호선",
+      "distance_km": 0.605,
+      "time_min": 5.6
+    },
+    {
+      "from": "샛강",
+      "to": "여의도",
+      "line": "9호선",
+      "distance_km": 0.605,
+      "time_min": 5.6
+    },
+    {
+      "from": "샛강",
+      "to": "노량진",
+      "line": "9호선",
+      "distance_km": 1.224,
+      "time_min": 6.73
+    },
+    {
+      "from": "노량진",
+      "to": "샛강",
+      "line": "9호선",
+      "distance_km": 1.224,
+      "time_min": 6.73
+    },
+    {
+      "from": "노량진",
+      "to": "노들",
+      "line": "9호선",
+      "distance_km": 1.019,
+      "time_min": 6.35
+    },
+    {
+      "from": "노들",
+      "to": "노량진",
+      "line": "9호선",
+      "distance_km": 1.019,
+      "time_min": 6.35
+    },
+    {
+      "from": "노들",
+      "to": "흑석(중앙대입구)",
+      "line": "9호선",
+      "distance_km": 1.021,
+      "time_min": 1.86
+    },
+    {
+      "from": "흑석(중앙대입구)",
+      "to": "노들",
+      "line": "9호선",
+      "distance_km": 1.021,
+      "time_min": 1.86
+    },
+    {
+      "from": "흑석(중앙대입구)",
+      "to": "동작(현충원)",
+      "line": "9호선",
+      "distance_km": 1.576,
+      "time_min": 7.37
+    },
+    {
+      "from": "동작(현충원)",
+      "to": "흑석(중앙대입구)",
+      "line": "9호선",
+      "distance_km": 1.576,
+      "time_min": 7.37
+    },
+    {
+      "from": "동작(현충원)",
+      "to": "구반포",
+      "line": "9호선",
+      "distance_km": 0.667,
+      "time_min": 5.71
+    },
+    {
+      "from": "구반포",
+      "to": "동작(현충원)",
+      "line": "9호선",
+      "distance_km": 0.667,
+      "time_min": 5.71
+    },
+    {
+      "from": "구반포",
+      "to": "신반포",
+      "line": "9호선",
+      "distance_km": 0.813,
+      "time_min": 1.48
+    },
+    {
+      "from": "신반포",
+      "to": "구반포",
+      "line": "9호선",
+      "distance_km": 0.813,
+      "time_min": 1.48
+    },
+    {
+      "from": "신반포",
+      "to": "고속터미널",
+      "line": "9호선",
+      "distance_km": 0.799,
+      "time_min": 5.95
+    },
+    {
+      "from": "고속터미널",
+      "to": "신반포",
+      "line": "9호선",
+      "distance_km": 0.799,
+      "time_min": 5.95
+    },
+    {
+      "from": "고속터미널",
+      "to": "사평",
+      "line": "9호선",
+      "distance_km": 0.913,
+      "time_min": 6.16
+    },
+    {
+      "from": "사평",
+      "to": "고속터미널",
+      "line": "9호선",
+      "distance_km": 0.913,
+      "time_min": 6.16
+    },
+    {
+      "from": "사평",
+      "to": "신논현",
+      "line": "9호선",
+      "distance_km": 0.812,
+      "time_min": 5.98
+    },
+    {
+      "from": "신논현",
+      "to": "사평",
+      "line": "9호선",
+      "distance_km": 0.812,
+      "time_min": 5.98
+    },
+    {
+      "from": "신논현",
+      "to": "언주",
+      "line": "9호선",
+      "distance_km": 0.892,
+      "time_min": 6.12
+    },
+    {
+      "from": "언주",
+      "to": "신논현",
+      "line": "9호선",
+      "distance_km": 0.892,
+      "time_min": 6.12
+    },
+    {
+      "from": "언주",
+      "to": "선정릉",
+      "line": "9호선",
+      "distance_km": 0.934,
+      "time_min": 6.2
+    },
+    {
+      "from": "선정릉",
+      "to": "언주",
+      "line": "9호선",
+      "distance_km": 0.934,
+      "time_min": 6.2
+    },
+    {
+      "from": "선정릉",
+      "to": "삼성중앙",
+      "line": "9호선",
+      "distance_km": 0.893,
+      "time_min": 6.12
+    },
+    {
+      "from": "삼성중앙",
+      "to": "선정릉",
+      "line": "9호선",
+      "distance_km": 0.893,
+      "time_min": 6.12
+    },
+    {
+      "from": "삼성중앙",
+      "to": "봉은사",
+      "line": "9호선",
+      "distance_km": 0.629,
+      "time_min": 1.14
+    },
+    {
+      "from": "봉은사",
+      "to": "삼성중앙",
+      "line": "9호선",
+      "distance_km": 0.629,
+      "time_min": 1.14
+    },
+    {
+      "from": "봉은사",
+      "to": "종합운동장",
+      "line": "9호선",
+      "distance_km": 1.247,
+      "time_min": 6.77
+    },
+    {
+      "from": "종합운동장",
+      "to": "봉은사",
+      "line": "9호선",
+      "distance_km": 1.247,
+      "time_min": 6.77
+    },
+    {
+      "from": "종합운동장",
+      "to": "삼전",
+      "line": "9호선",
+      "distance_km": 1.389,
+      "time_min": 7.03
+    },
+    {
+      "from": "삼전",
+      "to": "종합운동장",
+      "line": "9호선",
+      "distance_km": 1.389,
+      "time_min": 7.03
+    },
+    {
+      "from": "삼전",
+      "to": "석촌고분",
+      "line": "9호선",
+      "distance_km": 0.861,
+      "time_min": 1.57
+    },
+    {
+      "from": "석촌고분",
+      "to": "삼전",
+      "line": "9호선",
+      "distance_km": 0.861,
+      "time_min": 1.57
+    },
+    {
+      "from": "석촌고분",
+      "to": "석촌",
+      "line": "9호선",
+      "distance_km": 0.973,
+      "time_min": 6.27
+    },
+    {
+      "from": "석촌",
+      "to": "석촌고분",
+      "line": "9호선",
+      "distance_km": 0.973,
+      "time_min": 6.27
+    },
+    {
+      "from": "석촌",
+      "to": "송파나루",
+      "line": "9호선",
+      "distance_km": 0.748,
+      "time_min": 5.86
+    },
+    {
+      "from": "송파나루",
+      "to": "석촌",
+      "line": "9호선",
+      "distance_km": 0.748,
+      "time_min": 5.86
+    },
+    {
+      "from": "송파나루",
+      "to": "한성백제",
+      "line": "9호선",
+      "distance_km": 0.727,
+      "time_min": 1.32
+    },
+    {
+      "from": "한성백제",
+      "to": "송파나루",
+      "line": "9호선",
+      "distance_km": 0.727,
+      "time_min": 1.32
+    },
+    {
+      "from": "한성백제",
+      "to": "올림픽공원(한국체대)",
+      "line": "9호선",
+      "distance_km": 1.301,
+      "time_min": 6.86
+    },
+    {
+      "from": "올림픽공원(한국체대)",
+      "to": "한성백제",
+      "line": "9호선",
+      "distance_km": 1.301,
+      "time_min": 6.86
+    },
+    {
+      "from": "올림픽공원(한국체대)",
+      "to": "둔촌오륜",
+      "line": "9호선",
+      "distance_km": 0.76,
+      "time_min": 5.88
+    },
+    {
+      "from": "둔촌오륜",
+      "to": "올림픽공원(한국체대)",
+      "line": "9호선",
+      "distance_km": 0.76,
+      "time_min": 5.88
+    },
+    {
+      "from": "둔촌오륜",
+      "to": "중앙보훈병원",
+      "line": "9호선",
+      "distance_km": 1.366,
+      "time_min": 2.48
+    },
+    {
+      "from": "중앙보훈병원",
+      "to": "둔촌오륜",
+      "line": "9호선",
+      "distance_km": 1.366,
+      "time_min": 2.48
+    },
+    {
+      "from": "신사",
+      "to": "논현",
+      "line": "신분당선",
+      "distance_km": 0.601,
+      "time_min": 5.59
+    },
+    {
+      "from": "논현",
+      "to": "신사",
+      "line": "신분당선",
+      "distance_km": 0.601,
+      "time_min": 5.59
+    },
+    {
+      "from": "논현",
+      "to": "신논현",
+      "line": "신분당선",
+      "distance_km": 0.788,
+      "time_min": 5.93
+    },
+    {
+      "from": "신논현",
+      "to": "논현",
+      "line": "신분당선",
+      "distance_km": 0.788,
+      "time_min": 5.93
+    },
+    {
+      "from": "신논현",
+      "to": "강남",
+      "line": "신분당선",
+      "distance_km": 0.776,
+      "time_min": 5.91
+    },
+    {
+      "from": "강남",
+      "to": "신논현",
+      "line": "신분당선",
+      "distance_km": 0.776,
+      "time_min": 5.91
+    },
+    {
+      "from": "강남",
+      "to": "양재(서초구청)",
+      "line": "신분당선",
+      "distance_km": 1.597,
+      "time_min": 7.4
+    },
+    {
+      "from": "양재(서초구청)",
+      "to": "강남",
+      "line": "신분당선",
+      "distance_km": 1.597,
+      "time_min": 7.4
+    },
+    {
+      "from": "양재(서초구청)",
+      "to": "양재시민의숲(매헌)",
+      "line": "신분당선",
+      "distance_km": 1.559,
+      "time_min": 7.33
+    },
+    {
+      "from": "양재시민의숲(매헌)",
+      "to": "양재(서초구청)",
+      "line": "신분당선",
+      "distance_km": 1.559,
+      "time_min": 7.33
+    },
+    {
+      "from": "양재시민의숲(매헌)",
+      "to": "청계산입구",
+      "line": "신분당선",
+      "distance_km": 2.845,
+      "time_min": 5.17
+    },
+    {
+      "from": "청계산입구",
+      "to": "양재시민의숲(매헌)",
+      "line": "신분당선",
+      "distance_km": 2.845,
+      "time_min": 5.17
+    },
+    {
+      "from": "청계산입구",
+      "to": "판교",
+      "line": "신분당선",
+      "distance_km": 7.743,
+      "time_min": 18.58
+    },
+    {
+      "from": "판교",
+      "to": "청계산입구",
+      "line": "신분당선",
+      "distance_km": 7.743,
+      "time_min": 18.58
+    },
+    {
+      "from": "판교",
+      "to": "정자",
+      "line": "신분당선",
+      "distance_km": 3.069,
+      "time_min": 10.08
+    },
+    {
+      "from": "정자",
+      "to": "판교",
+      "line": "신분당선",
+      "distance_km": 3.069,
+      "time_min": 10.08
+    },
+    {
+      "from": "정자",
+      "to": "미금",
+      "line": "신분당선",
+      "distance_km": 1.894,
+      "time_min": 7.94
+    },
+    {
+      "from": "미금",
+      "to": "정자",
+      "line": "신분당선",
+      "distance_km": 1.894,
+      "time_min": 7.94
+    },
+    {
+      "from": "미금",
+      "to": "동천",
+      "line": "신분당선",
+      "distance_km": 1.491,
+      "time_min": 7.21
+    },
+    {
+      "from": "동천",
+      "to": "미금",
+      "line": "신분당선",
+      "distance_km": 1.491,
+      "time_min": 7.21
+    },
+    {
+      "from": "동천",
+      "to": "수지구청",
+      "line": "신분당선",
+      "distance_km": 1.856,
+      "time_min": 3.37
+    },
+    {
+      "from": "수지구청",
+      "to": "동천",
+      "line": "신분당선",
+      "distance_km": 1.856,
+      "time_min": 3.37
+    },
+    {
+      "from": "수지구청",
+      "to": "성복",
+      "line": "신분당선",
+      "distance_km": 1.647,
+      "time_min": 2.99
+    },
+    {
+      "from": "성복",
+      "to": "수지구청",
+      "line": "신분당선",
+      "distance_km": 1.647,
+      "time_min": 2.99
+    },
+    {
+      "from": "성복",
+      "to": "상현",
+      "line": "신분당선",
+      "distance_km": 1.973,
+      "time_min": 3.59
+    },
+    {
+      "from": "상현",
+      "to": "성복",
+      "line": "신분당선",
+      "distance_km": 1.973,
+      "time_min": 3.59
+    },
+    {
+      "from": "상현",
+      "to": "광교중앙(아주대)",
+      "line": "신분당선",
+      "distance_km": 1.932,
+      "time_min": 3.51
+    },
+    {
+      "from": "광교중앙(아주대)",
+      "to": "상현",
+      "line": "신분당선",
+      "distance_km": 1.932,
+      "time_min": 3.51
+    },
+    {
+      "from": "광교중앙(아주대)",
+      "to": "광교(경기대)",
+      "line": "신분당선",
+      "distance_km": 1.701,
+      "time_min": 3.09
+    },
+    {
+      "from": "광교(경기대)",
+      "to": "광교중앙(아주대)",
+      "line": "신분당선",
+      "distance_km": 1.701,
+      "time_min": 3.09
+    },
+    {
+      "from": "병점역",
+      "to": "서동탄역",
+      "line": "1호선",
+      "distance_km": 2.063,
+      "time_min": 3.75
+    },
+    {
+      "from": "서동탄역",
+      "to": "병점역",
+      "line": "1호선",
+      "distance_km": 2.063,
+      "time_min": 3.75
+    },
+    {
+      "from": "금천구청역",
+      "to": "광명역",
+      "line": "1호선",
+      "distance_km": 4.506,
+      "time_min": 8.19
+    },
+    {
+      "from": "광명역",
+      "to": "금천구청역",
+      "line": "1호선",
+      "distance_km": 4.506,
+      "time_min": 8.19
+    },
+    {
+      "from": "구로역",
+      "to": "구일역",
+      "line": "1호선",
+      "distance_km": 1.387,
+      "time_min": 2.52
+    },
+    {
+      "from": "구일역",
+      "to": "구로역",
+      "line": "1호선",
+      "distance_km": 1.387,
+      "time_min": 2.52
+    },
+    {
+      "from": "신도림",
+      "to": "도림천",
+      "line": "2호선",
+      "distance_km": 1.002,
+      "time_min": 6.32
+    },
+    {
+      "from": "도림천",
+      "to": "신도림",
+      "line": "2호선",
+      "distance_km": 1.002,
+      "time_min": 6.32
+    },
+    {
+      "from": "도림천",
+      "to": "양천구청",
+      "line": "2호선",
+      "distance_km": 1.519,
+      "time_min": 2.76
+    },
+    {
+      "from": "양천구청",
+      "to": "도림천",
+      "line": "2호선",
+      "distance_km": 1.519,
+      "time_min": 2.76
+    },
+    {
+      "from": "양천구청",
+      "to": "신정네거리",
+      "line": "2호선",
+      "distance_km": 1.426,
+      "time_min": 2.59
+    },
+    {
+      "from": "신정네거리",
+      "to": "양천구청",
+      "line": "2호선",
+      "distance_km": 1.426,
+      "time_min": 2.59
+    },
+    {
+      "from": "성수",
+      "to": "용답",
+      "line": "2호선",
+      "distance_km": 1.991,
+      "time_min": 3.62
+    },
+    {
+      "from": "용답",
+      "to": "성수",
+      "line": "2호선",
+      "distance_km": 1.991,
+      "time_min": 3.62
+    },
+    {
+      "from": "용답",
+      "to": "신답",
+      "line": "2호선",
+      "distance_km": 0.929,
+      "time_min": 1.69
+    },
+    {
+      "from": "신답",
+      "to": "용답",
+      "line": "2호선",
+      "distance_km": 0.929,
+      "time_min": 1.69
+    },
+    {
+      "from": "신답",
+      "to": "용두(동대문구청)",
+      "line": "2호선",
+      "distance_km": 0.914,
+      "time_min": 1.66
+    },
+    {
+      "from": "용두(동대문구청)",
+      "to": "신답",
+      "line": "2호선",
+      "distance_km": 0.914,
+      "time_min": 1.66
+    },
+    {
+      "from": "용두(동대문구청)",
+      "to": "신설동",
+      "line": "2호선",
+      "distance_km": 1.204,
+      "time_min": 6.69
+    },
+    {
+      "from": "신설동",
+      "to": "용두(동대문구청)",
+      "line": "2호선",
+      "distance_km": 1.204,
+      "time_min": 6.69
+    }
+  ]
+}
