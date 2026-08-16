@@ -1,7 +1,7 @@
-"""강남역 주변 카페 검색을 터미널에서 확인하는 실호출 테스트.
+r"""강남역 주변 카페 검색을 터미널에서 확인하는 실호출 테스트.
 
 실행:
-    python backend/places/test_cafe_search.py
+    .\.venv\Scripts\python.exe backend\places\test_cafe_search.py
 """
 
 import sys
