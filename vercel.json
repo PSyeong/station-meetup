@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "backend/api/main.py",
+      "use": "@vercel/python",
+      "config": { "includeFiles": "data/**" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "backend/api/main.py" }
+  ]
+}
