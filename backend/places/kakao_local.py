@@ -23,15 +23,19 @@ class KakaoLocalError(RuntimeError):
 
 
 def load_kakao_api_key(env_path: str | Path = ENV_PATH) -> str:
-    """프로젝트 .env에서 Kakao REST API 키를 읽는다."""
-    path = Path(env_path)
-    if not path.is_file():
-        raise KakaoLocalError(f".env 파일을 찾을 수 없습니다: {path}")
+    """Kakao REST API 키를 읽는다.
 
-    load_dotenv(dotenv_path=path, override=False)
+    로컬 개발 환경에서는 프로젝트 .env 파일에서 읽고, 배포 환경(Render 등)처럼
+    .env 파일 없이 환경변수가 프로세스에 직접 주입되는 경우에는 .env 로딩을
+    건너뛰고 os.getenv로 바로 읽는다.
+    """
+    path = Path(env_path)
+    if path.is_file():
+        load_dotenv(dotenv_path=path, override=False)
+
     api_key = os.getenv("KAKAO_REST_API_KEY", "").strip()
     if not api_key:
-        raise KakaoLocalError(".env에 KAKAO_REST_API_KEY가 설정되어 있지 않습니다.")
+        raise KakaoLocalError("KAKAO_REST_API_KEY가 설정되어 있지 않습니다.")
     return api_key
 
 
