@@ -1,13 +1,15 @@
 import { useMemo, useState } from "react";
 import ParticipantStationInputs, { MIN_PARTICIPANTS } from "../components/ParticipantStationInputs.jsx";
 import ModeToggle from "../components/ModeToggle.jsx";
-import { DEFAULT_MODE } from "../mockRecommendation.js";
+import Spinner from "../../../components/Spinner.jsx";
+
+const DEFAULT_MODE = "fair";
 
 function makeParticipant() {
   return { id: crypto.randomUUID(), stationName: "" };
 }
 
-export default function InputScene({ graph, onSubmit }) {
+export default function InputScene({ graph, onSubmit, submitting, submitError }) {
   const [participants, setParticipants] = useState(() => [makeParticipant(), makeParticipant()]);
   const [mode, setMode] = useState(DEFAULT_MODE);
   const [formError, setFormError] = useState(null);
@@ -23,6 +25,7 @@ export default function InputScene({ graph, onSubmit }) {
   );
 
   const canSubmit =
+    !submitting &&
     participants.length >= MIN_PARTICIPANTS &&
     participants.every((p) => p.stationName.trim() && stationNameSet.has(p.stationName.trim()));
 
@@ -64,9 +67,10 @@ export default function InputScene({ graph, onSubmit }) {
           </div>
 
           {formError && <p className="meeting-recommend__error">{formError}</p>}
+          {submitError && <p className="meeting-recommend__error">{submitError}</p>}
 
           <button type="submit" className="input-scene__submit" disabled={!canSubmit}>
-            중간장소 찾기
+            {submitting ? <Spinner size={14} light /> : "중간장소 찾기"}
           </button>
         </form>
       </div>

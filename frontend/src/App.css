@@ -104,6 +104,10 @@ button {
   border-radius: 50%;
   animation: spinner-rotate 0.7s linear infinite;
 }
+.spinner--light {
+  border-color: rgba(255, 255, 255, 0.35);
+  border-top-color: #ffffff;
+}
 @keyframes spinner-rotate {
   to {
     transform: rotate(360deg);
