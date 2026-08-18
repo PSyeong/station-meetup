@@ -23,6 +23,17 @@ function serveProjectData() {
         });
       });
     },
+    // configureServer는 dev 서버 전용이라 프로덕션 빌드(vite build)에는 적용되지 않는다.
+    // 빌드 결과물에도 같은 데이터를 정적 파일로 내보내기 위해 빌드 완료 시 dist/data/로 복사한다.
+    closeBundle() {
+      const outDir = path.resolve(__dirname, "dist", "data");
+      fs.mkdirSync(outDir, { recursive: true });
+      for (const file of fs.readdirSync(dataDir)) {
+        if (file.endsWith(".json")) {
+          fs.copyFileSync(path.join(dataDir, file), path.join(outDir, file));
+        }
+      }
+    },
   };
 }
 
