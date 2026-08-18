@@ -27,5 +27,6 @@ function serveProjectData() {
 }
 
 export default defineConfig({
+  envDir: "..",
   plugins: [react(), serveProjectData()],
 });
