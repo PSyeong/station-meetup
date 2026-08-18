@@ -1,5 +1,7 @@
+import { useRef } from "react";
 import StationAutocomplete from "./StationAutocomplete.jsx";
 import { generateId } from "../../../generateId.js";
+import { trackEvent } from "../../../analytics.js";
 
 export const MIN_PARTICIPANTS = 2;
 export const MAX_PARTICIPANTS = 5;
@@ -9,7 +11,13 @@ function makeParticipant() {
 }
 
 export default function ParticipantStationInputs({ participants, onChange, graph, invalidIds }) {
+  const hasTrackedStart = useRef(false);
+
   function updateStation(id, stationName) {
+    if (!hasTrackedStart.current) {
+      hasTrackedStart.current = true;
+      trackEvent("participant_input_start");
+    }
     onChange(participants.map((p) => (p.id === id ? { ...p, stationName } : p)));
   }
   function addParticipant() {

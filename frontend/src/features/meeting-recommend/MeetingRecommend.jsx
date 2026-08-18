@@ -5,6 +5,7 @@ import InputScene from "./scenes/InputScene.jsx";
 import MapResultScene from "./scenes/MapResultScene.jsx";
 import PlaceListScene from "./scenes/PlaceListScene.jsx";
 import { fetchRecommendations, fetchPlaces } from "./api.js";
+import { trackEvent } from "../../analytics.js";
 
 export default function MeetingRecommend() {
   const [graph, setGraph] = useState(null);
@@ -33,6 +34,14 @@ export default function MeetingRecommend() {
     setSubmitError(null);
     try {
       const results = await fetchRecommendations({ origins, mode, topK: 3 });
+      const top = results[0];
+      trackEvent("recommendation_success", {
+        mode,
+        participant_count: origins.length,
+        std_time: top?.std_time,
+        time_gap: top?.time_gap,
+        mean_time: top?.mean_time,
+      });
       setRecommendations(results);
       setSelectedIndex(0);
       setPlaces(null);

@@ -1,3 +1,5 @@
+import { trackEvent } from "../../../analytics.js";
+
 const MODES = [
   { id: "fair", label: "공평하게", desc: "이동시간 차이 최소" },
   { id: "fast", label: "빠르게", desc: "평균 이동시간 최소" },
@@ -5,6 +7,11 @@ const MODES = [
 ];
 
 export default function ModeToggle({ mode, onChange }) {
+  function handleChange(id) {
+    trackEvent("mode_change", { mode: id });
+    onChange(id);
+  }
+
   return (
     <div className="mode-toggle" role="radiogroup" aria-label="추천 모드">
       {MODES.map((m) => (
@@ -14,7 +21,7 @@ export default function ModeToggle({ mode, onChange }) {
           role="radio"
           aria-checked={mode === m.id}
           className={"mode-toggle__btn" + (mode === m.id ? " mode-toggle__btn--active" : "")}
-          onClick={() => onChange(m.id)}
+          onClick={() => handleChange(m.id)}
         >
           <span className="mode-toggle__label">{m.label}</span>
           <span className="mode-toggle__desc">{m.desc}</span>
