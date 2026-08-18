@@ -1,13 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ChevronLeft } from "lucide-react";
 import PlacePhotoCard from "../components/PlacePhotoCard.jsx";
 import Spinner from "../../../components/Spinner.jsx";
+import { trackEvent } from "../../../analytics.js";
 
 const CATEGORIES = ["맛집", "카페", "놀거리"];
 
 export default function PlaceListScene({ stationName, places, loading, error, onBack }) {
   const [category, setCategory] = useState(CATEGORIES[0]);
   const items = places?.[category] ?? [];
+
+  useEffect(() => {
+    trackEvent("view_place_list", { stationName });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="scene scene--places">

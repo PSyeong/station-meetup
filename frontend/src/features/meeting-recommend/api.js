@@ -1,14 +1,24 @@
+import { trackEvent } from "../../analytics.js";
+
 const API_BASE = (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
 
 async function requestJson(path, body) {
-  const res = await fetch(`${API_BASE}${path}`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
+  let res;
+  try {
+    res = await fetch(`${API_BASE}${path}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+  } catch (err) {
+    trackEvent("api_error", { path, message: err.message });
+    throw err;
+  }
   if (!res.ok) {
     const payload = await res.json().catch(() => null);
-    throw new Error(payload?.detail || `요청에 실패했습니다 (HTTP ${res.status})`);
+    const message = payload?.detail || `요청에 실패했습니다 (HTTP ${res.status})`;
+    trackEvent("api_error", { path, status: res.status, message });
+    throw new Error(message);
   }
   return res.json();
 }
