@@ -2,11 +2,12 @@ import { useMemo, useState } from "react";
 import ParticipantStationInputs, { MIN_PARTICIPANTS } from "../components/ParticipantStationInputs.jsx";
 import ModeToggle from "../components/ModeToggle.jsx";
 import Spinner from "../../../components/Spinner.jsx";
+import { generateId } from "../../../generateId.js";
 
 const DEFAULT_MODE = "fair";
 
 function makeParticipant() {
-  return { id: crypto.randomUUID(), stationName: "" };
+  return { id: generateId(), stationName: "" };
 }
 
 export default function InputScene({ graph, onSubmit, submitting, submitError }) {

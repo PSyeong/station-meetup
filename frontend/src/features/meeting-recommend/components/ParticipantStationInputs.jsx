@@ -1,10 +1,11 @@
 import StationAutocomplete from "./StationAutocomplete.jsx";
+import { generateId } from "../../../generateId.js";
 
 export const MIN_PARTICIPANTS = 2;
 export const MAX_PARTICIPANTS = 5;
 
 function makeParticipant() {
-  return { id: crypto.randomUUID(), stationName: "" };
+  return { id: generateId(), stationName: "" };
 }
 
 export default function ParticipantStationInputs({ participants, onChange, graph, invalidIds }) {

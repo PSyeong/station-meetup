@@ -55,7 +55,7 @@
   border: none;
   background: var(--chip-bg);
   color: var(--ink);
-  font-size: 13px;
+  font-size: 16px;
   outline: none;
 }
 .subway-map__search:focus {
