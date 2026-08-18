@@ -249,6 +249,9 @@
 }
 .input-scene__submit {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 12px 20px;
   border-radius: var(--radius-sm);
   border: none;
@@ -462,6 +465,8 @@
   box-shadow: var(--shadow);
   background: var(--panel);
   overflow: hidden;
+  color: inherit;
+  text-decoration: none;
 }
 .place-photo-card__image {
   height: 140px;

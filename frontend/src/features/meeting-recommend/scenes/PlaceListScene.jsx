@@ -5,7 +5,7 @@ import Spinner from "../../../components/Spinner.jsx";
 
 const CATEGORIES = ["맛집", "카페", "놀거리"];
 
-export default function PlaceListScene({ stationName, places, loading, onBack }) {
+export default function PlaceListScene({ stationName, places, loading, error, onBack }) {
   const [category, setCategory] = useState(CATEGORIES[0]);
   const items = places?.[category] ?? [];
 
@@ -45,10 +45,12 @@ export default function PlaceListScene({ stationName, places, loading, onBack })
             <Spinner />
             불러오는 중...
           </div>
+        ) : error ? (
+          <p className="meeting-recommend__error">{error}</p>
         ) : (
           <div className="place-list-scene__list">
             {items.map((p) => (
-              <PlacePhotoCard key={p.name + p.distance_m} place={p} />
+              <PlacePhotoCard key={p.id || p.name + p.distance_m} place={p} category={category} />
             ))}
             {items.length === 0 && <div className="place-panel__status">주변 장소가 없습니다.</div>}
           </div>
