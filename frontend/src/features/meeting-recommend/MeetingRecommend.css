@@ -56,6 +56,24 @@
   color: inherit;
   opacity: 0.7;
 }
+.mode-toggle--disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.map-sheet__mode {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.map-sheet__mode-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-faint);
+}
 
 /* ---------- Participant / station inputs — filled row grammar ---------- */
 .participant-inputs {
@@ -360,6 +378,78 @@
   border-radius: 50%;
   background: var(--chip-color, var(--accent));
 }
+.map-sheet__alternatives {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.map-sheet__alternatives-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 0;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--chip-bg);
+  color: var(--ink-dim);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.map-sheet__alternatives-toggle:hover {
+  background: var(--panel-border);
+}
+.map-sheet__alternatives-chevron {
+  transition: transform 0.15s ease;
+}
+.map-sheet__alternatives-chevron--open {
+  transform: rotate(180deg);
+}
+.map-sheet__alternatives-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.map-sheet__alternative {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--chip-bg);
+  color: var(--ink);
+  font-size: 13px;
+  cursor: pointer;
+  text-align: left;
+}
+.map-sheet__alternative:hover {
+  background: var(--panel-border);
+}
+.map-sheet__alternative-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--ink-faint);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  flex: none;
+}
+.map-sheet__alternative-name {
+  flex: 1;
+  font-weight: 600;
+}
+.map-sheet__alternative-time {
+  color: var(--ink-faint);
+  font-size: 12px;
+}
+
 .map-sheet__primary {
   width: 100%;
   padding: 12px 20px;

@@ -6,20 +6,21 @@ const MODES = [
   { id: "balanced", label: "균형 있게", desc: "효율·형평성 균형" },
 ];
 
-export default function ModeToggle({ mode, onChange }) {
+export default function ModeToggle({ mode, onChange, disabled = false }) {
   function handleChange(id) {
     trackEvent("mode_change", { mode: id });
     onChange(id);
   }
 
   return (
-    <div className="mode-toggle" role="radiogroup" aria-label="추천 모드">
+    <div className={"mode-toggle" + (disabled ? " mode-toggle--disabled" : "")} role="radiogroup" aria-label="추천 모드">
       {MODES.map((m) => (
         <button
           key={m.id}
           type="button"
           role="radio"
           aria-checked={mode === m.id}
+          disabled={disabled}
           className={"mode-toggle__btn" + (mode === m.id ? " mode-toggle__btn--active" : "")}
           onClick={() => handleChange(m.id)}
         >

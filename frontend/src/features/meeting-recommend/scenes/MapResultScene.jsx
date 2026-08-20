@@ -1,5 +1,8 @@
-import { ChevronLeft, RotateCcw } from "lucide-react";
+import { useState } from "react";
+import { ChevronDown, ChevronLeft, RotateCcw } from "lucide-react";
 import ResultMap from "../components/ResultMap.jsx";
+import ModeToggle from "../components/ModeToggle.jsx";
+import Spinner from "../../../components/Spinner.jsx";
 import { getLineColor, getLineLabel, getStationColor } from "../../../lineColors.js";
 
 function directionsUrl(node) {
@@ -14,10 +17,18 @@ export default function MapResultScene({
   onSelectStation,
   onBack,
   onShowPlaces,
+  mode,
+  onChangeMode,
+  changingMode,
+  modeChangeError,
 }) {
+  const [showAlternatives, setShowAlternatives] = useState(false);
   const selected = recommendations[selectedIndex];
   const destNode = graph.nodes.find((n) => n.id === selected.station);
   const nodesById = new Map(graph.nodes.map((n) => [n.id, n]));
+  const alternatives = recommendations
+    .map((rec, index) => ({ rec, index }))
+    .filter(({ index }) => index !== selectedIndex);
 
   return (
     <div className="scene scene--map">
@@ -39,6 +50,15 @@ export default function MapResultScene({
       </div>
 
       <div className="map-sheet">
+        <div className="map-sheet__mode">
+          <div className="map-sheet__mode-label">
+            검색 방식
+            {changingMode && <Spinner size={12} />}
+          </div>
+          <ModeToggle mode={mode} onChange={onChangeMode} disabled={changingMode} />
+          {modeChangeError && <p className="meeting-recommend__error">{modeChangeError}</p>}
+        </div>
+
         <div className="map-sheet__station">
           {selected.station}
           <span className="map-sheet__station-lines">
@@ -62,6 +82,44 @@ export default function MapResultScene({
             </span>
           ))}
         </div>
+
+        {alternatives.length > 0 && (
+          <div className="map-sheet__alternatives">
+            <button
+              type="button"
+              className="map-sheet__alternatives-toggle"
+              onClick={() => setShowAlternatives((v) => !v)}
+              aria-expanded={showAlternatives}
+            >
+              다른 후보 {alternatives.length}곳 보기
+              <ChevronDown
+                size={16}
+                strokeWidth={2}
+                className={"map-sheet__alternatives-chevron" + (showAlternatives ? " map-sheet__alternatives-chevron--open" : "")}
+              />
+            </button>
+            {showAlternatives && (
+              <div className="map-sheet__alternatives-list">
+                {alternatives.map(({ rec, index }) => (
+                  <button
+                    key={rec.station}
+                    type="button"
+                    className="map-sheet__alternative"
+                    onClick={() => {
+                      onSelectStation(index);
+                      setShowAlternatives(false);
+                    }}
+                  >
+                    <span className="map-sheet__alternative-rank">{index + 1}</span>
+                    <span className="map-sheet__alternative-name">{rec.station}</span>
+                    <span className="map-sheet__alternative-time">평균 {rec.mean_time}분</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
         <button type="button" className="map-sheet__primary" onClick={onShowPlaces}>
           ⭐ 여기에서 뭐하지?
         </button>
