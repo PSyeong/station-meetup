@@ -11,6 +11,8 @@ export default function MeetingRecommend() {
   const [graph, setGraph] = useState(null);
   const [error, setError] = useState(null);
   const [scene, setScene] = useState("input");
+  const [origins, setOrigins] = useState(null);
+  const [mode, setMode] = useState(null);
   const [recommendations, setRecommendations] = useState(null);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [places, setPlaces] = useState(null);
@@ -18,6 +20,8 @@ export default function MeetingRecommend() {
   const [placesError, setPlacesError] = useState(null);
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState(null);
+  const [changingMode, setChangingMode] = useState(false);
+  const [modeChangeError, setModeChangeError] = useState(null);
 
   useEffect(() => {
     fetch("/data/station_graph.json")
@@ -29,19 +33,21 @@ export default function MeetingRecommend() {
       .catch((err) => setError(err.message));
   }, []);
 
-  async function handleFindMeetingPoint(origins, mode) {
+  async function handleFindMeetingPoint(submittedOrigins, submittedMode) {
     setSubmitting(true);
     setSubmitError(null);
     try {
-      const results = await fetchRecommendations({ origins, mode, topK: 3 });
+      const results = await fetchRecommendations({ origins: submittedOrigins, mode: submittedMode, topK: 3 });
       const top = results[0];
       trackEvent("recommendation_success", {
-        mode,
-        participant_count: origins.length,
+        mode: submittedMode,
+        participant_count: submittedOrigins.length,
         std_time: top?.std_time,
         time_gap: top?.time_gap,
         mean_time: top?.mean_time,
       });
+      setOrigins(submittedOrigins);
+      setMode(submittedMode);
       setRecommendations(results);
       setSelectedIndex(0);
       setPlaces(null);
@@ -50,6 +56,24 @@ export default function MeetingRecommend() {
       setSubmitError(err.message);
     } finally {
       setSubmitting(false);
+    }
+  }
+
+  async function handleChangeMode(newMode) {
+    if (newMode === mode || changingMode) return;
+    setChangingMode(true);
+    setModeChangeError(null);
+    try {
+      const results = await fetchRecommendations({ origins, mode: newMode, topK: 3 });
+      const currentStation = recommendations?.[selectedIndex]?.station;
+      const preservedIndex = results.findIndex((r) => r.station === currentStation);
+      setMode(newMode);
+      setRecommendations(results);
+      setSelectedIndex(preservedIndex >= 0 ? preservedIndex : 0);
+    } catch (err) {
+      setModeChangeError(err.message);
+    } finally {
+      setChangingMode(false);
     }
   }
 
@@ -99,6 +123,10 @@ export default function MeetingRecommend() {
         onSelectStation={setSelectedIndex}
         onBack={() => setScene("input")}
         onShowPlaces={handleShowPlaces}
+        mode={mode}
+        onChangeMode={handleChangeMode}
+        changingMode={changingMode}
+        modeChangeError={modeChangeError}
       />
     );
   }
